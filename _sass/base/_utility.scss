@@ -11,6 +11,12 @@
     padding: $padding-small * 1.5 $padding-large / 1.6;
   }
 }
+%padding-header {
+  padding: 1% $padding-large 0;
+  @media (max-width: 1000px) {
+    padding: 1% $padding-large / 1.6 0;
+  }
+}
 %link-hover {
   text-decoration: underline;
   color: darken($link-color, 15%);
