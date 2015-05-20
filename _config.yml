@@ -6,7 +6,6 @@ url: "http://madebymunsters.github.io/" # the base hostname & protocol for your 
 theme:
   # Meta
   title: Joey Kirk
-  avatar: https://pbs.twimg.com/profile_images/546160940941451267/0q9cWD4y.jpeg
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
