@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://madebymunsters.github.io/type-theme" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -64,7 +64,7 @@ paginate_path: "blog/page:num"
 collections:
   portfolio:
     output: true
-    permalink: /awesome/:path/
+    permalink: /portfolio/:path/
 
 # BUILD SETTINGS
 markdown: kramdown
