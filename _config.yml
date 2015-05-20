@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "http://madebymunsters.github.io/type-theme" # the subpath of your site, e.g. /blog/
-url: "http://madebymunsters.github.io/type-theme" # the base hostname & protocol for your site
+baseurl: "/type-theme" # the subpath of your site, e.g. /blog/
+url: "http://madebymunsters.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
