@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme/" # the subpath of your site, e.g. /blog/
+baseurl: "/type-theme" # the subpath of your site, e.g. /blog/
 url: "http://example.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
@@ -64,6 +64,7 @@ paginate_path: "blog/page:num"
 collections:
   portfolio:
     output: true
+    permalink: /awesome/:path/
 
 # BUILD SETTINGS
 markdown: kramdown
