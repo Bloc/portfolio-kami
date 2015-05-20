@@ -6,8 +6,7 @@ url: "http://madebymunsters.github.io/" # the base hostname & protocol for your 
 theme:
   # Meta
   title: Joey Kirk
-  avatar: img/avatar.png
-  gravatar: # Email MD5 hash
+  avatar: avatar.png | prepend: site.baseurl
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
