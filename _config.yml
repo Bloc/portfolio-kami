@@ -67,7 +67,16 @@ collections:
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: pygments
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: ''
+    coderay_css: class
+highlighter: Rouge
 sass:
   sass_dir: _sass
   style: :compressed
