@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/Lannister" # the subpath of your site, e.g. /blog/
-url: "http://madebymunsters.github.io/" # the base hostname & protocol for your site
+url: "http://www.domain.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -22,19 +22,19 @@ theme:
   behance:
   bitbucket:
   dribbble: 
-  facebook: "joeykirk"
+  facebook: 
   flickr:
-  github: "madebymunsters/Lannister"
+  github: # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram: 
   linkedin:  # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  "https://stackexchange.com/users/2268287/joey-kirk"
+  stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "joeykirk"
+  twitter: 
   wordpress:
   youtube:
 
