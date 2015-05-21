@@ -1,7 +1,6 @@
 article,
 .comments {
-  @extend %padding-regular;
-  border-bottom: 1px solid $border-color;
+  padding:0 20% 0;
   float: left;
   width: 100%;
 }
@@ -15,6 +14,12 @@ article {
   }
   .footnotes {
     font-size: 0.9em;
+  }
+  p {
+    img {
+      text-align:center;
+      margin:0 auto;
+    }
   }
 }
 header {

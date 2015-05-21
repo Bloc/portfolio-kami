@@ -82,7 +82,7 @@
     width:100%;
     margin:2em auto;
     .project-thumb {
-      width: 48%;
+      width: 100%;
       float: left;
       margin-bottom: 0;
       display: inline-block;
@@ -96,9 +96,9 @@
       }
     }
     .project-description {
-      width:48%;
+      width:100%;
       float:left;
-      text-align: left;
+      text-align: center;
       margin-bottom: 0;
       display: inline-block;
       @media (max-width: 768px) {
@@ -130,5 +130,8 @@
 }
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
+  text-align: center;
+}
+.center {
   text-align: center;
 }
