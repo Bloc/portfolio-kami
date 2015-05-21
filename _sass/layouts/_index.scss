@@ -1,16 +1,42 @@
 // Header text feature
 .call-out {
-  @extend %padding-regular;
+  padding:5% 0;
   display: inline-block;
   width: 100%;
-  background-color:$header-desc-background-color;
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
-  color: $header-desc-text-color;
+  color: $text-color;
   background-position:center center;
+  .site-title {
+    display:block;
+    width:100%;
+    a {
+      font-size:0.8em;
+      text-transform: uppercase;
+      color:#d8d8d8;
+    }
+  }
+  ul {
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin:0 0.5em;
+      a {
+        color: $link-color;
+      }
+    }
+  }
   h1 {
     margin-bottom:0.25em;
+    display:block;
+  }
+  .divider {
+    width:80px;
+    height:3px;
+    background-color:$border-color;
+    display:block;
+    margin:1.5em auto;
   }
 }
 .call-out p:last-child {

@@ -1,7 +1,7 @@
 .site-header {
   @extend %padding-small;
   background: $brand-color;
-  border-bottom: 1px solid $border-color;
+  border-top:5px solid $header-desc-background-color;
   display: inline-block;
   float: left;
   width: 100%;
@@ -20,7 +20,6 @@
   }
 
   .site-title {
-    float: left;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.5;

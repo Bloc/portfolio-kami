@@ -1,16 +1,16 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme" # the subpath of your site, e.g. /blog/
+baseurl: "/Lannister" # the subpath of your site, e.g. /blog/
 url: "http://madebymunsters.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Beatrix Kiddo # Your name will go here
+  title: Tyrion Lannister # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Making the Internets</h1>
+     <h1>Witty & Hilarious Rails Developer</h1>
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
   header_text_feature_image: 
   footer_text: >
@@ -21,17 +21,17 @@ theme:
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: "joeykirk"
+  dribbble: 
   facebook: "joeykirk"
   flickr:
-  github: "madebymunsters/type-theme"
+  github: "madebymunsters/Lannister"
   google_plus:
-  instagram: "joeykirk"
+  instagram: 
   linkedin:  # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:  "https://stackexchange.com/users/2268287/joey-kirk"
   steam:
   tumblr:
   twitter: "joeykirk"
@@ -53,11 +53,16 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+pages_list:       
+  About: '/about'
+  Contact: '/contact'
+  Blog: '/blog'
 
 # COLLECTIONS
 collections:

@@ -1,18 +1,4 @@
 <header class="site-header">
-	<div class="branding">
-		{% if site.theme.gravatar %}
-		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
-		</a>
-		{% elsif site.theme.avatar %}
-		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
-		</a>
-		{% endif %}
-		<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
-		</h1>
-	</div>
 	<nav class="site-nav">
 		<ul>
 			{% for page in site.pages %}
@@ -26,4 +12,20 @@
 			{% endfor %}
 		</ul>
 	</nav>
+
+	{% if site.theme.header_text %}
+  <div class="call-out" 
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+  	<h1 class="site-title">
+			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
+		</h1>
+		<div class="divider"></div>
+    {{ site.theme.header_text }}
+    <div class="divider"></div>
+    <!-- Social icons from Font Awesome, if enabled -->
+	  <ul>
+	    {% include icons.html %}
+		</ul>
+  </div>
+  {% endif %}
 </header>
