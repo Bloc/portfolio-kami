@@ -71,36 +71,55 @@
 .work {
   @extend %padding-regular;
   background-size: $feature-image-size;
-  border-bottom: 1px solid $border-color;
   text-align: center;
-  li {
-    width: 32%;
-    margin-right:0.5%;
-    margin-left:0.5%;
-    margin-bottom: 0;
-    display: inline-block;
-    @media (max-width: 768px) {
-      width:99%;
-    }
-    img {
-      display:block;
-      text-align: center;
-      margin:0 auto 1%;
-    }
-    a {
-      strong {
-        font-size:1.4em;
-        margin-bottom:0.5em;
-        font-weight:600;
+  display: block;
+  float: left;
+  width: 100%;
+  .project {
+    display: block;
+    float: left;
+    clear:both;
+    width:100%;
+    margin:2em auto;
+    .project-thumb {
+      width: 48%;
+      float: left;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      img {
+        display:block;
+        text-align: center;
+        margin:0 auto 1%;
       }
     }
-    p a:hover {
-      @extend %link-hover;
+    .project-description {
+      width:48%;
+      float:left;
+      text-align: left;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      a {
+        strong {
+          font-size:1.4em;
+          margin-bottom:0.5em;
+          font-weight:600;
+        }
+      }
+      p a:hover {
+        @extend %link-hover;
+      }
+    }
+    .excerpt {
+      margin-top: 1em;
     }
   }
-  .excerpt {
-    margin-top: 1em;
-  }
+  
 }
 // Pagination
 .pagination .button {

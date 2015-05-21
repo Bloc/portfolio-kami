@@ -59,11 +59,6 @@ theme:
 paginate: 5
 paginate_path: "blog/page:num"
 
-pages_list:       
-  About: '/about'
-  Contact: '/contact'
-  Blog: '/blog'
-
 # COLLECTIONS
 collections:
   portfolio:
