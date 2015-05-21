@@ -37,13 +37,49 @@ header {
   header {
     color: $feature-image-text-color;
     background-size: $feature-image-size;
+    background-position:center center;
     margin-bottom: 0;
-    padding: $padding-large/2.5 $padding-large;
+    padding: $padding-large/2.8 $padding-large;
     .meta {
       color: rgba($feature-image-text-color, .7);
     }
   }
   .post-content {
     @extend %padding-regular;
+    form {
+      input[type="text"], input[type="email"] {
+        width:100%;
+        display: block;
+        padding:0.5em;
+        margin:0 0 1em;
+        border-radius:6px;
+        border:1px solid #cfcfcf;
+        box-shadow:none;
+      }
+      input[type="submit"] {
+        border-radius: 0.3em;
+        border: 1px solid $link-color;
+        color:$link-color;
+        background-color:$brand-color;
+        display: inline-block;
+        margin: 1em 0;
+        padding: 0.5em 0.75em;
+        &:hover {
+          background: $link-color;
+          border: 1px solid $link-color;
+          color: $background-color;
+          text-decoration: none;
+        }
+      }
+      textarea {
+        border-radius:6px;
+        padding:0.5em;
+        margin:0 0 1em;
+        display: block;
+        width:100%;
+        border:1px solid #cfcfcf;
+        box-shadow:none;
+      }
+    }
   }
 }

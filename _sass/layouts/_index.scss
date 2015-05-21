@@ -8,6 +8,10 @@
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+  background-position:center center;
+  h1 {
+    margin-bottom:0.25em;
+  }
 }
 .call-out p:last-child {
   margin-bottom: 0;
@@ -56,6 +60,13 @@
       display:block;
       text-align: center;
       margin:0 auto 1%;
+    }
+    a {
+      strong {
+        font-size:1.4em;
+        margin-bottom:0.5em;
+        font-weight:600;
+      }
     }
     p a:hover {
       @extend %link-hover;

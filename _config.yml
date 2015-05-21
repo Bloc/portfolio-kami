@@ -5,15 +5,16 @@ url: "http://madebymunsters.github.io/" # the base hostname & protocol for your 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Joey Kirk
-  description: "A website with blog posts and pages" # used by search engines
+  title: Beatrix Kiddo # Your name will go here
+  description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Designer, Developer, Writer, and Dad.</h1>
-  header_text_feature_image:
+     <h1>Making the Internets</h1>
+     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+  header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
