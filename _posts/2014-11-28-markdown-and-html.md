@@ -24,6 +24,16 @@ for (var i = 1; i <= 10; i++) {
     console.log(i);
 }
 
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
 // count to twenty
 var j = 0;
 while (j < 20) {

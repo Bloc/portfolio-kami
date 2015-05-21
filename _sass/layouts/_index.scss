@@ -44,17 +44,19 @@
 }
 // Post listing
 .posts {
+  @extend %padding-header;
   .post-header {
-    @extend %padding-header;
     text-align: center;
   }
   .post-teaser {
-    @extend %padding-regular;
-    width: 100%;
-    margin-bottom: 0;
-    display: inline-block;
+    width: 46%;
+    @media (max-width:768px) {
+      width:100%;
+    }
+    margin:0 2% 1em;
+    display: block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    float:left;
     &:first-child {
       padding-top:0;
     }
@@ -63,7 +65,7 @@
     }
   }
   .excerpt {
-    margin-top: 1em;
+    margin: 1em 0;
   }
 }
 

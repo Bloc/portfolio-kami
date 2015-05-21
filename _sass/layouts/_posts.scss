@@ -28,7 +28,7 @@ header {
   }
   .meta {
     color: rgba($text-color, .5);
-    font-size: 0.9em;
+    font-size: 0.6em;
     letter-spacing: 0.1em;
     margin: 0;
     text-transform: uppercase;
@@ -51,7 +51,11 @@ header {
   }
   .post-content {
     @extend %padding-regular;
-    form {
+  }
+}
+
+.post-content {
+  form {
       input[type="text"], input[type="email"] {
         width:100%;
         display: block;
@@ -86,5 +90,4 @@ header {
         box-shadow:none;
       }
     }
-  }
 }

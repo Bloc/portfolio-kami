@@ -23,26 +23,28 @@ layout: default
 
   <div class="posts">
     <h2 class="post-header">My Posts</h2>
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-          </a>
-        </h1>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+    <ul>
+      {% for post in paginator.posts %}
+      <li class="post-teaser">
+        <header>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+          </h3>
+          <p class="meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+        </header>
+        <div class="excerpt">
+          {{ post.excerpt | | strip_html | strip_newlines | truncate: 120 }}
+        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}">
           {{ site.theme.str_continue_reading }}
         </a>
-      </div>
-    </div>
-    {% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
   {% if paginator.total_pages > 1 %}
