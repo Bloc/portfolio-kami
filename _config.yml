@@ -1,40 +1,40 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl:
+url: "https://ccrawford13.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Chad Crawford # Your name will go here
+  description: "Rails Developer Blog - All things Web Dev" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+     <h1>Rails Web Development</h1>
+  header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a></br>
+   Made with <3 By: Chad Crawford
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "ccrawforduwlax@gmail.com"
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble:
+  facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "ccrawford13"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram:
+  linkedin:  "https://www.linkedin.com/in/chadacrawford"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:
   steam:
   tumblr:
-  twitter: 
+  twitter: "chadac13"
   wordpress:
   youtube:
 
@@ -56,8 +56,8 @@ theme:
   google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
-paginate: 100
-paginate_path: "blog/page:num"
+paginate: 5
+paginate_path: "/blog/page:num"
 
 # COLLECTIONS
 collections:
@@ -72,3 +72,4 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+permalink: pretty
