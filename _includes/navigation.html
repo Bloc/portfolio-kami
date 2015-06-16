@@ -1,0 +1,17 @@
+<!-- Capture and store Url -->
+{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
+<nav class="site-nav">
+  <ul>
+    {% for page in site.pages %}
+      <!-- Compare page title to url -->
+      {% assign current = page.title | downcase %}
+      {% if page.title and page.hide != true %}
+        <li{% if location == current %} class="nav_item current" {% else %} class="nav_item" {% endif %}>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+            {{ page.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

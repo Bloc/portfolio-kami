@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl:
-url: "https://ccrawford13.github.io" # the base hostname & protocol for your site
+url: #"https://ccrawford13.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:

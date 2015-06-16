@@ -1,20 +1,7 @@
 <header class="site-header">
-  <nav class="site-nav">
-    <ul>
-      {% for page in site.pages %}
-      {% if page.title and page.hide != true %}
-      <li>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-          {{ page.title }}
-        </a>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-
+  {% include navigation.html %}
   {% if site.theme.header_text %}
-  <div class="call-out" 
+  <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
     <h1 class="site-title">
       <a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>

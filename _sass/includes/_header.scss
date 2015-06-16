@@ -4,7 +4,6 @@
   border-top:5px solid $header-desc-background-color;
   display: inline-block;
   width: 100%;
-
   a {
     color: $header-link-color;
   }
@@ -33,10 +32,14 @@
       float: right;
       text-align: right;
     }
-    li {
+    .nav_item {
       display: inline;
       float: left;
       margin-left: 1.4em;
+      &.current {
+        font-weight: bold;
+        border-bottom: 1pt solid $header-desc-background-color;
+      }
     }
     @media (max-width: 1100px) {
       ul {
