@@ -6,15 +6,15 @@ url: "http://www.domain.com" # the base hostname & protocol for your site
 theme:
   # Meta
   title: Alex Bea # Your name will go here
-  description: "Web developer in Ithaca, NY" # used by search engines
+  description: "Front end web developer in Ithaca, NY" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1></h1>
-     <p>I'm a developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>"What's in an H1?" - Bill Shakespeare</h1>
+     <p>Hola. Let's make the Web better today.</p>
   header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with code. And love.
 
   # Icons
   rss: false
