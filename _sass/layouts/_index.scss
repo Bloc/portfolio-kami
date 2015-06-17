@@ -1,6 +1,6 @@
 // Header text feature
 .call-out {
-  padding:5% 0;
+  padding:10% 0;
   display: inline-block;
   width: 100%;
   background-size: cover;
@@ -8,13 +8,16 @@
   text-align: center;
   color: $text-color;
   background-position:center center;
+  &.call-out-index {
+    height: 100vh;
+  }
   .site-title {
     display:block;
     width:100%;
     a {
-      font-size:0.8em;
-      text-transform: uppercase;
-      color:#d8d8d8;
+      font-size:1em;
+      // text-transform: uppercase;
+      color: $link-color;
     }
   }
   ul {
@@ -32,18 +35,33 @@
     display:block;
   }
   .divider {
-    width:80px;
-    height:3px;
+    width: 15%;
+    height:2px;
     background-color:$border-color;
     display:block;
-    margin:1.5em auto;
+    margin:.75em auto;
+    &.divider-index {
+      width: 65%;
+    }
   }
 }
 .call-out p:last-child {
   margin-bottom: 0;
 }
+
+// Down Arrow
+.arrow-container {
+  position: relative;
+  padding-top: 10%;
+  font-size: 1.5em;
+  #down-arrow {
+    color: $link-color;
+  }
+}
+
 // Post listing
 .posts {
+  height: 100vh;
   @extend %padding-header;
   .post-header {
     text-align: center;
@@ -68,10 +86,9 @@
     margin: 1em 0;
   }
 }
-
 // Work listing
 .work {
-  @extend %padding-regular;
+  @extend %padding-small;
   background-size: $feature-image-size;
   text-align: center;
   display: block;
@@ -121,8 +138,9 @@
       margin-top: 1em;
     }
   }
-  
+
 }
+
 // Pagination
 .pagination .button {
   margin: 0 1.5em;

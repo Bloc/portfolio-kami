@@ -5,12 +5,12 @@ url: #"https://ccrawford13.github.io" # the base hostname & protocol for your si
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Chad Crawford # Your name will go here
+  title: "Chad Crawford"
   description: "Rails Developer Blog - All things Web Dev" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Rails Web Development</h1>
+     <h1>Chad Crawford</h1>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a></br>
@@ -53,7 +53,7 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Josefin Slab: 400,600,700"
 
 # PAGINATION
 paginate: 5
