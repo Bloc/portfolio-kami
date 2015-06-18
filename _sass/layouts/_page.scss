@@ -1,3 +1,17 @@
+// About Page
+.sub-header {
+  padding-top: 1em;
+  text-align: center;
+}
+
+p.center {
+  img {
+    border: 1pt solid $border-color;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+  }
+}
 // Work listing
 .work {
   @extend %padding-small;

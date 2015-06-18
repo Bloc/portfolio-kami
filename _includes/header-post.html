@@ -8,6 +8,11 @@
     </h1>
     <div class="divider"></div>
     <h1 class="title">{{ page.title }}</h1>
+    {% if page.sub-header %}
+      <div class="sub-header">
+        <h5>{{ page.sub-header }}</h5>
+      </div>
+    {% endif %}
   </div>
   {% endif %}
 </header>
