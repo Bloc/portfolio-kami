@@ -5,6 +5,7 @@
 }
 html {
   background: $background-color;
+  height: 100%;
 }
 
 // Typography
@@ -19,6 +20,7 @@ body {
   font-family: $font-family-main;
   font-size: $font-size;
   word-wrap: break-word;
+  height: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
