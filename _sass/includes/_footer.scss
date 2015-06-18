@@ -1,7 +1,8 @@
 .site-footer {
-  @extend %padding-regular;
+  @extend %padding-small;
   display: inline-block;
   text-align: center;
+  bottom: 0;
   width: 100%;
   color: lighten($text-color, 30%);
   font-size: 0.9em;
@@ -15,7 +16,7 @@
       a {
         font-size:2em;
         margin:0 0.25em 2em;
-        color:$header-desc-background-color;
+        color:$link-color;
       }
     }
   }

@@ -1,31 +1,27 @@
 <header class="site-header">
-	<nav class="site-nav">
-		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
-				</a>
-			</li>
-			{% endif %}
-			{% endfor %}
-		</ul>
-	</nav>
-
+	{% include navigation.html %}
 	{% if site.theme.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
-  	<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
-		</h1>
-		<div class="divider"></div>
-    {{ site.theme.header_text }}
-    <div class="divider"></div>
-    <!-- Social icons from Font Awesome, if enabled -->
-	  <ul>
-	    {% include icons.html %}
-		</ul>
-  </div>
+	  <div {% if page.url == "/" %} class="call-out call-out-index" {% else %} class="call-out" {% endif %}
+	  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+			{% if page.url != "/" %}
+				<h1 class="site-title">
+					<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
+				</h1>
+			{% endif %}
+			<div class="divider divider-index"></div>
+			<h1>{{ site.theme.header_text }}</h1>
+	    <div class="divider divider-index"></div>
+	    <!-- Social icons from Font Awesome, if enabled -->
+		  <ul>
+		    {% include icons.html %}
+			</ul>
+			{% if page.url == "/" %}
+				<div class="arrow-container">
+					<a href="#posts" id="down-arrow">
+						<i class="fa fa-fw fa-angle-double-down"></i>
+					</a>
+				</div>
+			{% endif %}
+	  </div>
   {% endif %}
 </header>

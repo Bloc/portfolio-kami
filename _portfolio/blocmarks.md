@@ -1,13 +1,12 @@
 ---
 layout: post
-title: BlocFlix
-thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
-
+title: BlocMarks
+thumbnail-path: "img/blocmarks_home.png"
+short-description: Blocmarks is a Pinterest replica for posting interesting links and topics for others to follow and favorite.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/blocmarks_topics.png)
 
 ## Explanation
 

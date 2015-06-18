@@ -1,0 +1,75 @@
+// About Page
+.sub-header {
+  padding-top: 1em;
+  text-align: center;
+}
+
+p.center {
+  img {
+    border: 1pt solid $border-color;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+  }
+}
+// Work listing
+.work {
+  @extend %padding-small;
+  background-size: $feature-image-size;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%;
+  .project {
+    display: block;
+    float: left;
+    clear:both;
+    width:100%;
+    margin:2em auto;
+    .project-thumb {
+      width: 100%;
+      float: left;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      img {
+        display:block;
+        text-align: center;
+        margin:0 auto 1%;
+      }
+    }
+    .project-description {
+      width:100%;
+      float:left;
+      text-align: center;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      a {
+        strong {
+          font-size:1.4em;
+          margin-bottom:0.5em;
+          font-weight:600;
+        }
+      }
+      p a:hover {
+        @extend %link-hover;
+      }
+    }
+    .excerpt {
+      margin-top: 1em;
+    }
+  }
+
+}
+
+// Contact Form
+
+#contact-form {
+  padding: 10% 0 10% 0;
+
+}
