@@ -2,7 +2,7 @@
 layout: post
 title: PHB Public Affairs
 thumbnail-path: "img/projects/phbpa.jpg"
-short-description: Designed and built a new Wordpress site for this Washington, DC political consultant.
+short-description: Designed and built a new Wordpress site for this Washington, DC political consultant. Launched May 18, 2015.
 
 ---
 
@@ -11,7 +11,7 @@ short-description: Designed and built a new Wordpress site for this Washington, 
 
 ## Explanation
 
-Leading marine transporation consultant and lobbyist, Paul H. Bea Jr. had been using a site built almost a decade ago using Microsoft Front Page. Mr. Bea is a highly regarded mind in his field, but his business website had not kept up with him. PHB Public Affairs did not need a feature-rich site, but it did need to be a reputable and informative place for new contacts to find out more about Mr. Bea's work.
+Leading marine transportation consultant and lobbyist, Paul H. Bea Jr. had been using a site built almost a decade ago using Microsoft Front Page. Mr. Bea is a highly regarded mind in his field, but his business website had not kept up with him. PHB Public Affairs did not need a feature-rich site, but it did need to be a reputable and informative place for new contacts to find out more about Mr. Bea's work.
 
 ## Problem
 
@@ -29,12 +29,14 @@ Mr. Bea was familiar with Wordpress from using it for his professional blog, [MT
 
 ## Results
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+The new phbpa.com is a clean, fully responsive, clear resource to introduce PHB Public Affairs to potential clients and colleagues. After significant cross-browser testing, we have a website that is device agnostic and easily maintainable. Now in a modern CMS and after training the client on his website's features, updating will not be an issue and any future updates can easily build upon the existing site. With site analytics now in place, future updates can be guided by strong data.
 
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Though content strategy was not a significant part of this engagement, we did discuss page updates and organization. The website is current and reflects Mr. Bea's expertise well.
 
 ## Conclusion
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+This was a great first project in my new web development career. Being a developer and strategist first, designer fourth, The design stage was a great learning experience. From our wireframing and discussions, I knew that the site would be relatively simple and have only homepage and basic interior page templates. With the additional client note that the design should be fairly simple, I chose to design in browser, using the nearly blank canvas of the Responsive II parent theme mentioned above. This was an interesting challenge in that it allowed for a certain amount of "playing" with CSS. 
+
+Designing in browser worked in this case due to the simplicity and limited number of design elements involved. Not being a designer first, I'm not sure I'd attempt this if many more content types and use cases were involved.
+
+Though this client's needs were not extraordinary as far as features go, it was important for him to have an online presence that reflects well on him and his business. He and I are both very pleased with how this project achieved the goals we set. I hope it serves his work well.
