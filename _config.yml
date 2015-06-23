@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://127.0.0.1:4000/portfolio-kami" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -10,7 +10,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>"What's in an H1?" - Bill Shakespeare</h1>
+     <h1>Developer, biker, and DC expat</h1>
      <p>Hola. Let's make the Web better today.</p>
   header_text_feature_image: 
   footer_text: >
