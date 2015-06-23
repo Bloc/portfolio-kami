@@ -19,7 +19,7 @@ The client's website is not core to his business, which is why it hadn't been up
 
 Besides needing a new coat of paint, the site was not responsive. If someone met the client for the first time and pulled up his site on their phone, the site would be hard to read and navigate. The client's own profile and descriptions of his work had not been updated in a while, in part due to the lack of a content management system (CMS). The latter point had contributed to the general lack of significant updates in several years.
 
-{% include figure.html src="img/projects/phbpa-old.png" caption="Screenshot of the former phbpa.com" %}
+![Screenshot of the former phbpa.com]({{ site.baseurl }}/img/projects/phbpa-old.png)
 
 ## Solution
 

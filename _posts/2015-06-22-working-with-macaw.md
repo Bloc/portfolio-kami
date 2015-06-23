@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Love-hate working with Macaw
-feature-img: "img/blog/macaw-logo.png"
+tags:
+- web design
+- software
+youtubeID: 56wXV0oBTg8
 ---
 
 Every now and again something comes along in your life that you pretty much can’t do without, but it drives you nuts nevertheless. Maybe a boyfriend or girlfriend (#butnotmywifesheisperfect), the beat up car that gets you to work, or… software.
@@ -21,11 +24,11 @@ I have enough comfort with Photoshop to know a few things. First, that I’m cap
 
 Once I really dove in, my experience designing in Macaw was both  amazingly simple and incredibly frustrating at times. To be fair, the same could be said for most learning processes (see: me and AngularJS right now). The Macaw toolset is very recognizable as a mix of photo editor tools, wire framing tools,   and common WYSIWYG editors. Smash Pixelmator (my PS alternative of choice), Omnigraffle, and CKEditor together and the aftermath is right there on the left bar.
 
-![Macaw toolbar detail screenshot](../img/blog/macaw-regions-tools.png)
+![Macaw toolbar detail screenshot]({{ site.url }}/img/blog/macaw-regions-tools.png) 
 
 Varying by the element you’re working on, the right bar is a variety of attributes that are familiar to anyone with intermediate experience with CSS: borders, padding, width and max-/min-width, typography options, and nearly every other typical attribute. You can also add classes, ids, and rename elements, for example as HTML5 elements such as *footer* or *aside*. All of that is really cool and easy.
 
-![Macaw element attributes detail screenshot](../img/blog/macaw-regions-attributes.png)
+![Macaw element attributes detail screenshot]({{ site.url }}/img/blog/macaw-regions-attributes.png)
 
 There are other nice tools that are included, such as:
 - global styles that can be created and “stamped” onto elements so later changes can be applied several places at once;
@@ -39,7 +42,7 @@ I know there are lots of other tricks that I’ve yet to discover or make good u
 
 My biggest frustrations with Macaw came through element interaction. There were several instances where I moved an element and other elements that were not even within the same container jumped out of place. This video is one of those examples, where I moved an element in the document outline into a container, causing a text block and signup form to inexplicably move down:
 
-<iframe width=“420” height=“315” src=“https://www.youtube.com/embed/56wXV0oBTg8” frameborder=“0” allowfullscreen></iframe>
+{% include youtubePlayer.html id=page.youtubeID %}
 
 The good news is that I learned a few tips to make things go smoothly (credit to [Nichole Burton](https://twitter.com/burtonnichole) for passing along her experience):
 1. When adding an element to a container, double-click into that container first. If you’re looking at the outline view on the right, you’ll know you’re within that container when only its children are bright with all else faded grey.
