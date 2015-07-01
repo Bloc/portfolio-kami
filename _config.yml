@@ -1,0 +1,74 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Alex Bea # Your name will go here
+  description: "Front end web developer in Ithaca, NY" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h2>Lord of the Internet, according to my in-laws</h2>
+     <p>Front end web developer in Ithaca, NY</p>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with code. And love.
+
+  # Icons
+  rss: false
+  email_address: "alex@abcreations.co" # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "abea" # github profile name, e.g. "madebymunsters"
+  google_plus:
+  instagram: 
+  linkedin:  "https://www.linkedin.com/in/alexbea" # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "alexbea"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: "UA-32705264-1"
+  disqus_shortname: "alexbea"
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Read more &raquo;"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,400italic,700italic|Cabin+Sketch:700"
+
+# PAGINATION
+paginate: 100
+paginate_path: "blog/page:num"
+
+# COLLECTIONS
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# BUILD SETTINGS
+markdown: kramdown
+
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
