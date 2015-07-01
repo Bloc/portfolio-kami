@@ -1,6 +1,6 @@
 ---
 layout: link-post
-title: Embedding
+title: Embedding YouTube Videos in Jekyll Sites
 tags:
 - stuff I searched for
 - jekyll

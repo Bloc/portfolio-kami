@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: PHB Public Affairs
 thumbnail-path: "img/projects/phbpa.jpg"
 short-description: Designed and built a new Wordpress site for this Washington, DC political consultant. Launched May 18, 2015.
