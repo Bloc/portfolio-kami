@@ -3,13 +3,12 @@ layout: page
 title: My Work
 permalink: /work/
 feature-img: "img/color.png"
-hide: true
+hide: false
 ---
 
-Building web products is my work of choice 
+Below are case studies of my web work:
 
-
-{% for project in site.portfolio limit:3 %}
+{% for project in site.portfolio %}
 <div class="project">
   <div class="project-thumb">
     <a href="{{ project.url | prepend: site.baseurl }}">

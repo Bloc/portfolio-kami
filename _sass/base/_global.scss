@@ -122,3 +122,10 @@ img[align=left] {
 img[align=right] {
   margin-left: 3%;
 }
+p {
+  img:only-child {
+    margin: 0 auto;
+    display: block;
+    border: 1px $border-color solid;
+  }
+}

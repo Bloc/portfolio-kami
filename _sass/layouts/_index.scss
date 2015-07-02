@@ -75,52 +75,51 @@
   display: block;
   float: left;
   width: 100%;
-  .project {
-    display: block;
+}
+.project {
+  display: block;
+  float: left;
+  clear:both;
+  width:100%;
+  margin:0 auto 2rem;
+  .project-thumb {
+    width: 99%;
     float: left;
-    clear:both;
-    width:100%;
-    margin:0 auto 2rem;
-    .project-thumb {
-      width: 99%;
-      float: left;
-      margin-bottom: 0;
-      display: inline-block;
-      @media (min-width: 768px) {
-        width:50%;
-      }
-      img {
-        display:block;
-        text-align: center;
-        margin:0 auto 1%;
-      }
+    margin-bottom: 0;
+    display: inline-block;
+    @media (min-width: 768px) {
+      width:50%;
     }
-    .project-description {
-      width:99%;
-      float:left;
+    img {
+      display:block;
       text-align: center;
-      margin-bottom: 0;
-      display: inline-block;
-      @media (min-width: 768px) {
-        width:45%;
-        padding-left: 3%
-      }
-      a {
-        strong {
-          font-size:1.4em;
-          margin-bottom:0.5em;
-          font-weight:600;
-        }
-      }
-      p a:hover {
-        @extend %link-hover;
-      }
-    }
-    .excerpt {
-      margin-top: 1em;
+      margin:0 auto 1%;
     }
   }
-  
+  .project-description {
+    width:99%;
+    float:left;
+    text-align: center;
+    margin-bottom: 0;
+    display: inline-block;
+    @media (min-width: 768px) {
+      width:45%;
+      padding-left: 3%
+    }
+    a {
+      strong {
+        font-size:1.4em;
+        margin-bottom:0.5em;
+        font-weight:600;
+      }
+    }
+    p a:hover {
+      @extend %link-hover;
+    }
+  }
+  .excerpt {
+    margin-top: 1em;
+  }
 }
 // Pagination
 .pagination .button {
