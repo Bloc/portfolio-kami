@@ -1,17 +1,17 @@
 <header class="site-header">
-	<nav class="site-nav">
-		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
-				</a>
-			</li>
-			{% endif %}
-			{% endfor %}
-		</ul>
-	</nav>
+  <nav class="site-nav">
+    <ul>
+      {% for page in site.pages %}
+      {% if page.title and page.hide != true %}
+      <li>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+          {{ page.title }}
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 
 	{% if site.theme.header_text %}
   <div class="call-out" 

@@ -3,7 +3,6 @@ layout: page
 title: My Work
 permalink: /work/
 feature-img: "img/color.png"
-hide: false
 ---
 
 Below are case studies of my web work:

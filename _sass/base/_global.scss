@@ -42,8 +42,9 @@ h4 {
   font-size: 1.15em;
 }
 blockquote {
-    border-left: 2px solid;
+    border-left: 5px darken($link-color, 15%) solid;
     padding: 1em 1em;
+    background-color: lighten($brand-color, 40%);
 }
 blockquote p:last-child,
 footer p:last-child {

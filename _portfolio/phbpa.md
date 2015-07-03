@@ -33,6 +33,10 @@ The new phbpa.com is a clean, fully responsive, clear resource to introduce PHB 
 
 Though content strategy was not a significant part of this engagement, we did discuss page updates and organization. The website is current and reflects Mr. Bea's expertise well.
 
+According to Mr. Bea:
+
+> The new site is a night and day improvement over the old site in expressing who I am as a professional. I was given good advice from the start: Look at other websites to see what I like, and don’t like. That was very helpful in forming my priorities and preferences. I wanted a clean looking website, with room for content (text), but not cluttered, and with a minimum of images. The final product provides the good looking platform I wanted for my business. One that I can modify as needed. Job well done.
+
 ## Conclusion
 
 This was a great first project in my new web development career. Being a developer and strategist first, designer fourth, the design stage was a great learning experience. From our wireframing and discussions, I knew that the site would be relatively simple and have only homepage and basic interior page templates. With the additional client note that the design should be fairly simple, I chose to design in-browser, using the nearly blank canvas of the Responsive II parent theme mentioned above. This was an interesting challenge in that it allowed for a certain amount of "playing" with CSS. 
