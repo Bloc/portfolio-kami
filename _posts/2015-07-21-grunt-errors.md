@@ -17,31 +17,31 @@ Grunt is installed via the [node package manager](https://en.wikipedia.org/wiki/
 I went through the "Getting Started" instructions on the Grunt website, but kept getting this series of ominous errors:
 
 ```bash
-npm ERR! Darwin 14.4.0
-npm ERR! argv "node" "/usr/local/bin/npm" "install" "-g" "grunt-cli"
-npm ERR! node v0.12.4
-npm ERR! npm  v2.10.1
-npm ERR! path /usr/local/lib/node_modules/grunt-cli
-npm ERR! code EACCES
-npm ERR! errno -13
+    npm ERR! Darwin 14.4.0
+    npm ERR! argv "node" "/usr/local/bin/npm" "install" "-g" "grunt-cli"
+    npm ERR! node v0.12.4
+    npm ERR! npm  v2.10.1
+    npm ERR! path /usr/local/lib/node_modules/grunt-cli
+    npm ERR! code EACCES
+    npm ERR! errno -13
 
-npm ERR! Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli'
-npm ERR!     at Error (native)
-npm ERR!  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli']
-npm ERR!   errno: -13,
-npm ERR!   code: 'EACCES',
-npm ERR!   path: '/usr/local/lib/node_modules/grunt-cli' }
-npm ERR! 
-npm ERR! Please try running this command again as root/Administrator.
-npm ERR! error rolling back Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli'
-npm ERR! error rolling back     at Error (native)
-npm ERR! error rolling back  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli']
-npm ERR! error rolling back   errno: -13,
-npm ERR! error rolling back   code: 'EACCES',
-npm ERR! error rolling back   path: '/usr/local/lib/node_modules/grunt-cli' }
+    npm ERR! Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli'
+    npm ERR!     at Error (native)
+    npm ERR!  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli']
+    npm ERR!   errno: -13,
+    npm ERR!   code: 'EACCES',
+    npm ERR!   path: '/usr/local/lib/node_modules/grunt-cli' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    npm ERR! error rolling back Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli'
+    npm ERR! error rolling back     at Error (native)
+    npm ERR! error rolling back  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/grunt-cli']
+    npm ERR! error rolling back   errno: -13,
+    npm ERR! error rolling back   code: 'EACCES',
+    npm ERR! error rolling back   path: '/usr/local/lib/node_modules/grunt-cli' }
 
-npm ERR! Please include the following file with any support request:
-npm ERR!     /Users/alexanderbea/npm-debug.log
+    npm ERR! Please include the following file with any support request:
+    npm ERR!     /Users/[MY USER NAME]/npm-debug.log
 ```
 
 The recurring message is `npm ERR!`. Since my Terminal shows `ERR!` in red you'd think the exclamation point would be unnecessary, but I digress. What this tells me is that npm isn't operating properly. I tried using a `sudo` call to force the install as one [Stack Overflow *accepted answer*](http://stackoverflow.com/questions/20555605/how-can-i-install-the-grunt-cli-without-getting-errors) mentioned. It wasn't until after I did that I read the follow up, which cautions strongly against using `sudo` in this case.
