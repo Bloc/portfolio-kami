@@ -53,3 +53,7 @@ Next, I thought it might be good to make sure npm was updated. A search for that
 Going back to the begnning of this story, now running `npm install -g grunt-cli` to install Grunt and its command line tools worked great!
 
 For some reason I ran into the same issue today. After going through my terminal and browser history, I was reminded of this, updated Node again and all was working. Grunt broke today after I ran a git push in the wrong folder, so I'm guessing that was the problem. Regardless, now I have this super interesting post to remind me the next time!
+
+**UPDATE:** In case it wasn’t clear, part of what happened here was that I’d updated node one day, then the next day (when I first wrote this) node was back to the earlier version. Hence, I was frustrated enough to write a blog post about it. This happened every time I closed Terminal, actually.
+
+With a little searching, I found a [blog post with a comment](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps#comment_5197) noting a similar problem. The next comment gave me my more permanent solution. `nvm alias default XX.XX.XX` sets the new default version of node. If you read the post it explains why nvm doesn’t do this automatically.
