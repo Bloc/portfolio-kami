@@ -66,9 +66,9 @@ collections:
     permalink: /work/:path/
 
 # BUILD SETTINGS
-markdown: redcarpet
+markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed

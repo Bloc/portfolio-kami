@@ -19,13 +19,13 @@ It’s worth noting here that I foolishly tested out of Excel class in undergrad
 
 In short, it involves creating a VBA module which allows you to use a new formula, or macro—hlink() here, but it could be anything you assign. The VBA code:
 
-```
+~~~
 Function HLink(rng As Range) As String
 ‘extract URL from hyperlink
 ‘posted by Rick Rothstein
   If rng(1).Hyperlinks.Count Then HLink = rng.Hyperlinks(1).Address
 End Function
-```
+~~~
 
 If you, like me, skipped the class where we learned to make Excel Macros, [this would be your cheatsheet](http://office.microsoft.com/en-us/excel-help/create-or-delete-a-macro-HP010342374.aspx). After that, just put formula `=hlink(B1)` (to pull the URL from cell B1) into a new cell, and you’re good to go.
 
