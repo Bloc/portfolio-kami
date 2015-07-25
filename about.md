@@ -11,7 +11,7 @@ My educational background has been in communication theory and practice in vario
 
 As a technical project manager and strategist, I led on builds including the [Wilderness Society responsive redesign](http://wilderness.org), [Pact website](http://pactworld.org/), [Oceana international and regional websites](http://oceana.org) (internal lead with external dev team), [World Food Program USA](http://wfpusa.org/), and several more as co-lead. I've also led digital strategy projects for clients including NRDC Action Fund, American Constitution Society, and Sabin Vaccine Institute, among others.
 
-Now as a developer, I'm constantly impressed, excited, and a occasionally overwhelmed by all the languages, services, and techniques that we have available. [Check out my latest work](/portfolio/phbpa/) and others listed [on the home page](/). The technologies I primarily work with include:
+Now as a developer, I'm constantly impressed, excited, and a occasionally overwhelmed by all the languages, services, and techniques that we have available. [Check out my latest work](/work/phbpa/) and others listed [on the home page](/). The technologies I primarily work with include:
 
 - Open-source CMS, including Wordpress and Drupal
 - HTML5
@@ -19,7 +19,7 @@ Now as a developer, I'm constantly impressed, excited, and a occasionally overwh
 - Javascript
 - jQuery
 
-[Check out my latest work.](/portfolio/phbpa/) And please [get in touch](/contact) if you'd like to work together or connect about anything. Let's make some beautiful internet together.
+And please [get in touch](/contact) if you'd like to work together or connect about anything. Let's make some beautiful internet together.
 
 ## Site credits:
 
