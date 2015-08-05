@@ -21,7 +21,7 @@ The first concept that this project offered was the HTML5 `<canvas>` element. `<
 
 Adobe Flash offers some of the same abilities, however it has several disadvantages. First, people need to download a plugin to use Flash, or else get a broken box with nothing but a puzzle piece to stare at. `<canvas>`, on the other hand, is native to the browser, so no plugin is needed.
 
-![ Flash plugin missing warning ]({{ site.url }}/img/blog/pong-flash-missing.png/)
+![ Flash plugin missing warning ]({{ site.url }}/img/blog/pong-flash-missing.png)
 
 In the last month or so, we learned that a number of significant vulnerabilities were exposed in Flash's software. A professional group of hackers who sell such secrets to governments [had their own data stolen](http://blog.trendmicro.com/what-you-need-to-know-about-the-hacking-team-flash-zero-day/0), including the Flash issues. Just yesterday, black hat hackers [used Flash vulnerabilities through Yahoo! ads](http://gizmodo.com/malvertising-attack-on-yahoo-is-another-reminder-to-dis-1721967056) to take over individuals' computers. Scary stuff. `<canvas>` wouldn't carry the same risks.
 
