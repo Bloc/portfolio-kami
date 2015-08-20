@@ -92,8 +92,10 @@ p, ol, ul, dl, .math-display {
   width: 100%;
 }
 ol, ul {
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 1.5rem;
 }
+
 hr {
   border: 0;
   border-top: 1px solid $border-color;
