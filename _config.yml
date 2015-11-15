@@ -5,7 +5,7 @@ url: "https://anithapal.github.io/" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Amsaveni Palanisamy # Your name will go here
+  title: Anitha Palanisamy 
   description: "Ruby On Rails developer - Journey " # used by search engines
 
   # Header and footer text
@@ -14,14 +14,14 @@ theme:
      <p>I'm a Web developer specializing in Rails, JavaScript and AngularJS.</p>
   header_text_feature_image: 
   footer_text: >
-   Amsaveni Palanisamy - 2015
+   Anitha Palanisamy - 2015
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: "anithaspark@gmail.com" # Full email address, e.g. "sam@example.com"
-  github: "anithaPal" # github profile name, e.g. "madebymunsters"
-  linkedin: "www.linkedin.com/in/AnithaPalanisamy" # Full URL
+  email_address: "anithaspark@gmail.com" 
+  github: "anithaPal" 
+  linkedin: "www.linkedin.com/in/AnithaPalanisamy" 
   stack_exchange:  # Full URL
   twitter: "@AnithaPal"
   
@@ -44,7 +44,7 @@ theme:
   google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
-paginate: 100
+paginate: 2
 paginate_path: "blog/page:num"
 
 # COLLECTIONS
