@@ -15,13 +15,13 @@ theme:
   header_text_feature_image: 
   footer_text: >
    Anitha Palanisamy - 2015
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   
 
   # Icons
   rss: false
   email_address: "anithaspark@gmail.com" 
   github: "anithaPal" 
-  linkedin: "www.linkedin.com/in/AnithaPalanisamy" 
+  linkedin: "https://www.linkedin.com/in/anithapalanisamy"
   stack_exchange:  # Full URL
   twitter: "@AnithaPal"
   

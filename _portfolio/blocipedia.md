@@ -11,11 +11,14 @@ short-description: Build a production quality SaaS app that allows users to crea
 {:.center}
 [View the Repository](https://github.com/AnithaPal/blocipedia)
 [Heroku Demo]()
+
 {:.center}
 
 ## Overview
 
 This Blocipedia application allows to create, edit, destroy  wikis and collaborate with others. It allows users to upgrade membership to create private wikis.
+
+{:.center}
 
 ## Features
 
@@ -26,13 +29,21 @@ This Blocipedia application allows to create, edit, destroy  wikis and collabora
 + Premium users can downgrade their account back to Standard account.
 + When a user downgrades his or her account, his or her private wikis will automatically become public.
 
+{:.center}
+
 ## Tools
 
-**Languages, Libraries, and Frameworks:** Ruby on Rails, Bootstrap
+**Languages, Libraries, and Frameworks:** Ruby on Rails, Bootstrap 
+
 **Databases:** SQLite (Test, Development), PostgreSQL (Production)
+
 **Development Tools, Gems and Methodologies:**
-    + Devise for user authentication
-    + SendGrid for email confirmation
-    + Redcarpet for Markdown formatting
-    + Pundit for authorization
-    + Stripe for payments
+
++ Devise for user authentication
++ SendGrid for email confirmation
++ Redcarpet for Markdown formatting
++ Pundit for authorization
++ Stripe for payments
+
+{:.center}
+[Return to the main Page]()
