@@ -41,7 +41,8 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Josefin Slab: 400,600,700"
+#  "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
 paginate: 2
