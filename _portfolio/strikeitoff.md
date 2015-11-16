@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blocitoff
+title: Strikeitoff
 thumbnail-path: "img/blocitoff.png"
 short-description: Build a self-destructing to-do list application.
 
