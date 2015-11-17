@@ -2,7 +2,7 @@
 layout: post
 title: Bookmarks
 thumbnail-path: "img/blocflix.png"
-short-description: Blocmarks is a Pinterest replica for posting interesting links and topics for others to follow and favorite.
+short-description: Social Bookmarking Application
 
 ---
 

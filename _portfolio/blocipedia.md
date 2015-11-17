@@ -2,14 +2,17 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+short-description: Wiki Collaboration Application
 
 ---
 
 {:.center}
+
 ![]({{ site.baseurl }}/img/blocipedia.png)
+
 {:.center}
-[View the Repository](https://github.com/AnithaPal/blocipedia)
+
+[View the Repository](https://github.com/AnithaPal/blocipedia) |
 [Heroku Demo]()
 
 {:.center}
@@ -46,4 +49,6 @@ This Blocipedia application allows to create, edit, destroy  wikis and collabora
 + Stripe for payments
 
 {:.center}
-[Return to the main Page]()
+
+[Home]() 
+<!--[Some Link]({% post_url  %})-->

@@ -2,7 +2,7 @@
 layout: post
 title: TripIt
 thumbnail-path: "img/blocflix.png"
-short-description: TripIt is trip planning and organizing application.
+short-description: Trip Planning Application
 
 
 ---
