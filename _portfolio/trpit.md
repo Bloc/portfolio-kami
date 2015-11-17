@@ -44,4 +44,4 @@ TripIt is a trip planning application. It helps to organize trips by inviting fr
 
 {:.center}
 
-[Return to the main page]()
+[Home]({{ site.baseurl | append: '/' }}) 

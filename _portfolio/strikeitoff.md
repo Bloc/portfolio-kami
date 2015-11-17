@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Strikeitoff
-thumbnail-path: "img/blocitoff.png"
+thumbnail-path: "img/strikeit.png"
 short-description: Self Destructing To-Do list Application
 
 ---
+{:.center}
+![]({{ site.baseurl }}/img/strikeit.png)
 
 {:.center}
-![]({{ site.baseurl }}/img/blocipedia.png)
-{:.center}
-[View the Repository](https://github.com/AnithaPal/strikeitoff)
+[View the Repository](https://github.com/AnithaPal/Strikeitoff)
 [Heroku Demo]()
 
 {:.center}
@@ -43,4 +43,4 @@ short-description: Self Destructing To-Do list Application
 
 {:.center}
 
-[Return to the main page]()
+[Home]({{ site.baseurl | append: '/' }}) 

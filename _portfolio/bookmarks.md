@@ -45,4 +45,4 @@ Bookmarks is a social bookmarking site that allows users to create topics and or
 
 {:.center}
 
-[Return to the main page]()
+[Home]({{ site.baseurl | append: '/' }}) 

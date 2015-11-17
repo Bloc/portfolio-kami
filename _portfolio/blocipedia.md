@@ -7,12 +7,10 @@ short-description: Wiki Collaboration Application
 ---
 
 {:.center}
-
-![]({{ site.baseurl }}/img/blocipedia.png)
+![]({{ site.baseurl }}/img/blocflix.png)
 
 {:.center}
-
-[View the Repository](https://github.com/AnithaPal/blocipedia) |
+[View the Repository](https://github.com/AnithaPal/Blocipedia)
 [Heroku Demo]()
 
 {:.center}
@@ -50,5 +48,5 @@ This Blocipedia application allows to create, edit, destroy  wikis and collabora
 
 {:.center}
 
-[Home]() 
-<!--[Some Link]({% post_url  %})-->
+[Home]({{ site.baseurl | append: '/' }}) 
+
