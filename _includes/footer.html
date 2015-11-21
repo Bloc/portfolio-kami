@@ -2,6 +2,11 @@
 
 {% if site.theme.footer_text %}
 <footer class="site-footer">
-  <p class="text">{{ site.theme.footer_text }}</p>
+    <ul>
+        {% include icons.html %}
+    </ul>
+    <a href="{{ site.baseurl }}/">
+      {{ site.theme.footer_text }}
+    </a>
 </footer>
 {% endif %}

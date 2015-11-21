@@ -1,45 +1,33 @@
 # SITE CONFIGURATION
 baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+url: "https://anithapal.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Anitha Palanisamy 
+  description: "Ruby On Rails developer - Journey " # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>A Web Developer</h1>
+     <p>I'm a Web developer specializing in Rails, JavaScript and AngularJS.</p>
   header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   <p> Anitha Palanisamy - 2015 </p>
+   
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble: 
-  facebook: 
-  flickr:
-  github: # github profile name, e.g. "madebymunsters"
-  google_plus:
-  instagram: 
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
+  email_address: "anithaspark@gmail.com" 
+  github: "anithaPal" 
+  linkedin: "https://www.linkedin.com/in/anithapalanisamy"
   stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: 
-  wordpress:
-  youtube:
+  twitter: "@AnithaPal"
+  
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-69971826-1  " # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 
@@ -53,10 +41,11 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Josefin Slab: 400,600,700"
+#  "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
-paginate: 100
+paginate: 2
 paginate_path: "blog/page:num"
 
 # COLLECTIONS

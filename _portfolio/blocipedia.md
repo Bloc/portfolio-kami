@@ -2,33 +2,51 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+short-description: Wiki Collaboration Application
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocipedia.png)
+![]({{ site.baseurl }}/img/blocflix.png)
 
-## Explanation
+{:.center}
+[View the Repository](https://github.com/AnithaPal/Blocipedia)
+[Heroku Demo]()
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+{:.center}
 
-## Problem
+## Overview
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+This Blocipedia application allows to create, edit, destroy  wikis and collaborate with others. It allows users to upgrade membership to create private wikis.
 
-## Solution
+{:.center}
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+## Features
 
-## Results
++ Users can create a standard account in order to create, edit, and collaborate on public wikis using Markdown syntax; anyone can view public wikis.
++ User can preview their wiki while typing their markdown. 
++ Users can pay to upgrade their account to Premium in order to view and create private wikis.
++ Premium users can allow others to view and collaborate on the private wikis they create.
++ Premium users can downgrade their account back to Standard account.
++ When a user downgrades his or her account, his or her private wikis will automatically become public.
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+{:.center}
 
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+## Tools
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+**Languages, Libraries, and Frameworks:** Ruby on Rails, Bootstrap 
 
-## Conclusion
+**Databases:** SQLite (Test, Development), PostgreSQL (Production)
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+**Development Tools, Gems and Methodologies:**
+
++ Devise for user authentication
++ SendGrid for email confirmation
++ Redcarpet for Markdown formatting
++ Pundit for authorization
++ Stripe for payments
+
+{:.center}
+
+[Home]({{ site.baseurl | append: '/' }}) 
+
