@@ -3,7 +3,7 @@ layout: post
 title: Working remotely as a junior developer
 youtubeID: XdFY-zpT4JY
 tags:
-- working
+- career
 - web development
 ---
 
