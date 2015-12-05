@@ -1,46 +1,46 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://alexbea.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Alex Bea # Your name will go here
+  description: "Front end web developer in Ithaca, NY" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+     <h2>Lord of the Internet, according to my in-laws</h2>
+     <p>Front end web developer in Ithaca, NY</p>
+  header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with code. And love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "alex@abcreations.co" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble:
+  facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "abea" # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram: 
-  linkedin:  # Full URL
+  linkedin:  "https://www.linkedin.com/in/alexbea" # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter: "alexbea"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-32705264-1"
+  disqus_shortname: "alexbea"
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -53,7 +53,7 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Source+Sans+Pro:400,700,400italic,700italic|Cabin+Sketch:700"
 
 # PAGINATION
 paginate: 100
@@ -63,7 +63,7 @@ paginate_path: "blog/page:num"
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /work/:path/
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -72,3 +72,8 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
+
+# GEMS
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate

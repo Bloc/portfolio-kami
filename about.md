@@ -5,12 +5,23 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Two things have driven my career since graduating little ol' Marist College years ago: a love of web technology and a desire to use my time on Earth for good. For most of the time since that has translated into working on, communicating through, and building nonprofit websites and digital communication tools. My professional alma maters have included the [1Sky campaign](http://1sky.org), [350.org](http://350.org), [EchoDitto](https://echo.co) (now Echo & Co.), and [Oceana](http://oceana.org).
 
-Jowl sirloin doner shank flank. Leberkas ham ball tip, jowl pastrami short loin pork cow. Rump ground round chuck leberkas shank picanha bacon meatloaf filet mignon. Ball tip swine brisket jowl pig sausage corned beef leberkas pastrami porchetta kevin beef. Ground round tail cupim ribeye, landjaeger meatloaf pig prosciutto. Shank sirloin porchetta frankfurter kevin corned beef ribeye rump doner. Shankle pork loin beef prosciutto short loin venison, ribeye swine kevin pastrami landjaeger ham hock alcatra sirloin ground round.
+My educational background has been in communication theory and practice in various forms. I earned a B.A. in communication from Marist and and M.A. in the same from Virginia Tech. During the latter program, I focused my research in online and advocacy communication, inspired by the boom in how activists and politicians were using websites, YouTube, blogs, and other technology to expand their reach. While MySpace has faded as a worthy subject of much research since then, new technologies have sprung up and multiplied like a digital hydra.
 
-Pork chop pork belly bresaola, turducken porchetta sausage cupim pork loin bacon pancetta. Meatloaf tail frankfurter pork belly chicken. Turducken pork prosciutto, pork chop hamburger spare ribs jerky salami leberkas meatball. Tenderloin porchetta strip steak jerky, spare ribs beef ribs pork chop tail short loin sausage. Doner biltong andouille ribeye corned beef. Prosciutto boudin corned beef pork loin tail, ham picanha biltong chicken alcatra. Hamburger frankfurter bacon tail jowl filet mignon rump brisket turducken.
+As a technical project manager and strategist, I led on builds including the [Wilderness Society responsive redesign](http://wilderness.org), [Pact website](http://pactworld.org/), [Oceana international and regional websites](http://oceana.org) (internal lead with external dev team), [World Food Program USA](http://wfpusa.org/), and several more as co-lead. I've also led digital strategy projects for clients including NRDC Action Fund, American Constitution Society, and Sabin Vaccine Institute, among others.
 
-Biltong landjaeger swine pork sausage chicken cow cupim ham hock corned beef. Salami alcatra turkey doner rump, ribeye turducken frankfurter pork loin. Alcatra fatback strip steak, frankfurter beef ribs tail pork loin. Jerky shankle filet mignon beef ribs ham, swine sausage sirloin brisket picanha alcatra bresaola.
+Now as a developer, I'm constantly impressed, excited, and a occasionally overwhelmed by all the languages, services, and techniques that we have available. [Check out my latest work](/work/phbpa/) and others listed [on the home page](/). The technologies I primarily work with include:
 
-Short ribs ham hock jerky, sausage beef ribs shoulder beef landjaeger rump sirloin leberkas flank turkey alcatra. Andouille pancetta cupim fatback sirloin landjaeger corned beef turducken tri-tip turkey capicola spare ribs. Chuck hamburger alcatra pig tongue, filet mignon rump bresaola. Porchetta corned beef alcatra beef ribs. Ham hock boudin picanha salami tri-tip ham.
+- Open-source CMS, including Wordpress and Drupal
+- HTML5
+- CSS3
+- Javascript
+- jQuery
+
+And please [get in touch](/contact) if you'd like to work together or connect about anything. Let's make some beautiful internet together.
+
+## Site credits:
+
+- [Coolors](http://coolors.co/app/): Color palette inspiration for non-designers like me.
+- [Bloc's Kami template](https://github.com/Bloc/portfolio-kami): I've learned much from my Bloc bootcamp and the starter template for this Jekyll site is theirs.

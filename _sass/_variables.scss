@@ -1,28 +1,33 @@
 // Typography
-$font-family-main: 'Lato', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
-$font-size: 1.25em;
+$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-headings: 'Cabin Sketch', 'Arial Black', serif, cursive;
+$font-size: 1.25rem;
 
 // Padding
-$padding-large: 20%;
+$padding-large: 15%;
 $padding-small: 5%;
 $padding-x-small: 3%;
 
 // Brand colours
-$brand-color: #fff;
+$brand-color: #FE5D26;
 $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #4a4a4a;
-$link-color: #0070BB;
+$text-light: rgba($text-color, .5);
+$link-color: #A62A01;
 $selection-color: #D4D4D4; // visible when highlighting text
 
-// Header colours
-$header-link-color: #383838;
+// Other colours
+$header-link-color: rgb(230, 230, 230);
+$linked-border: 1px solid $link-color;
+$form-border: 1px solid #cfcfcf;
+
 
 // Feature image for articles
 $feature-image-text-color: #fff;
+$feature-image-text-light: rgba($feature-image-text-color, .7);
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box

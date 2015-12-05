@@ -1,18 +1,21 @@
 ---
 ---
 // External
-@import 'external/reset';
-@import 'external/solarized-dark';
+@import "external/reset";
+@import "external/solarized-dark";
+
+// Variables and Mixins
+@import "variables";
 
 // Base
-@import 'base/variables';
-@import 'base/global';
-@import 'base/utility';
+@import "base/global";
+@import "base/utility";
 
 // Posts
-@import 'layouts/posts';
-@import 'layouts/index';
+@import "layouts/posts";
+@import "layouts/index";
 
 // Partials
-@import 'includes/header';
-@import 'includes/footer';
+@import "includes/header";
+@import "includes/footer";
+@import "layout";

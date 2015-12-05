@@ -1,71 +1,82 @@
 // Header text feature
 .call-out {
-  padding:5% 0;
   display: inline-block;
   width: 100%;
+  padding: 3% 0;
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
   color: $text-color;
-  background-position:center center;
+  background-position: center center;
+  
   .site-title {
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
+    
     a {
-      font-size:0.8em;
-      text-transform: uppercase;
-      color:#d8d8d8;
+      font-size: 2.2em;
+      text-transform: lowercase;
+      text-transform: lowercase;
+      color: $header-link-color;
     }
   }
+
   ul {
     li {
       list-style-type: none;
       display: inline-block;
-      margin:0 0.5em;
-      a {
-        color: $link-color;
-      }
+      margin: 0 .5em;
     }
   }
+
   h1 {
-    margin-bottom:0.25em;
-    display:block;
+    margin-bottom: .25em;
+    display: block;
   }
+
   .divider {
-    width:80px;
-    height:3px;
-    background-color:$border-color;
-    display:block;
-    margin:1.5em auto;
+    width: 80px;
+    height: 3px;
+    background-color: $border-color;
+    display: block;
+    margin: .5em auto;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
   }
 }
-.call-out p:last-child {
-  margin-bottom: 0;
-}
+
 // Post listing
 .posts {
   @extend %padding-header;
+  
   .post-header {
     text-align: center;
   }
+
   .post-teaser {
-    width: 46%;
-    @media (max-width:768px) {
-      width:100%;
+    width: 100%;
+    
+    @media (min-width:768px) {
+      width: 46%;
     }
-    margin:0 2% 1em;
+    margin: 0 2% 1em;
     display: block;
     background-size: $feature-image-size;
-    float:left;
+    float: left;
+    
     &:first-child {
-      padding-top:0;
+      padding-top: 0;
     }
+
     p a:hover {
       @extend %link-hover;
     }
   }
+
   .excerpt {
-    margin: 1em 0;
+    margin: .5rem 0;
   }
 }
 
@@ -77,63 +88,76 @@
   display: block;
   float: left;
   width: 100%;
-  .project {
-    display: block;
-    float: left;
-    clear:both;
-    width:100%;
-    margin:2em auto;
-    .project-thumb {
-      width: 100%;
-      float: left;
-      margin-bottom: 0;
-      display: inline-block;
-      @media (max-width: 768px) {
-        width:99%;
-      }
-      img {
-        display:block;
-        text-align: center;
-        margin:0 auto 1%;
-      }
-    }
-    .project-description {
-      width:100%;
-      float:left;
-      text-align: center;
-      margin-bottom: 0;
-      display: inline-block;
-      @media (max-width: 768px) {
-        width:99%;
-      }
-      a {
-        strong {
-          font-size:1.4em;
-          margin-bottom:0.5em;
-          font-weight:600;
-        }
-      }
-      p a:hover {
-        @extend %link-hover;
-      }
-    }
-    .excerpt {
-      margin-top: 1em;
-    }
-  }
+}
+
+.project {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  margin: 0 auto 2rem;
   
-}
-// Pagination
-.pagination .button {
-  margin: 0 1.5em;
-  i {
-    vertical-align: middle;
+  .project-thumb {
+    width: 99%;
+    float: left;
+    margin-bottom: 0;
+    display: inline-block;
+    
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+
+    img {
+      display: block;
+      text-align: center;
+      margin: 0 auto 1%;
+    }
+  }
+
+  .project-description {
+    width: 99%;
+    float: left;
+    text-align: center;
+    margin-bottom: 0;
+    display: inline-block;
+    
+    @media (min-width: 768px) {
+      width: 45%;
+      padding-left: 3%;
+    }
+
+    a {
+      strong {
+        font-size: 1.4em;
+        margin-bottom: .5em;
+        font-weight: 600;
+      }
+    }
+
+    p a:hover {
+      @extend %link-hover;
+    }
+  }
+
+  .excerpt {
+    margin-top: 1em;
   }
 }
+
+// Pagination
 .pagination {
-  padding: $padding-small $padding-large 0 $padding-large;
+  padding: $padding-small $padding-large 0;
   text-align: center;
+  
+  .button {
+    margin: 0 1.5em;
+    
+    i {
+      vertical-align: middle;
+    }
+  }
 }
+
 .center {
   text-align: center;
 }
