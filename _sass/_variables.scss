@@ -1,7 +1,7 @@
 // Typography
 $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Cabin Sketch', 'Arial Black', serif, cursive;
-$font-size: 1.25em;
+$font-size: 1.25rem;
 
 // Padding
 $padding-large: 15%;
@@ -15,14 +15,19 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #4a4a4a;
+$text-light: rgba($text-color, .5);
 $link-color: #A62A01;
 $selection-color: #D4D4D4; // visible when highlighting text
 
-// Header colours
+// Other colours
 $header-link-color: rgb(230, 230, 230);
+$linked-border: 1px solid $link-color;
+$form-border: 1px solid #cfcfcf;
+
 
 // Feature image for articles
 $feature-image-text-color: #fff;
+$feature-image-text-light: rgba($feature-image-text-color, .7);
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
