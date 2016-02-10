@@ -1,15 +1,19 @@
-# Portfolio Kami Theme
-## Based on Type Theme
+# Alex Bea's Portfolio
 
-![Default Type Theme blog](https://bloc-global-assets.s3.amazonaws.com/portfolio/portfolio-kami.png)
+## Portfolio Kami Theme Variant
+Based on Type Theme. A free and open-source [Jekyll](http://jekyllrb.com) theme.
+Great for blogs and easy to customize.
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-## Get Started
-
+### Get Started
 [Demo](http://madebymunsters.github.io/Lannister/)
 
 [Using Type](https://rohanchandra.github.io/project/type/)
 
-## License
+## Licenses
+### Theme License
 The MIT License (MIT)
+
+### Content License
+[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/0)
+International License. This license applies to all page, post, and other
+original content.
