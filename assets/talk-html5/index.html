@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Semantic HTML Rules | Presentation by Alex Bea</title>
+
+		<meta name="description" content="Presentation on semantic HTML5 elements">
+		<meta name="author" content="Alex Bea">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/bloodless.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Semantic HTML Rules</h1>
+					<p>
+						<a href="http://alexbea.com">Alex Bea</a> / <a href="http://twitter.com/alexbea">@alexbea</a><br />
+						Singlebrook Technology, Inc.
+					</p>
+					<footer><small>Running on Reveal.js by Hakim El Hattab</small></footer>
+				</section>
+
+				<section>
+					<h2>Why talk about HTML?</h2>
+					<ol class="text--grande">
+						<li class="fragment">Because we don't enough.</li>
+						<li class="fragment">It's the foundation of the internet interface.</li>
+						<li class="fragment">It means something.</li>
+					</ol>
+					
+					<aside class="notes" data-markdown>
+						- Ctrl-Click Cast w/ Susan Robertson.
+							- Easy these days to feel excited or compelled to learn new, hot frameworks and tools.
+							- At expense of putting in time mastering the basics.
+						- We can use whatever new JS framework we want, but if the DOM is meaningless then we've not done our job.
+						- Frequencies of new hot frameworks and tools leads to ignoring fundementals.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Why use semantic HTML?</h2>
+					<ul>
+						<li class="fragment highlight-current-red">No new presentational value</li>
+						<li class="fragment highlight-current-red">More to think about in markup</li>
+						<li class="fragment highlight-current-green">Dramatically improved accessibility</li>
+						<li  class="fragment highlight-current-green">Better CSS selectibility</li>
+						<li class="fragment highlight-current-green">SEO value
+							<blockquote cite="http://HTML5 Doctor.com/html5-seo-search-engine-optimisation/">
+								… follow Google’s time-honored guidelines: write valid, cross-browser, accessible HTML, don’t misuse markup or “cloak” with CSS, make a site with a clear hierarchy and text links, and write good content.<br />
+								<small>Bruce Lawson, HTML5 Doctor</small>
+							</blockquote>
+						</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- They improve accessibility dramatically without any additional efforts (e.g., roles, aria).
+						- Easier to select in CSS.
+							- Personally feels nicer to select elements.
+						- SEO value?
+							- W/ some, easier for web crawlers to pull out information (e.g., nav)
+							- CITE: Bruce Lawson, writing for HTML5 Doctor
+					</aside>
+				</section>
+
+				<section>
+					<h2>Semantic Thoughts</h2>
+					<div >
+						<h3>Presentational elements</h3>
+						<p class="text--grande">
+							<code>&lt;p&gt;</code>, <code>&lt;blockquote&gt;</code>, <code>&lt;code&gt;</code>, 	<code>&lt;strong&gt;</code>, <code>&lt;h1-6&gt;</code>
+						</p>
+					</div>
+					<div class="fragment">
+						<h3>Structural elements</h3>
+						<p class="text--center text--grande">
+							<code >&lt;div&gt;</code><br />
+							vs.<br />
+							<code>&lt;aside&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, et al.
+						</p>
+					</div>
+					<aside class="notes" data-markdown>
+						- **"Semantic":** relating to meaning in language or logic.
+						- Some semantic elements are fairly obvious, b/c they have presentational meaning as well.
+						- Many of these provide clarity during development as well.
+						- Why not just use divs?
+						- They lack any new presentational value by default.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Semantic Thoughts</h2>
+					<ol class="text--mas-grande">
+						<li class="fragment">Not to be used only once.</li>
+						<li class="fragment">Context matters. What's the parent?</li>
+						<li class="fragment">Location matters little.</li>
+					</ol>
+					
+					<aside class="notes" data-markdown >
+						- Many can be used multiple times, but their meaning is in relation to their context.
+						- FOOTER could be at the top if it makes sense for the page
+						- As I was researching this, I was regularly struck by things I now see I was doing wrong. If you experience this as well, you’re likely in good company.
+						- Let's meet the elements!
+							- I'm going to go alphabetically rather than in some DOM order.
+							- Making the point that headers aren't only at the top of the page, etc.
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;article&gt;</code>: <br>
+						<small>RSS fodder</small></h2>
+					<blockquote cite="https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-article-element">
+						The &lt;article&gt; element represents an independent item section of content.
+					</blockquote>
+					<p><b>Default role</b>: Article</p>
+					<ul>
+						<li>magazine/newspaper/blog article</li>
+						<li>blog post teaser</li>
+						<li>static pages</li>
+						<li>forum post</li>
+						<li>user-submitted comment</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- Anything that theoretically could make sense on its own.
+						- One of the more clear elements, especially for actual articles.
+						- Also comments, forum posts. (multiple "article" on one page)
+						- HTML5 Doctor: "Within the world of HTML markup, we can’t be held responsible for what people fill the spaces with."
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;aside&gt;</code>:<br />
+						<small>Not just for sidebars anymore (<em>or ever</em>)</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-aside-element">
+						The &lt;aside&gt; element represents a section of a page that consists of content that is tangentially related to the content around the <code>aside</code> element&hellip;
+					</blockquote>
+					<p><b>Default role</b>: Complementary</p>
+					<ul>
+						<li>pull quotes</li>
+						<li>sidebars</li>
+						<li>advertising</li>
+						<li>group of in-page nav</li>
+					</ul>
+					
+					<aside class="notes" data-markdown>
+						- Never actually meant for sidebars, or content secondary to the whole site.
+							- Now okay when not inside an article tag.
+						- CONTEXT: It's complementary to it's parent.
+						- Removing these would have no real impact on reading the primary content.
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;footer&gt;</code>:<br /> <small>Wrap it up, b</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-footer-element">
+						The footer element represents a footer for its nearest ancestor sectioning content or sectioning root element.
+					</blockquote>
+					<p><b>Default role</b>: ContentInfo</p>
+					<ul>
+						<li>authorship</li>
+						<li>copyright info</li>
+						<li>limited navigation</li>
+						<li>appendix</li>
+						<li class="item--bad">NOT a sectioning element</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- "Typically contains information about its section such as who wrote it, links to related documents, copyright data..."
+						- Not for a new section (wouldn't have own header, footer, etc.)
+						- Not required to be at the end, but usually is.
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;header&gt;</code>:<br /> <small>Introducing... the section</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-header-element">
+						The header element represents introductory content for its nearest ancestor sectioning content or sectioning root element.
+					</blockquote>
+					<p><b>Default role</b>: Banner (if in <code>&lt;body&gt;</code>)</p>
+					<ul>
+						<li>page banner</li>
+						<li>article headings and bylines</li>
+						<li>navigation</li>
+						<li class="item--bad">NOT a sectioning element</li>
+					</ul>
+					
+					<aside class="notes" data-markdown>
+						- Awkwardly similar to HEAD
+						- primary places to set a page or section’s headings and subheadings
+						- RULE: It should contain a heading
+						- Probably not every time you use a heading (e.g., article SECTIONs)
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;main&gt;</code>:<br /> <small>the Highlander of HTML</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-main-element">
+						The <em>main</em> content of the body of a document or application. [It] is unique to that document and excludes content that is repeated across a set of documents.
+					</blockquote>
+					<p><b>Default role</b>: Main</p>
+					<ul>
+						<li>unique to that document or page</li>
+						<li>excludes repeated content (e.g., site sidebar)</li>
+						<li>"Must not" be a descendent of <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code></li>
+						<li class="item--bad">NOT a sectioning element</li>
+					</ul>
+
+					<aside class="notes" data-markdown>
+						- HTML5Doc: "designed to show screenreaders and assistive tech exactly where main content begins"
+						- Use to let screen readers skip down, zoom in on mobile, promote in print.css
+						- b/c exclusion of repeated content, written differently in different page template files.
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;nav&gt;</code>:<br /> <small>for nav, but not all nav</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-nav-element">
+						The <code>nav</code> element represents a section of a page that links to other pages or to parts within the page.
+					</blockquote>
+					<p><b>Default role</b>: Navigation</p>
+					<ul>
+						<li>primarily for "major navigation", per spec</li>
+						<li>top nav, sub-nav</li>
+						<li>in-page nav to document sections</li>
+						<li>breadcrumbs(?)</li>
+						<li>not necessarily footer links</li>
+						<li>not <code>aside</code> reference links</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- somewhat vague due to subjective "major navigation" definition.
+						- Also NOT a sectioning element
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;section&gt;</code>:<br /> <small><code>div</code>'s more interesting cousin</small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/sections.html#the-section-element">The section element represents a generic section of a document or application.</blockquote>
+					<p><b>Default role</b>: Region</p>
+					<ul>
+						<li>like <code>div</code>, limited semantic meaning</li>
+						<li>thematically relates contents</li>
+						<li>a clear branch of the page's outline</li>
+						<li><em>could</em> start with an <code>&lt;h1-6&gt;</code></li>
+					</ul>
+					
+					<aside class="notes" data-markdown>
+						- fortunate this is the last alphabetically as it has least specific meaning
+						- Imagine parts of a design agency's single page scrolling site for Work, Team, About Us.
+						- Not only presentationally related, but **thematically**.
+						- RULE: It should start with a heading
+					</aside>
+				</section>
+				<section>
+					<h2><code>&lt;div&gt;</code>:<br /> <small>what is it good for? <br/><small><i>(means absolutely nothing)</i></small></small></h2>
+					<blockquote cite="https://www.w3.org/TR/html5/grouping-content.html#the-div-element">
+						The div element has no special meaning at all.
+					</blockquote>
+					<p><b>Default role</b>: none.</p>
+					<ul>
+						<li>represents its children</li>
+						<li>friend of complex designs</li>
+					</ul>
+					
+					<aside class="notes" data-markdown>
+						- SECTION spec: "When an element is needed only for styling purposes or as a convenience for scripting, authors are encouraged to use the div element instead."
+						- If your site needed no design other than browser defaults, there'd be no need.
+							- unlike semantic elements
+					</aside>
+				</section>
+				<section>
+					<h2>The choir</h2>
+					<code>
+						<ul>
+							<li>article</li>
+							<li>aside</li>
+							<li>footer</li>
+							<li>header</li>
+							<li>main</li>
+							<li>nav</li>
+							<li>section</li>
+						</ul>
+					</code>
+				</section>
+
+				<section>
+					<h2>Backwards compatibility</h2>
+					<p>Full support in most modern browsers, partial in Opera Mini and IE 9-11 (no <code>main</code> semantic meaning).</p>
+					<p>
+						For IE <=8:
+						<ul>
+							<li><code>document.createElement("section");</code> and <code>display: block;</code> <em>OR</em></li>
+							<li><a href="https://github.com/aFarkas/html5shiv/">html5shiv.js</a> by Remy Sharp.</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Rapid fire</h2>
+					<div class="text--grande">
+						<p class="fragment highlight-current-blue">
+							<span><code>blockquote</code>: sourced content, not indentation</span>
+						</p>
+						<p class="fragment highlight-current-blue">
+							<code>strong</code> and <code>em</code> for emphasis, not styling. 
+							<code>&lt;i&gt;</code> for tone change.
+							</p>
+						<p class="fragment highlight-current-blue">
+							<code>&lt;h1-6&gt;</code> for true headings, not styling.
+						</p>
+						<p class="fragment highlight-current-blue">
+							If it walks and talks like a button, use <code>&lt;button&gt;</code>
+						</p>
+					</div>
+					<aside class="notes" data-markdown>
+						- an h3 after an h2 is considered part of the h2's context
+					</aside>
+				</section>
+				<section>
+					<h2>Rapid fire</h2>
+					<div class="text--grande">
+						<p class="fragment highlight-current-blue">
+							<code>&lt;address&gt;</code> is only those for the page/doc/site.
+						</p>
+						<p class="fragment highlight-current-blue">
+							There is a <code>&lt;menu&gt;</code>, but it's not the nav menu
+						</p>
+						<p class="fragment highlight-current-blue">
+							<code>&lt;hr&gt;</code> is a "paragraph-level thematic break"
+						</p>
+					</div>
+
+					<aside class="notes" data-markdown>
+						- there are a bunch more, but these are some of the most often used.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Semantics resources</h2>
+					<ul  class="text--grande">
+						<li>HTML5 For Web Designers by Jeremy Keith</li>
+						<li>HTML5 Doctor element index</li>
+						<li>W3C HTML element spec</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- spec = SPECIFICATIONS
+							- You probably already understand the basics, so it's less daunting than learning a new language/framework in spec.
+					</aside>
+				</section>
+				<section>
+					<h2>Final thoughts</h2>
+					<ul class="text--grande">
+						<li class="fragement highlight-current-green">We call it a language, so we should treat it like one.</li>
+						<li class="fragement highlight-current-green">Client content markup won't be ideal.</li>
+						<li class="fragement highlight-current-green">CSS layout specs will mean even fewer <code>div</code>s.</li>
+					</ul>
+					<aside class="notes" data-markdown>
+						- semicolons work to separate written ideas, but we use periods because they have meaning.
+					</aside>
+				</section>
+				<section data-background="http://i.giphy.com/l2JIaZ8htFKgqwqB2.gif" class="text--overlay">
+					<h2>Contact</h2>
+					<p class="text--mas-grande">
+						Alex Bea <br>
+						@alexbea <br>
+						alex.bea@singlebrook.com
+					</p>
+				</section>
+				
+				<section data-background="http://i.giphy.com/l2JIaZ8htFKgqwqB2.gif" class="text--overlay">
+					<h2>Demo</h2>
+					<p class="text--center"><a href="example/page-divs.html">divs</a> || <a href="example/page-semantic.html">semantics</a></p>
+				</section>
+				
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+				
+				width: 960,
+	 			height: 800,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'fast',
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

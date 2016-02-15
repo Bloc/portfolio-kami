@@ -1,0 +1,234 @@
+//
+// Bloodless theme for reveal.js
+// Author: Walther http://github.com/Walther
+//
+// Designed to be used with highlight.js theme
+// "monokai_sublime.css" available from
+// https://github.com/isagalaev/highlight.js/
+//
+// For other themes, change $codeBackground accordingly.
+
+// scss-lint:disable NameFormat
+// variables used across themes and JS files.
+
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+
+// ---------------------------------------------
+// Include theme-specific fonts
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Cabin+Sketch:700);
+// Colors used in the theme
+$helper-black: #000;
+$helper-white: #fff;
+$color-secondary: #fe5d26;
+$highlight-red: #f2dede;
+$highlight-green: #dff0d8;
+$highlight-blue: #d9edf7;
+
+$coal: #222;
+$color-dull: lighten($backgroundColor, 50%);
+
+$codeBackground: $coal;
+$code-color: $helper-white;
+$backgroundColor: $coal;
+$blockquote-bg: rgba($coal, .5);
+
+$background-color: $helper-white; 
+$text-color: #4a4a4a;
+
+// Main text
+$mainFont: "Source Sans Pro", Arial, sans-serif;
+$mainFontSize: 2.5rem;
+$size-grande: 120%;
+$size-mas-grande: 150%;
+$size-blockquote: 80%;
+
+$mainColor: #eee;
+// Headings
+$headingFont: "Cabin Sketch", "Arial Black", serif, cursive;
+
+$headingTextShadow: 2px 2px 2px $color-dull;
+// h1 shadow, borrowed humbly from 
+// (c) Default theme by Hakim El Hattab
+
+// scss-lint:disable ColorVariable
+// Many colors used for extended text shadow.
+$heading1TextShadow: 0 1px 0 #ccc, 
+                     0 2px 0 #c9c9c9,
+                     0 3px 0 #bbb,
+                     0 4px 0 #b9b9b9,
+                     0 5px 0 #aaa,
+                     0 6px 1px rgba($helper-black, .1),
+                     0 0 5px rgba($helper-black, .1),
+                     0 1px 3px rgba($helper-black, .3),
+                     0 3px 5px rgba($helper-black, .2),
+                     0 5px 10px rgba($helper-black, .25),
+                     0 20px 20px rgba($helper-black, .15);
+// scss-lint: enable ColorVariable
+                     
+// Links
+$linkColor: #a62a01;
+
+$linkColorHover: lighten($linkColor, 20%);
+// Text selection
+$selectionBackgroundColor: $color-secondary;
+
+$selectionColor: #fff;
+
+// Mixins --------------------------------------
+@mixin highlight-red {
+  background-color: $highlight-red;
+  color: inherit;
+}
+
+@mixin highlight-green {
+  background-color: $highlight-green;
+  color: inherit;
+}
+
+@mixin highlight-blue {
+  background-color: $highlight-blue;
+  color: inherit;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+
+// ---------------------------------------------
+// some overrides after theme template import
+
+body {
+  background-color: $helper-white;
+}
+
+.reveal {
+  color: $text-color;
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-secondary;
+    font-weight: 700;
+    text-shadow: none;
+  }
+  
+  code {
+    padding: 0 4px;
+  }
+  
+  blockquote {
+    width: unset;
+    padding-left: 10%;
+    background-color: $blockquote-bg;
+    color: $helper-white;
+    font-size: $size-blockquote;
+  }
+  
+  small code {
+    vertical-align: baseline;
+  }
+  
+  
+  .slides {
+    text-align: left;
+  }
+  
+  .text--grande {
+    font-size: $size-grande;
+  }
+
+  .text--mas-grande {
+    font-size: $size-mas-grande;
+  }
+
+  .slides section .fragment {
+    &.visible {
+      &.highlight-red {
+        @include highlight-red;
+      }
+      
+      &.highlight-green {
+        @include highlight-green;
+      }
+      
+      &.highlight-blue {
+        @include highlight-blue;
+      }
+    }
+    
+    &.current-fragment {
+      &.highlight-current-red {
+        @include highlight-red;
+      }
+      
+      &.highlight-current-green {
+        @include highlight-green;
+      }
+      
+      &.highlight-current-blue {
+        @include highlight-blue;
+      }
+    }
+  }
+
+}
+
+p {
+  font-weight: 300;
+  
+  code {
+    display: inline-block;
+    border-radius: 7px;
+  }
+}
+
+.text--overlay,
+.text--overlay h2 {
+  color: $helper-black;
+}
+
+
+.text--overlay p,
+.text--overlay h2,
+.text--overlay ol,
+.text--overlay ul {
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+
+.highlight-current-blue,
+.highlight-current-green,
+.highlight-current-red {
+  &.fragment.visible:not(:last-of-type),
+  &.fragment {
+    color: $color-dull;
+  }  
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+
+h2 small {
+  text-align: left;
+}
+
+
+small small {
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.text--center {
+  text-align: center;
+}
