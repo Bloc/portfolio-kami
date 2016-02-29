@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Safe Sass Extending or How I learned to stop worrying and love placholder selectors
+title: Safe Sass Extending or How I learned to stop worrying and love placeholder selectors
 tags:
 - Sass
 - Front end development
