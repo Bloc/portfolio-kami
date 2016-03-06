@@ -15,7 +15,7 @@ Interviewing is a weird and often nerve-wracking thing, however with experience 
 
 The company where I interviewed is a fairly small dev shop whose work I've admired since I started exploring Ithaca jobs before we moved here. Let's call them Ithaca Web Makers (IWM). Being a small business, I knew that there wouldn't be a ton of opportunities to apply to IWM. I applied there for a non-technical position a while back, which went well enough (without being hired) that someone there pinged me when a dev opening came up for a front end dev position.
 
-Being only about half way through the Bloc development bootcamp program, my biggest worry in applying was that my portfolio was too light. At the time of applying, I had one [fairly simple site](/work/phbpa/) case study on my site and a few Bloc projects on my GitHub account (one AngularJS and [one vanilla JS game project](/2015/08/05/making-pong.html)). The application asked for a Javascript code sample, for which I supplied the primary script for the latter Bloc project. Being a Pong game and relatively frivolous, I was initially nervous about that but I didn't really have another good option.
+Being only about half way through the Bloc development boot camp program, my biggest worry in applying was that my portfolio was too light. At the time of applying, I had one [fairly simple site](/work/phbpa/) case study on my site and a few Bloc projects on my GitHub account (one AngularJS and [one vanilla JS game project](/2015/08/05/making-pong.html)). The application asked for a Javascript code sample, for which I supplied the primary script for the latter Bloc project. Being a Pong game and relatively frivolous, I was initially nervous about that but I didn't really have another good option.
 
 The only other project I had to talk about was still in progress. That project was designed from the start with my client to be a portfolio piece for me as well as serving his needs. Partially because of that, I've been focusing on bringing in new technologies, including [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/), as well as some exploration of [Grunt](http://gruntjs.com/).
 
@@ -46,11 +46,11 @@ We also got into some non-technical questions. They'd asked me some behavioral q
 
 I then got to ask some questions. My best question, and one I recommend to other early career developers, was "What concerns do you have about my background?" I'd seen this suggested before because it allows them to identify potential weaknesses that you may be able to explain away (without being defensive). In this case, an interviewer not surprisingly mentioned that I would need to quickly learn some specific tools and technologies. Fortunately, she followed that up with a comment about how I'd already shown that I am a quick study, already have a good foundation, and that I have shown initiative to learn on my own. With that, my lack of specific technology experience wasn't as much of a concern.
 
-**Major takeaway:** Don't stop learning and try things outside of the bootcamp. If I hadn't been using Sass and the Bourbon ecosystem I don't think I'd have a chance. Neither of those were suggested by Bloc and both display my prime area of interest: CSS.
+**Major takeaway:** Don't stop learning and try things outside of the boot camp. If I hadn't been using Sass and the Bourbon ecosystem I don't think I'd have a chance. Neither of those were suggested by Bloc and both display my prime area of interest: CSS.
 
 ## We'll see!
 
-I had the second interview this afternoon and I don't expect to hear back until the middle of next week. I'm feeling good about my chances, but if I don't get the job I won't be too surprised. I haven't even finished my bootcamp program and it's not unthinkable that a more experienced front end developer of good fit is in the applicant pool. I'll be disappointed, but not totally surprised.
+I had the second interview this afternoon and I don't expect to hear back until the middle of next week. I'm feeling good about my chances, but if I don't get the job I won't be too surprised. I haven't even finished my boot camp program and it's not unthinkable that a more experienced front end developer of good fit is in the applicant pool. I'll be disappointed, but not totally surprised.
 
 What I can say for sure is that a few things have made this interview process better than it could have been:
 

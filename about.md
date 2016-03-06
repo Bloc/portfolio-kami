@@ -25,4 +25,4 @@ And please [get in touch](/contact) if you'd like to work together or connect ab
 ## Site credits:
 
 - [Coolors](http://coolors.co/app/): Color palette inspiration for non-designers like me.
-- [Bloc's Kami template](https://github.com/Bloc/portfolio-kami): I've learned much from my Bloc bootcamp and the starter template for this Jekyll site is theirs.
+- [Bloc's Kami template](https://github.com/Bloc/portfolio-kami): I've learned much from my Bloc boot camp and the starter template for this Jekyll site is theirs.

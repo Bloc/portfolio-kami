@@ -9,7 +9,7 @@ tags:
 
 Subtitle: Adventures in `<canvas>`.
 
-I'm currently working through the [Bloc](http://bloc.io) front end development apprenticeship, an online/remote mentorship dev bootcamp. Now in the projects phase, I recently completed my first project from scratch: [Pong](/pong/). Yes, Pong.
+I'm currently working through the [Bloc](http://bloc.io) front end development apprenticeship, an online/remote mentorship dev boot camp. Now in the projects phase, I recently completed my first project from scratch: [Pong](/pong/). Yes, Pong.
 
 [![ Screenshot of my Pong game ]({{ site.url }}/img/blog/pong-game.png)](/pong/)
 
