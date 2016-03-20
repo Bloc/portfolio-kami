@@ -1,8 +1,8 @@
 ---
 layout: post
-title: BlocFlix
+title: Goldenphoto
 thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+short-description: Goldenphoto is personal photo sharing website designed for people who want to share images with family and friends without having to use main stream social media.
 
 ---
 
@@ -11,7 +11,7 @@ short-description: BlocFlix is a Netflix replica for finding the best movies and
 
 ## Explanation
 
-Goldenphoto is a the first website where the design/content/structure and theme was fully developed by myeself with no assistance.
+Goldenphoto is a the first website where the design/content/structure and theme was fully developed by myself with no assistance.
 
 ## Problem
 
