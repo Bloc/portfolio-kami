@@ -5,7 +5,7 @@ permalink: /contact/
 feature-img: "img/color.png"
 ---
 
-Contact Form
+Get in touch with me.
 
 <form action="https://getsimpleform.com/messages?form_api_token=814db14b79610f61a51de97565500915" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
