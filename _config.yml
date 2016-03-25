@@ -12,29 +12,29 @@ theme:
   header_text: >
      <h1>Witty & Hilarious Rails Developer</h1>
      <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+  header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: Alex.Takacs.Design@gmail.com
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble:
+  facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "atakacs5280"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram:
+  linkedin: https://www.linkedin.com/in/alex-takacs-8a46a477
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter: https://twitter.com/TheAlexTakacs
   wordpress:
   youtube:
 
