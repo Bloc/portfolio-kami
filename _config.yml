@@ -1,45 +1,45 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "/atakacs5280.github.io" # the subpath of your site, e.g. /blog/
+url: "http://atakacs5280.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Alex Takacs # Your name will go here
+  description: "This is my journey through software, stoicism, Brazilian Jiu Jitsu, and everything inbetween." # used by search engines
 
   # Header and footer text
   header_text: >
      <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
-  header_text_feature_image: 
+     <p>This is my journey through software, Stoicism, Brazilian Jiu Jitsu, and everything inbetween.</p>
+  header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: Alex.Takacs.Design@gmail.com
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble:
+  facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "atakacs5280"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram:
+  linkedin: https://www.linkedin.com/in/alex-takacs-8a46a477
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter: https://twitter.com/TheAlexTakacs
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-76152203-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
