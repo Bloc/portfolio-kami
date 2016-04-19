@@ -10,24 +10,24 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Developer Extraordinaire</h1>
+     <p>My wheelhouse includes JavaScript, AngularJS and Ruby on Rails.</p>
   header_text_feature_image: 
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: paul.jo.thompson@gmail.com
   behance:
   bitbucket:
   dribbble: 
   facebook: 
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: pjtpjtpjtpjt
   google_plus:
   instagram: 
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/pauljosephthompson
   pinterest:
   reddit:
   soundcloud:
@@ -70,7 +70,10 @@ collections:
     permalink: /portfolio/:path/
 
 # BUILD SETTINGS
-markdown: kramdown
+#markdown: kramdown
+kramdown:
+    input: GFM
+    hard-wrap: false
 
 #highlighter: pygments
 highlighter: rouge
