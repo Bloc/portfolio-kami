@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+url: "http://pjtpjtpjtpjt.github.io/paul-thompson-portfolio" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
