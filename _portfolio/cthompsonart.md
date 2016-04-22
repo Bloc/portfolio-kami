@@ -11,7 +11,7 @@ short-description: Retail website for an artist
 
 ## Explanation
 
-Chris Thompson, a talented artist, has an online presence but no website to sell his art. I offered to build a retail website for him. Cthompsonart was built using JavaScript, AngularJS and HTML/CSS.
+Chris Thompson, a talented artist, has an online presence but no website to sell his art. I offered to build a retail website for him, [cthompsonart](http://cthompsonart.com). It was built using JavaScript, AngularJS and HTML/CSS.
 
 #### The Players
 
