@@ -1,33 +1,33 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "/paul-thompson-portfolio" # the subpath of your site, e.g. /blog/
+url: "http://pjtpjtpjtpjt.github.io/paul-thompson-portfolio" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
+  title: Paul Thompson # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Developer Extraordinaire</h1>
+     <p>My wheelhouse includes JavaScript, AngularJS and Ruby on Rails.</p>
   header_text_feature_image: 
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: paul.jo.thompson@gmail.com
   behance:
   bitbucket:
   dribbble: 
   facebook: 
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: pjtpjtpjtpjt
   google_plus:
   instagram: 
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/pauljosephthompson
   pinterest:
   reddit:
   soundcloud:
@@ -56,6 +56,10 @@ theme:
   google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
 
 # PAGINATION
+  gems: jekyll-paginate
+#  paginate: 5
+#  paginate_path: "page:num"
+
 paginate: 100
 paginate_path: "blog/page:num"
 
@@ -66,9 +70,13 @@ collections:
     permalink: /portfolio/:path/
 
 # BUILD SETTINGS
-markdown: kramdown
+#markdown: kramdown
+kramdown:
+    input: GFM
+    hard-wrap: false
 
-highlighter: pygments
+#highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
