@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/matt24ray.github.io" # the subpath of your site, e.g. /blog/
-url: "http://matt24ray.github.io" # the base hostname & protocol for your site
-
+ baseurl: "/matt24ray.github.io"
+ url: "http://matt24ray.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
