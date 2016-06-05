@@ -10,24 +10,25 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Educator turned Software Engineer. Nerd.</h1>
+     <p>I'm a kickass developer specializing in Rails.</p>
   header_text_feature_image: 
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: hello@kellymariemason.com
+  # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble: 
   facebook: 
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: kellymason
   google_plus:
   instagram: 
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/kellymariemason
   pinterest:
   reddit:
   soundcloud:
