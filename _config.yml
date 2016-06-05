@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/kellymariemason.com" # the subpath of your site, e.g. /blog/
+baseurl: "/portfolio/" # the subpath of your site, e.g. /blog/
 url: "http://www.kellymariemason.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
