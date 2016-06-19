@@ -5,36 +5,36 @@ url: "http://www.domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: "Dan Rice"
+  description: "A personal portfolio and blog website"
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Becoming a Software Engineer</h1>
+     <p>I'm learning all about Ruby on Rails and GitHub at Bloc.io.</p>
   header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "daniel.k.rice@gmail.com"
   behance:
   bitbucket:
   dribbble: 
-  facebook: 
+  facebook: "www.facebook.com/dan.rice.7"
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "danielkrice"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram: "driceman13"
+  linkedin: "https://www.linkedin.com/in/dan-rice-742aba91"
   pinterest:
-  reddit:
+  reddit: "https://www.reddit.com/user/danielkrice/"
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:
   steam:
   tumblr:
-  twitter: 
+  twitter: "@DanRiceman"
   wordpress:
   youtube:
 
