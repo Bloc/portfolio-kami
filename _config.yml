@@ -18,7 +18,7 @@ theme:
 
   # Icons
   rss: false
-  email_address: "daniel.k.rice@gmail.com"
+  email_address: "dan.rice.92@outlook.com"
   behance:
   bitbucket:
   dribbble: 
@@ -68,7 +68,7 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
