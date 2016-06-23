@@ -6,3 +6,4 @@ feature-img: "img/color.png"
 hide: true
 ---
 
+Thanks!
