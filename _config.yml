@@ -11,7 +11,7 @@ theme:
   # Header and footer text
   header_text: >
      <h1>Becoming a Software Engineer</h1>
-     <p>I'm learning all about Ruby on Rails and GitHub at Bloc.io.</p>
+     <p>I'm learning about Ruby on Rails and GitHub at Bloc.io.</p>
   header_text_feature_image: 
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
@@ -22,14 +22,14 @@ theme:
   behance:
   bitbucket:
   dribbble: 
-  facebook: "www.facebook.com/dan.rice.7"
+  facebook: "Dan.Rice.7"
   flickr:
   github: "danielkrice"
   google_plus:
-  instagram: "driceman13"
+  instagram:
   linkedin: "https://www.linkedin.com/in/dan-rice-742aba91"
   pinterest:
-  reddit: "https://www.reddit.com/user/danielkrice/"
+  reddit:
   soundcloud:
   stack_exchange:
   steam:
