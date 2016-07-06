@@ -1,6 +1,7 @@
 // Typography
-$font-family-main: 'Lato', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
+$font-family-main: 'Libre Baskerville', serif, 'Lato', Helvetica, Arial, sans-serif;
+$font-family-headings: 'Inconsolata', 'Abril Fatface', Georgia, serif, cursive;
+
 $font-size: 1.25em;
 
 // Padding
@@ -15,16 +16,16 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #4a4a4a;
-$link-color: #0070BB;
+$link-color: #C5E0DC;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
-$header-link-color: #383838;
+$header-link-color: #C5E0DC;
 
 // Feature image for articles
 $feature-image-text-color: #fff;
 $feature-image-size: cover; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #0070BB;
+$header-desc-background-color: #D68189;
 $header-desc-text-color: #FFF;
