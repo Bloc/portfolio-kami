@@ -20,4 +20,3 @@ title: The Importance of Always Learning
   Thanks for reading. I’ll let you get back to Pokemon Go now.
   
   ![Pokemon Go]({{ site.baseurl }}/img/pokemon-go.jpg){: .center-image }
-  
