@@ -11,7 +11,7 @@ title: Growth Through Struggle
   
   But, as Dory would say, “Just keep swimming!”
   
-  ![Dory]({{ site.baseurl }}/img/dory.jpg){: .center-image }
+  ![Dory]({{ site.baseurl }}/img/finding-dory.jpg){: .center-image }
   
   The good news is that the farther along I go, the clearer it becomes that this is all intentional. Bloc’s goal (and my goal) is for me to come out of the course understanding software development, and to accomplish that in a year, I have to accept being challenged constantly, pushed harder. Being taken out of my comfort zone has made me learn much faster than when I’ve attempted to go at my own pace through other online courses (the free ones that don’t have deadlines and a mentor pushing me along). It’s essential for me to be immersed in what I’m learning.
   
