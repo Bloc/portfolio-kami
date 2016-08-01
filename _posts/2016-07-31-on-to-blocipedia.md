@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blocipedia
+title: On to Blocipedia
 ---
   
   So far, I’ve mostly tried to keep these blog posts readable for everyone, whether they know how to program or not. I wanted to establish some of my thoughts about learning to program and my views on technology to kick things off and get everyone on the same page who happens across my site.
