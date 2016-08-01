@@ -15,7 +15,7 @@ title: On to Blocipedia
   
   Make sense? Hope I didn’t lose anyone there.
   
-  With those pieces of the programming world in place, and with just a pinch of JavaScript thrown in for good measure, the Foundations section had me build a mockup version of Reddit- which is effectively useless in that the site is a social network with no users, but was certainly helpful in teaching me to go from nothing to a fully-functioning web application in just a couple months of work. If you’d like to check it out (you can even make an account and say hi if you want to), stop by [https://ancient-ridge-92768.herokuapp.com].
+  With those pieces of the programming world in place, and with just a pinch of JavaScript thrown in for good measure, the Foundations section had me build a mockup version of Reddit- which is effectively useless in that the site is a social network with no users, but was certainly helpful in teaching me to go from nothing to a fully-functioning web application in just a couple months of work. If you’d like to check it out (you can even make an account and say hi if you want to), stop by [the site](https://ancient-ridge-92768.herokuapp.com).
   
   Now I’m moving on to the Ruby on Rails Projects section of my course at Bloc, the first of which will be a wiki-building app that I’ll be putting in my portfolio on this site soon. It’s going well so far- not least because I finally fixed the email issue I was having a few posts ago. Stay tuned!
   
