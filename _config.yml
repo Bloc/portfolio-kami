@@ -1,45 +1,45 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.danrice.me"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: "Dan Rice"
+  description: "A personal portfolio and blog website"
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Becoming a Software Engineer</h1>
+     <p>I'm learning about Ruby on Rails and GitHub at Bloc.io.</p>
   header_text_feature_image: 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "dan.rice.92@outlook.com"
   behance:
   bitbucket:
   dribbble: 
-  facebook: 
+  facebook: "Dan.Rice.7"
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "danielkrice"
   google_plus:
-  instagram: 
-  linkedin:  # Full URL
+  instagram:
+  linkedin: "https://www.linkedin.com/in/dan-rice-742aba91"
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:
   steam:
   tumblr:
-  twitter: 
+  twitter: "@DanRice1992"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-79806203-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
@@ -68,7 +68,7 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
