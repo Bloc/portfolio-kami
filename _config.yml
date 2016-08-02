@@ -1,0 +1,76 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.danrice.me"
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: "Dan Rice"
+  description: "A personal portfolio and blog website"
+
+  # Header and footer text
+  header_text: >
+     <h1>Becoming a Software Engineer</h1>
+     <p>I'm learning about Ruby on Rails and GitHub at Bloc.io.</p>
+  header_text_feature_image: 
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>
+
+  # Icons
+  rss: false
+  email_address: "dan.rice.92@outlook.com"
+  behance:
+  bitbucket:
+  dribbble: 
+  facebook: "Dan.Rice.7"
+  flickr:
+  github: "danielkrice"
+  google_plus:
+  instagram:
+  linkedin: "https://www.linkedin.com/in/dan-rice-742aba91"
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  twitter: "@DanRice1992"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: "UA-79806203-1"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Read more &raquo;"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+
+# PAGINATION
+paginate: 100
+paginate_path: "blog/page:num"
+
+# COLLECTIONS
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# BUILD SETTINGS
+markdown: kramdown
+
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems: [jekyll-paginate]

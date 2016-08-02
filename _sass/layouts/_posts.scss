@@ -1,0 +1,93 @@
+article,
+.comments {
+  padding:0 20% 0;
+  float: left;
+  width: 100%;
+}
+article {
+  header {
+    margin-bottom: 6%;
+    text-align: center;
+  }
+  a:hover {
+    @extend %link-hover;
+  }
+  .footnotes {
+    font-size: 0.9em;
+  }
+  p {
+    img {
+      text-align:center;
+      margin:0 auto;
+    }
+  }
+}
+header {
+  h1 {
+    margin: 0;
+  }
+  .meta {
+    color: rgba($text-color, .5);
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+.feature-image {
+  padding: 0%;
+  .post-link {
+    color: $feature-image-text-color;
+  }
+  header {
+    color: $feature-image-text-color;
+    background-size: $feature-image-size;
+    background-position:center center;
+    margin-bottom: 0;
+    padding: $padding-large/2.8 $padding-large;
+    .meta {
+      color: rgba($feature-image-text-color, .7);
+    }
+  }
+  .post-content {
+    @extend %padding-regular;
+  }
+}
+
+.post-content {
+  form {
+      input[type="text"], input[type="email"] {
+        width:100%;
+        display: block;
+        padding:0.5em;
+        margin:0 0 1em;
+        border-radius:6px;
+        border:1px solid #cfcfcf;
+        box-shadow:none;
+      }
+      input[type="submit"] {
+        border-radius: 0.3em;
+        border: 1px solid $link-color;
+        color:$link-color;
+        background-color:$brand-color;
+        display: inline-block;
+        margin: 1em 0;
+        padding: 0.5em 0.75em;
+        &:hover {
+          background: $link-color;
+          border: 1px solid $link-color;
+          color: $background-color;
+          text-decoration: none;
+        }
+      }
+      textarea {
+        border-radius:6px;
+        padding:0.5em;
+        margin:0 0 1em;
+        display: block;
+        width:100%;
+        border:1px solid #cfcfcf;
+        box-shadow:none;
+      }
+    }
+}

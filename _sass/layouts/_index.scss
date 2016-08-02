@@ -1,0 +1,139 @@
+// Header text feature
+.call-out {
+  padding:5% 0;
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  font-size: 1.2em;
+  text-align: center;
+  color: $text-color;
+  background-position:center center;
+  .site-title {
+    display:block;
+    width:100%;
+    a {
+      font-size:0.8em;
+      text-transform: uppercase;
+      color:#d8d8d8;
+    }
+  }
+  ul {
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin:0 0.5em;
+      a {
+        color: $link-color;
+      }
+    }
+  }
+  h1 {
+    margin-bottom:0.25em;
+    display:block;
+  }
+  .divider {
+    width:80px;
+    height:3px;
+    background-color:$border-color;
+    display:block;
+    margin:1.5em auto;
+  }
+}
+.call-out p:last-child {
+  margin-bottom: 0;
+}
+// Post listing
+.posts {
+  @extend %padding-header;
+  .post-header {
+    text-align: center;
+  }
+  .post-teaser {
+    width: 46%;
+    @media (max-width:768px) {
+      width:100%;
+    }
+    margin:0 2% 1em;
+    display: block;
+    background-size: $feature-image-size;
+    float:left;
+    &:first-child {
+      padding-top:0;
+    }
+    p a:hover {
+      @extend %link-hover;
+    }
+  }
+  .excerpt {
+    margin: 1em 0;
+  }
+}
+
+// Work listing
+.work {
+  @extend %padding-regular;
+  background-size: $feature-image-size;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%;
+  .project {
+    display: block;
+    float: left;
+    clear:both;
+    width:100%;
+    margin:2em auto;
+    .project-thumb {
+      width: 100%;
+      float: left;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      img {
+        display:block;
+        text-align: center;
+        margin:0 auto 1%;
+      }
+    }
+    .project-description {
+      width:100%;
+      float:left;
+      text-align: center;
+      margin-bottom: 0;
+      display: inline-block;
+      @media (max-width: 768px) {
+        width:99%;
+      }
+      a {
+        strong {
+          font-size:1.4em;
+          margin-bottom:0.5em;
+          font-weight:600;
+        }
+      }
+      p a:hover {
+        @extend %link-hover;
+      }
+    }
+    .excerpt {
+      margin-top: 1em;
+    }
+  }
+  
+}
+// Pagination
+.pagination .button {
+  margin: 0 1.5em;
+  i {
+    vertical-align: middle;
+  }
+}
+.pagination {
+  padding: $padding-small $padding-large 0 $padding-large;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
