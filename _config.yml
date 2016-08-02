@@ -5,7 +5,7 @@ url: "http://www.your-domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Tyrion Lannister # Your name will go here
+  title: Devon Henegar # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
