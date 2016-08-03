@@ -1,5 +1,7 @@
+---
 layout: post
 title: Three months in at Bloc.
+---
 
 Well, I did it.  I quit my job and got myself back in school, learning how to program of all things.  Never thought I'd be here: 30 years old, unemployed because I'm putting all of my effort into school again.  But here I am, almost finished with the first quarter of the software engineering path at Bloc.
 
@@ -9,4 +11,4 @@ I truly feel like what I'm learning is actually useable going forward in the rea
 
 Richard, my mentor here at Bloc, recently told me we're going to be working on some interview and career prep skills because where I'm at now I could get hired as a junior developer.  I didn't realize how quickly I would get to that point, I was prepared to finish the program before being able to find a job. One of the great things about Bloc is that it's possible for me to transition to part time if I start a job before I've finished the program.  Given that I hope to say in Portland, rather than move to a larger city with more jobs, I figure I'll start looking once I've built my portfolio and worked on the career prep skills that Bloc teaches, and not worry about getting hired right away.
 
-My take away from the last few months is that I made a good decision.  The program is everything that I wanted it to be.  This is an area of study, and later work, that I will be able to continue working on without feeling like there's nothing left to learn and getting board, like I have so many times before.  That it's never to late to go back to school and improve yourself. 
+My take away from the last few months is that I made a good decision.  The program is everything that I wanted it to be.  This is an area of study, and later work, that I will be able to continue working on without feeling like there's nothing left to learn and getting board, like I have so many times before.  That it's never to late to go back to school and improve yourself.

@@ -10,8 +10,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Budding Rails Developer</h1>
+     <p>Some Tag Line Here.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
@@ -22,12 +22,12 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: devon.henegar.9
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: MockingbirdME
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/devon-henegar-42228814?
   pinterest:
   reddit:
   soundcloud:

@@ -1,5 +1,7 @@
+---
 layout: post
 title: Why I was never going to learn programing.
+---
 
 When I was 12 my little brother's annoying friend, Jake, told me I should learn how to program computers; it's what his mom did for a living and he'd learned a little and thought I might like it.  "No way!" I said, computers were something I had to use for an hour a day in my middle school lab and, other than playing The Oregon Trail when the weather kept us inside at recess, that was about it. I didn't enjoy using computers to type properly to how to manage a spreadsheet, the things we were learning in class, so why would I enjoy learning to program them?
 

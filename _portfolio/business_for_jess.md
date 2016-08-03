@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Blocipedia
-thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+title: Small Business Website
+thumbnail-path: "img/Jess_business.png"
+short-description: Build a function website for a small business that can handle their scheduling.
 
 ---
 

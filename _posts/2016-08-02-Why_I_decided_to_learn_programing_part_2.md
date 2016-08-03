@@ -1,6 +1,7 @@
+---
 layout: post
 title: How my mind was changed.
-
+---
 
 When I was 28 I got engaged to be married and it quickly became apparent that the odd jobs at odd hours I'd been working were not ideal for a healthy relationship with someone who worked 9-5.  I again started contemplating different job paths, thinking maybe it's time I find an actual career not just another job. Jake again mentioned that I could look for something that would get me into the tech field, maybe study programing in the evenings. "I rarely use a computer, don't own any fancy gadgets, still listen to music on CDs and read books on paper." I told him, how could someone like me possibly enjoy a lifetime in the technology industry?
 
