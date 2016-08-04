@@ -50,11 +50,12 @@
   }
   .post-teaser {
     width: 46%;
-    @media (max-width:768px) {
+    max-width: 450px;
+    @media (max-width:786px) {
       width:100%;
     }
     margin:0 2% 1em;
-    display: block;
+    display: inline-block;
     background-size: $feature-image-size;
     float:left;
     &:first-child {
@@ -67,8 +68,11 @@
   .excerpt {
     margin: 1em 0;
   }
-}
 
+}
+h4 {
+  text-align: center;
+}
 // Work listing
 .work {
   @extend %padding-regular;
@@ -77,17 +81,22 @@
   display: block;
   float: left;
   width: 100%;
+
   .project {
-    display: block;
-    float: left;
-    clear:both;
+    display: inline-block;
     width:100%;
-    margin:2em auto;
+    max-width: 500px;
+    clear: none;
+    margin: 1em auto;
     .project-thumb {
-      width: 100%;
+      width: 50%;
+      margin-right: 15px;
       float: left;
       margin-bottom: 0;
       display: inline-block;
+      border: solid;
+      border-radius: 4px;
+
       @media (max-width: 768px) {
         width:99%;
       }
@@ -98,7 +107,7 @@
       }
     }
     .project-description {
-      width:100%;
+      width:45%;
       float:left;
       text-align: center;
       margin-bottom: 0;
@@ -113,7 +122,11 @@
           font-weight:600;
         }
       }
+      p {
+        margin-top: 15px;
+      }
       p a:hover {
+        margin-top: 15px;
         @extend %link-hover;
       }
     }
@@ -121,7 +134,7 @@
       margin-top: 1em;
     }
   }
-  
+
 }
 // Pagination
 .pagination .button {
