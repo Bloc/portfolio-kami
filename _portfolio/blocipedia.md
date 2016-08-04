@@ -2,7 +2,7 @@
 layout: post
 title: Blocipedia
 thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+short-description: Build a production quality SaaS app that allows users to create their own wikis. 
 
 ---
 
@@ -27,4 +27,4 @@ The final site, tested by myself along with my Bloc mentor, successfully impleme
 
 ## Conclusion
 
-The project was first and foremost designed with learning in mind, in this it was a great success.  I was able to reinforce all of my basic ruby skills while learning and successfully implementing new design patterns such as the collaboration model's relationship with both users and wikis as well as discovering how to utilize new gems that make it possible to monetize an app, allow the use of markdown syntax within the app, making web extensions user friendly, and adding additional security to the app.  The success of this project has provided me with many new skills, and strengthened old ones, that I will continue using for my future projects. 
+The project was first and foremost designed with learning in mind, in this it was a great success.  I was able to reinforce all of my basic ruby skills while learning and successfully implementing new design patterns such as the collaboration model's relationship with both users and wikis as well as discovering how to utilize new gems that make it possible to monetize an app, allow the use of markdown syntax within the app, making web extensions user friendly, and adding additional security to the app.  The success of this project has provided me with many new skills, and strengthened old ones, that I will continue using for my future projects.
