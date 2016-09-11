@@ -5,28 +5,28 @@ url: "http://www.your-domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Tyrion Lannister # Your name will go here
+  title: Tara McParland # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
      <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <p>I'm a kickass developer specializing in Rails</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: tara.mcparland@gmail.com# Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: https://www.facebook.com/tara.mcparland
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: tmcparland # github profile name, e.g. "madebymunsters"
   google_plus:
-  instagram:
+  instagram: ardaquendiel
   linkedin:  # Full URL
   pinterest:
   reddit:
