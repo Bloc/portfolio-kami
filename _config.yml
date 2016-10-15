@@ -10,7 +10,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Budding Software Developer</h1>
+     <h1>Aspiring Software Developer</h1>
      <p>I'm on a journey to become an amazing software developer</p>
   header_text_feature_image:
   footer_text: >
