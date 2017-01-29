@@ -1,0 +1,9 @@
+---
+layout: post
+title: Why I Chose to Learn Web Development
+---
+
+I am old enough to remember when cell phones did not exist, when starting a computer took patience, when the internet (if you were lucky enough to even have it) was mostly a collection of dull html pages. I am also young enough to have been able to grow up playing video games, chatting on AOL with friends, and even using tablets in the classroom. I took robotics and computer programming classes in middle school and high school and was also a part of several science clubs. I participated in SECME competitions and even built a rudimentary binary computer out of cardboard. I have always appreciated and enjoyed learning about technology and its new innovations. Since starting college, technology has become an integral part of my daily life, as it has for so many. I feel lucky to have grown up the way that I did. I am able to learn and use new technologies quickly, but I am also not bound to them.
+I have had several jobs since starting and graduating from college and have always found myself drawn to the technological aspects of them. I would quickly learn how to use the different programs and even surpass the knowledge of those who taught me. 
+After learning some programing basics through free programs online, I found that web development was one of the fastest expanding areas for both languages and career potentials. Between all of the different job opportunities and flexible ways of learning the languages, I decided to pursue web development further. 
+I have now been coding for almost a year and find the coursework to be intriguing with just enough of a challenge to keep me on my toes. I have always enjoyed puzzles and finding unique ways to solve problems. I am excited to learn more and to be a part of the evolving world of technology.
