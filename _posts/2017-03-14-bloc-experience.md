@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Experience with Bloc
-3/14/17
 ---
 
 So far my experience with Bloc has been a positive one. I am based in the Bay Area, specifically in San Francisco where their head quarters are located. This has given me a chance to actually meet people involved in person. This has inspired me to push myself knowing that are people that really care about sharing their knowledge to better the community we are involved in. 
