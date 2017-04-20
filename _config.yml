@@ -5,8 +5,8 @@ url: "http://www.your-domain.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Tyrion Lannister # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Benjamin Jablonowski # Your name will go here
+  description: "My personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -18,16 +18,16 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: bjablonowski@hotmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: Lumbersaur # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: https://www.linkedin.com/in/benjamin-jablonowski-a7ab6ba9/  # Full URL
   pinterest:
   reddit:
   soundcloud:
