@@ -102,7 +102,7 @@ Throughout the project, testing was a critical part just to make sure each bit o
 {:.center}
 ![]({{ site.baseurl }}/img/codesnippet9.png)
 
-Another important concept that may seem obvious is to name things to describe what is being passed around. The power of Angular is the ability to use a given name to refer to a much larger set of information such as a function. Argument names should make sense with the expected result otherwise there can be a lot of confusion and lack of clarity as to what is being passed and returned. Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Another important concept that may seem obvious is to name things to describe what is being passed around. The power of Angular is the ability to use a given name to refer to a much larger set of information such as a function. Argument names should make sense with the expected result otherwise there can be a lot of confusion and lack of clarity as to what is being passed and returned. 
 
 > "When I first looked at Real Talk, I thought the layout was boring and the messages were laid out in a way that the flow of the conversation didn't seem intuitive. Now with the changes in the layout, I like how I can see the usernames and the time the messages were sent. I also liked how the font wasn't a boring one." 
 
