@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami/" # the subpath of your site, e.g. /blog/ (optional)
+baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
 url: "https://jdai54.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
