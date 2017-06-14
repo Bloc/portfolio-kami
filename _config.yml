@@ -18,16 +18,16 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "praveenyr@gmail.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "praveenyr"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  "https://www.linkedin.com/in/praveenranga"
   pinterest:
   reddit:
   soundcloud:
