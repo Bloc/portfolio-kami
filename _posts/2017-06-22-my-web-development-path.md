@@ -1,0 +1,14 @@
+---
+layout: post
+title: My web development path
+excerpt: Everyone has their own story. Here is Where it all began for me and where I am now.
+---
+When I first started in marketing, I was asked to be the marketing lead and project manager on several online product launches. I worked closely with our web developer, IT systems, product managers and many other technology related fields. I found myself interested in what the web developer was doing and how that role fit in to the larger scheme. 
+
+I continued to work on projects that involved front-end developers and started to take basic classes online like Codecademy. I really liked that coding required an attention to detail, which is a natural strength for me, but wasn’t completely rigid. There are many ways you can accomplish a task. I also loved how what looks like a boring line of letters and symbols, could magically become something beautiful on a screen. That still amazes me even with a better understanding of how it all works! My career so far had done a great job of nurturing that logical detailed side of me, but at the end of the day I couldn’t point to something and say I made that. I may have managed a team that did but it wasn’t the same.
+
+Realizing this, I decided to invest further. I signed up for Skillcrush and built my own very basic website for hikes in my area (slohiker.com). I talked to developers and tried to get a better understanding of how I could gain the skills to join their ranks and what that would look like. Armed with just enough knowledge to be dangerous and lucky to be at a company that supports career growth, I was able to make the move to our web team. There I started working in Drupal doing content updates and managing projects exclusively related to our website. 
+
+I combined forces with another woman at my company also interested in web development. We schedule time to “nerd out” together and help motivate each other. We both knew just enough to know how long that road was going to be.  She made the big move first to sign up for Bloc. Hearing what she was learning inspired me and I too decided to make the big investment. 
+
+I’m now a third of the way through the program. There’s still no doubt in my mind it is what I want to do. I’ve had many celebratory dances, fist pumps on the couch and “heck ya I did that” moments. I’ve also had those “I’m pretty sure I had a lobotomy as a child” and bang your head on the wall moments, when I don’t understand. Through it all though, I keep plugging and my mentor at Bloc, Christine, has been a huge help. I can’t wait to one day do this as my full-time job and be a mentor for other woman out there too!
