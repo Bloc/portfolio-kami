@@ -2,7 +2,7 @@
 layout: post
 title: Bloc Jams Angular
 thumbnail-path: "img/blocjamsangular.png"
-short-description: The goal of the project is to convert the Bloc Jams site to an Angular application.
+short-description: The goal of the project was to convert the Bloc Jams site to an Angular application.
 
 ---
 

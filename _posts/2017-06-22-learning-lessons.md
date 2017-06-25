@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning Lessons
+title: Learning lessons
 excerpt: A few quick tips for someone new to web development that may just help.
 ---
 There are a variety of challenges a person faces when they are becoming a web developer. I am no different and have faced many and will continue to face more (Ruby on Rails is on the horizon). I am going to share a few in this blog post and what I did to overcome them in hopes it can help others.

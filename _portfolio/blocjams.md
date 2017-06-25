@@ -2,7 +2,7 @@
 layout: post
 title: Bloc Jams
 thumbnail-path: "img/blocjams.png"
-short-description: The goal of the project is to build a basic digital music player like Spotify that is responsive.
+short-description: The goal of the project was to build a basic digital music player like Spotify that is responsive.
 
 ---
 

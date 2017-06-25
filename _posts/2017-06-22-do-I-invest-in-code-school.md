@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do I invest in a code school?
-excerpt: How I made my decision about going to code school.The questions to ask yourself.
+excerpt: How I made my decision about going to code school. The questions to ask yourself.
 ---
 If money and time were no object, everyone interested in being a developer would say yes. For most of us though that isn’t the case. My first inclination getting started was no, there are a lot of free resources and I can learn this on my own. I started down that path and did learn some but ultimately felt like I was no longer progressing. I was acutely aware of how much I had to learn and how the resources were getting progressively more limited to move to the next level. I was also concerned that I may not be learning best practices and the perfectionist in me didn’t like that. 
 

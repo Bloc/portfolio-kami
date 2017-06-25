@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My web development path
-excerpt: Everyone has their own story. Here is Where it all began for me and where I am now.
+excerpt: Everyone has their own story. Here is where it all began for me and where I am now.
 ---
 When I first started in marketing, I was asked to be the marketing lead and project manager on several online product launches. I worked closely with our web developer, IT systems, product managers and many other technology related fields. I found myself interested in what the web developer was doing and how that role fit in to the larger scheme. 
 
