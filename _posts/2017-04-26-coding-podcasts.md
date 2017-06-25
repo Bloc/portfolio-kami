@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Coding Podcasts?!
 ---
 Hey everyone! Just wanted to share something that I discovered recently that has been tremendously beneficial for me on my coding journey as of late. As the title suggests, it's coding podcasts! For those of you who don't regularly listen to podcasts or maybe you already do, you might be thinking, "huh?" I thought the same thing as well. Since coding is so visual, I never thought that I'd be able to benefit from something delivery via audio. Well I was kind of in a rut with coding and frankly somewhat discouraged after staring at the same error for what seemed like days. Then I stumbled upon this blog post which shares similar initial thoughts towards coding podcasts as I had ([check it out here](https://medium.freecodecamp.com/the-best-podcasts-for-new-coders-and-the-best-tools-for-listening-to-them-df393b1c8dc)). The Code Newbie podcast was the one that I gravitated to since I am a "code newbie" myself. At this point I've listened to probably close to a dozen of them, and while I can't say that I've actually learned specific coding concepts through it, I've benefited in a number of other ways.

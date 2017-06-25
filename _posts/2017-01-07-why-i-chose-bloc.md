@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Why I Chose Bloc
 ---
 Why I chose Bloc

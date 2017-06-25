@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Learning by Documenting Code!
 ---
 The importance of documenting code, especially if you're a newbie!

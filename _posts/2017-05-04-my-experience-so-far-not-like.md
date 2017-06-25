@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: My Experience So Far (What I Don't Like)
 ---
 So here I am near the half way point, it's amazing to be able to write that! I have learned so much, and I know that, but at the same time I also know that there is so much that I don't know yet. It's a strange feeling. We all wish that we could just push a magic button and suddenly all of this knowledge would just soak into our brains, but things don't work like that. It has been a process. There have been times where I felt like I have just stared at code and tried everything but nothing seems to work. I've searched online to find answers but either the problem others were having didn't quite match up with mine, or simply the answer provided by others only confused me more (which is what happens a lot of the time when I end up on Stack Overflow!).
