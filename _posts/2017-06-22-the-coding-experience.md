@@ -24,7 +24,7 @@ Before you actually write any code,you'll have to learn the concepts of whatever
 _Fundamentals_ are very very important.
 
 ### Mentorship
-Mentorship is often an understated but an important aspect of learning to code.A mentor will not only guide you through the pain points when you're stuck,but also guide on best practises,design patterns,potential hiccups, and be a constant encouragement throughout your journey.While I was fortunate enough to have been assigned a mentor from my web development bootcamp,I understand not everyone will be as lucky.But there are ways.
+Mentorship is often an understated but an important aspect of learning to code.A mentor will not only guide you through the pain points when you're stuck,but also provide guidance on best practises,design patterns,potential hiccups, and be a constant encouragement throughout your journey.While I was fortunate enough to have been assigned a mentor from my web development bootcamp,I understand not everyone will be as lucky.But there are ways.
 
 - Reach out to your network of friends and colleagues and seek help.
 - Go to tech meetups in your area.
@@ -33,31 +33,31 @@ Mentorship is often an understated but an important aspect of learning to code.A
 Networking is also going to help you with your career down the line.
 
 ### Communities 
-I believe a bootcamp is the best way to begin your journey into coding.You have a mentor,a structured coursework,accountability and career services to go with it.But if bootcamps are not your thing,there are a many online communities to learn programming concepts and get good them.Some of them are -
+I believe a bootcamp is the best way to begin your journey into coding.You have a mentor,a structured coursework,accountability and career services to go with it.But if bootcamps are not your thing,there are a many online communities to learn programming and get good at them.Here are a few of them -
 
 - [Codeacademy](https://www.codecademy.com/)
 - [Codeschool](https://www.codeschool.com/) - _A personal favorite!_
 - [Udemy](https://www.udemy.com/courses/)
 - [Udacity](https://www.udacity.com/)
 
-Besides learning,there are other communities - [StackOverflow](https://www.stackoverflow.com/), [Reddit](https://www.reddit.com/) and [Google+](https://plus.google.com/communities) which will help you navigate through difficult situations in your jouney.They provide 
+Besides learning,there are other communities - [StackOverflow](https://www.stackoverflow.com/), [Reddit](https://www.reddit.com/) and [Google+](https://plus.google.com/communities) which will help you navigate through difficult situations in your journey.They provide 
 
 - Tips and tricks 
 - Problem solving 
-- New and different perspective
+- New and different perspectives
 - Oppurtunity to network
 
 ### Perseverance 
 My Crossfit trainer often asks our group "How badly do you want it?" just when fatigue and pain are about to hit us during our intense workouts.I started crossfitting about 10 months ago and it has changed my life.I often draw parallels from Crossfit to everything I do in life and that includes coding. After every [WOD](http://www.mensfitness.com/training/build-muscle/what-wod-decoding-language-crossfit), I am left with the feeling of "extreme satisfaction" - a condition where the state of body and mind are at peace with each other because they both know they've given everything - every ounce of energy to the WOD.I might have made that up but you get the gist!
 
-Coding is similar Crossfit in many ways than one.You need to ask yourself some of the same questions before you learn to code -
+Coding is similar to Crossfit in many ways than one.You need to ask yourself some of the same questions before you learn to code -
 
 1. How badly do you want to learn to code?
 2. Coding is a long and ardous journey.Do you have what it takes to last the marathon?
-3. You WILL be stuck at times and want to give up.Do you have what it takes to keep at it and come back stronger?
+3. You WILL be stuck at times and want to give up.Do you what it takes to keep at it and come back stronger?
 4. Learning to code is a step by step process and you cannot be an awesome developer overnight.Do you have the necessary patience?
 
-Coding is extremely fun,intuitive and an extremely rewarding exprience if you do it right.The idea of building your first app from scratch and see it come to fruition is an amazing thing.
+Coding is extremely fun,intuitive and an extremely rewarding exprience if you do it right.The idea of building your first app from scratch and see it come to fruition is an amazing feeling.
 
 Since I'm a sucker for quotes ,I'm going to leave this gem here - 
 
