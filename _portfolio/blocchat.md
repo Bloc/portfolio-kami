@@ -7,7 +7,7 @@ short-description: Build a self-destructing to-do list application.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocchat/blocchat-main.png)
+![](/img/blocchat/blocchat-main.png)
 
 ## Explanation
 

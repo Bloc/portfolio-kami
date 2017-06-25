@@ -6,7 +6,7 @@ short-description: Build a replica of wikipedia to create,share and collaborate 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/cogniden/cogniden-main.png)
+![](/img/cogniden/cogniden-main.png.baseurl }})
 
 ## Explanation
 
