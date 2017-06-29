@@ -5,7 +5,7 @@ title: I Passed My First Assessment!
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/baby.jpg)
+![]({{ site.baseurl }}/img/baby.jpeg)
 
 I passed! They didn't kick me out of the program!
 
