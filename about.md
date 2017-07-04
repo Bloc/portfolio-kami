@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-Hi, I'm Jake. I'm a husband and father who also happens to be studying web development as a student at Bloc.io. I learned about web development and coding bootcamps in 2015. I tried it out and took various free courses and finally in 2016 I decided to take the plunge after I realized I couldn't put it down!
+Hi, I'm Jake. I'm a husband and father who also happens to be studying web development as a student at Bloc.io. I first found out about web development and coding bootcamps in 2015. I tried out coding through various free courses offered by Codecademy and was immediately hooked! I wanted to learn more but didn't know where to really start. Finally in 2016 I decided to take the plunge and enroll in Bloc's apprenticeship program because I knew if I never pursued this, I would regret it for the rest of my life.
 
 I created this blog to document my coding journey and to make myself reflect and put my thoughts into words. Here you'll see the projects I've worked on as I share my experiences. If you read this, I hope you enjoy it! Feel free to reach out to me if you have questions or are interested in web development too!
 
