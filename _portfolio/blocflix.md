@@ -5,7 +5,7 @@ thumbnail-path: "img/blocflix.png"
 short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
 
 ---
-
+//asset to display project images
 {:.center}
 ![]({{ site.baseurl }}/img/blocflix.png)
 
