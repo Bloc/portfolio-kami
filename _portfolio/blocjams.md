@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Bloc Jams
-thumbnail-path: "img/blocjamscover.png"
-short-description: Build a digital music player.
+title: My Mood Mix
+thumbnail-path: "img/mymoodmixcover.png"
+short-description: Build a digital music player using JavaScript and jQuery.
 
 ---
-
+[Check it out here](https://mymoodmix.netlify.com/)
 {:.center}
-![]({{ site.baseurl }}/img/blocjamscover.png)
+![]({{ site.baseurl }}/img/mymoodmixcover.png)
 
 ## Explanation
 
-This project was actually three separate projects used to build the Bloc Jams app using first plain JavaScript, then jQuery, and finally AngularJS. The purpose of executing it three times in separate ways was to establish the foundations of each one, find out their differences when trying to execute the functionality. My role was to build the app each time for the typical user wanting to play and listen to music by streaming it. 
+This project was actually two separate phases used to build the My Mood Mix app using first plain JavaScript, then refactoring it using jQuery. The purpose of executing it twice in separate ways was to establish the foundations of each one, and to find out their differences when trying to execute the functionality. My role was to build the app each time for the typical user wanting to play and listen to music by streaming it.
 
 ## Problem
 
@@ -72,8 +72,6 @@ When jQuery was added to the project, the player bar was also implemented which 
 
 After all the functions had been put in place, the Buzz music library was added for the actual playing of audio files by using the Buzz API which contained helpful functions such as `.play()`, `.pause()`, `.stop()`, and `isPaused()`.
 
-After the JavaScript and jQuery portion had been completed, it was time to build the app using the AngularJS framework. This required configuring routing and states for the application, implementing controllers for each view in the application, a service to control song playback, a custom directive that controls song and volume sliders, and a custom time code filter.
-
 ## Results
 
 In order to test if the app was working property, a local server was set up using `npm start` in the console, and I constantly refreshed the app in the browser to make sure that what I added was working properly. Before using DOM scripting in JavaScript or selectors in jQuery, or using controllers, services, and views in AngularJS, I manually filled in data in the HTML to make sure that the layout looked right.
@@ -85,8 +83,8 @@ When the issue above was discovered by one of my testers, I realized that the re
 {:.center}
 ![]({{ site.baseurl }}/img/blocjams_fixedplayer.png)
 
-In the code here, I created a conditional that checked to see if `currentSoundFile == null`. If it was, it would set the song to the first song as well as set the `currentlyPlayingSongNumber` to 1 as well. 
+In the code here, I created a conditional that checked to see if `currentSoundFile == null`. If it was, it would set the song to the first song as well as set the `currentlyPlayingSongNumber` to 1 as well.
 
 ## Conclusion
 
-From producing the app with plain JavaScript first, then jQuery, then Angular, I was able to get a strong sense of how they could each achieve the same purpose but sometimes in much different ways. AngularJS was the most different from the other two because of how it is built for creating SPAs(single page applications) through controllers, services, and views. When going from JavaScript to jQuery, it felt much more like refactoring where many lines of code could be simplified into just a few lines in jQuery. Despite these, JavaScript is the foundation, and without building the application through plain JavaScript first, I would not have as good of an understanding of the DOM and how code is interpreted. I hope to be able to add more functionality to this app in the future such as the ability for users to add their own music and to personalize it for themselves.
+From producing the app with plain JavaScript first then jQuery, I was able to get a strong sense of how they could each achieve the same purpose but sometimes in much different ways. When going from JavaScript to jQuery, it felt much like refactoring where many lines of code could be simplified into just a few lines in jQuery. Despite these, JavaScript is the foundation, and without building the application through plain JavaScript first, I would not have as good of an understanding of the DOM and how code is interpreted. I hope to be able to add more functionality to this app in the future such as the ability for users to add their own music and to personalize it for themselves.

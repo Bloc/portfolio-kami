@@ -2,10 +2,10 @@
 layout: post
 title: Real Talk
 thumbnail-path: "img/realtalkmessageentered.png"
-short-description: Real Talk is a chatroom application for people trying to connect to share their passions and ideas.
+short-description: Real Talk is an AngularJS chatroom application for people trying to connect to share their passions and ideas.
 
 ---
-
+[Check it out here](https://realtalk.netlify.com/)
 {:.center}
 ![]({{ site.baseurl }}/img/realtalklogin.png)
 
@@ -15,7 +15,7 @@ Real Talk was born out of a desire to create a chat application where people cou
 
 ## Problem
 
-The application had to be built using a provided repo that already included common application files, configuration files, and a NodeJS server file. My job requirement was that I needed to meet at least fulfill a set of user stories. These included having a list of available chat rooms, being able to create chat rooms, being able to see a list of messages in each chat room, being able to set a username and display it in chat rooms, and lastly to be able to send messages associated with a username in a chat room. The goal was to be able to fulfill these user stories while building a single page application. 
+The application had to be built using a provided repo that already included common application files, configuration files, and a NodeJS server file. My job requirement was that I needed to meet at least fulfill a set of user stories. These included having a list of available chat rooms, being able to create chat rooms, being able to see a list of messages in each chat room, being able to set a username and display it in chat rooms, and lastly to be able to send messages associated with a username in a chat room. The goal was to be able to fulfill these user stories while building a single page application.
 
 ## Solution
 
@@ -61,7 +61,7 @@ Now in HomeCtrl a method was created to be called when the view submit button is
 {:.center}
 ![]({{ site.baseurl }}/img/codesnippet8.png)
 
-After adding the `ng-click` and the form for adding the new room information in the view, this was the result: 
+After adding the `ng-click` and the form for adding the new room information in the view, this was the result:
 
 {:.center}
 ![]({{ site.baseurl }}/img/realtalkroomtyped.png)
@@ -74,7 +74,7 @@ The next user story was to allow the user to see a list of messages in each chat
 {:.center}
 ![]({{ site.baseurl }}/img/realtalkmessageentered.png)
 
-In a chat application it is important for users to be able to have their own username and have it displayed in order to know who sent each message. Here cookies were introducted through the `ngCookies` module to store this information. In addition, a login page was added in order to check whether a user had a username or not. If not, the user would be routed to a log in page where he would have to create and submit one. This required a new view, controller, and service. 
+In a chat application it is important for users to be able to have their own username and have it displayed in order to know who sent each message. Here cookies were introducted through the `ngCookies` module to store this information. In addition, a login page was added in order to check whether a user had a username or not. If not, the user would be routed to a log in page where he would have to create and submit one. This required a new view, controller, and service.
 
 {:.center}
 ![]({{ site.baseurl }}/img/realtalklogin.png)
@@ -102,9 +102,9 @@ Throughout the project, testing was a critical part just to make sure each bit o
 {:.center}
 ![]({{ site.baseurl }}/img/codesnippet9.png)
 
-Another important concept that may seem obvious is to name things to describe what is being passed around. The power of Angular is the ability to use a given name to refer to a much larger set of information such as a function. Argument names should make sense with the expected result otherwise there can be a lot of confusion and lack of clarity as to what is being passed and returned. 
+Another important concept that may seem obvious is to name things to describe what is being passed around. The power of Angular is the ability to use a given name to refer to a much larger set of information such as a function. Argument names should make sense with the expected result otherwise there can be a lot of confusion and lack of clarity as to what is being passed and returned.
 
-> "When I first looked at Real Talk, I thought the layout was boring and the messages were laid out in a way that the flow of the conversation didn't seem intuitive. Now with the changes in the layout, I like how I can see the usernames and the time the messages were sent. I also liked how the font wasn't a boring one." 
+> "When I first looked at Real Talk, I thought the layout was boring and the messages were laid out in a way that the flow of the conversation didn't seem intuitive. Now with the changes in the layout, I like how I can see the usernames and the time the messages were sent. I also liked how the font wasn't a boring one."
 
 Another user gave feedback mentioning how he didn't like how the navigation menu that holds the list of chatrooms was hidden when you go to the page for the first time.
 
@@ -114,4 +114,4 @@ I agreed with this assessment and thought it made sense as well, so I had the me
 
 ## Conclusion
 
-Going into the project I had little experience working with Angular and wondered how I could build a functioning app mostly from scratch. I had to think through the components and features that were critical to a messaging application. Even though I have used them plenty before, I had never sat down and thought about what features I wanted and other details. I was surprised at how much I learned through the process of struggling through parts of this project such as how to name a method in a service and then how to properly call it in the controller and finally adding that to the view. There were many times where things did not initially work mostly because I had not called a function properly in the controller causing it not to work. The flow of Angular has become much more clear to me now, and I hope to be able to build more features to this application over time and hopefully to apply this to other projects as well. 
+Going into the project I had little experience working with Angular and wondered how I could build a functioning app mostly from scratch. I had to think through the components and features that were critical to a messaging application. Even though I have used them plenty before, I had never sat down and thought about what features I wanted and other details. I was surprised at how much I learned through the process of struggling through parts of this project such as how to name a method in a service and then how to properly call it in the controller and finally adding that to the view. There were many times where things did not initially work mostly because I had not called a function properly in the controller causing it not to work. The flow of Angular has become much more clear to me now, and I hope to be able to build more features to this application over time and hopefully to apply this to other projects as well.
