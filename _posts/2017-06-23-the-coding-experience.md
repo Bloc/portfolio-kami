@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The coding experience
-date: 2017-16-22 22:47:25 -0700
+date: 2017-06-23 22:47:25 -0700
 categories: coding
 ---
 My introduction to coding  is a little different from others due to the fact that I have already been _developing_ applications for about 12 years. My background relates to completely different but relatable set of integration technologies([TIBCO](https://en.wikipedia.org/wiki/TIBCO_Software), [MuleSoft](https://en.wikipedia.org/wiki/MuleSoft)).So before I started building web applications,I had been familiar with most of the tech jargon - _Object Oriented Concepts_,_HTML_, _HTTP_,_Webservice_,_API_ etc.

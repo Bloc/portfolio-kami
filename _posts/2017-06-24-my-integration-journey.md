@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My "Integration" journey
-date: 2017-16-23 09:44:10 -0700
+date: 2017-06-24 09:44:10 -0700
 categories: general
 ---
 
