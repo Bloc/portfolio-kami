@@ -50,17 +50,20 @@ Cogniden needs to be able to provide users with the ability to upgrade their def
 #### Wiki Collaboration : 
 A user needs to collaborate with other users on private wikis,and I modeled this using Rails' _Active Record Associations_.Since a wiki can have many collaborator,I've used the *has_many* and *belongs_to* associations.
     
-    `class Wiki < ApplicationRecord
+    ```
+    class Wiki < ApplicationRecord
         belongs_to :user
         has_many :collaborators, dependent: :destroy
         ...
-     end`
+    end
 
-    `class Collaborator < ApplicationRecord
+    class Collaborator < ApplicationRecord
         belongs_to :wiki
         belongs_to :user`
         ...
-     end`
+    end
+    
+    ```
     
 
 Detailed guide to Active Record Associations is available (http://guides.rubyonrails.org/association_basics.html#has-many-association-reference "here").

@@ -33,50 +33,57 @@ The following user stories are part of the blocchat app:
 
 The first step would be to create a room factory,inject the `$firebaseArray()` service and then use the firebase's `child()` method to query the rooms.
 
-`(function() {
-  function Room($firebaseArray) {
-    var ref = firebase.database().ref().child("rooms");
-    var rooms = $firebaseArray(ref);
-
-    window.foo = $firebaseArray(firebase.database().ref().child("messages"));
-
-    return {
-      all: rooms
-    };
-  }
-
-  angular
-    .module('blocChat')
-    .factory('Room', ['$firebaseArray', Room]);
-})();`
+  ```
+  (function() {
+    function Room($firebaseArray) {
+      var ref = firebase.database().ref().child("rooms");
+      var rooms = $firebaseArray(ref);
+  
+      window.foo = $firebaseArray(firebase.database().ref().child("messages"));
+  
+      return {
+        all: rooms
+      };
+    }
+  
+    angular
+      .module('blocChat')
+      .factory('Room', ['$firebaseArray', Room]);
+  })();
+  
+  ```
    
 #### Create chat rooms
 ----------------------
 
 To create new chat rooms,I've used the AngularFire's `$add` method inside a RoomFactory method `add` which takes `room` as an argument.
 
-`(function() {
-  function Room($firebaseArray) {
-  ......
-  ......
+  ```
+  (function() {
+    function Room($firebaseArray) {
+    ......
+    ......
+    
+      rooms.addRoom = function(name){
+      this.$add({name: name});
+      };
+    
+      }
   
-    rooms.addRoom = function(name){
-    this.$add({name: name});
-    };
+    angular
+      .module('blocChat')
+      .factory('Room', ['$firebaseArray', Room]);
+  })();
   
-    }
-
-  angular
-    .module('blocChat')
-    .factory('Room', ['$firebaseArray', Room]);
-})();`
+  ```
 
 #### List Messages
 --------------------
 
 To list all the messages when the user clicks a chat room,the pattern is same as that of a room - create a `message` factory,inject the `$firebaseArray` service ,and use the `child()` method to query for messages.
 
-  `(function() {
+  ```
+  (function() {
     function Message($firebaseArray) {
     var ref = firebase.database().ref().child("messages");
     //var messages = $firebaseArray(ref);
@@ -94,14 +101,17 @@ To list all the messages when the user clicks a chat room,the pattern is same as
     angular
         .module('blocChat')
         .factory('Message', ['$firebaseArray', Message]);
-    })();`
+    })();
+    
+  ```
 
 #### Send messages
 ------------------
 
 In this case,we add a method to your Message factory called send, that takes a message object as an argument and submits it to your Firebase server:
 
-  `(function() {
+  ```
+  (function() {
     function Message($firebaseArray) {
     ....
     ....
@@ -116,7 +126,9 @@ In this case,we add a method to your Message factory called send, that takes a m
      angular
     .module('blocChat')
     .factory('Message', ['$firebaseArray', Message]);
-    })();`
+    })();
+    
+  ```
 
 #### User Authentication
 -------------------------
@@ -126,7 +138,8 @@ To store the user in the browser,I used _cookies_ and to integrate cookies with 
 - Inject the `ngCookies` module in to the Angular app's dependency array
 - Inject the $cookies service into the run block's dependencies to check for the presence of the cookie holding the username
 
-  `(function() {
+  ```
+  (function() {
     function BlocChatCookies($cookies) {
       var currentUser = $cookies.get('blocChatCurrentUser');
       if (!currentUser || currentUser === '') {
@@ -137,7 +150,9 @@ To store the user in the browser,I used _cookies_ and to integrate cookies with 
     angular
       .module('blocChat')
       .run(['$cookies', BlocChatCookies]);
-    })();`
+    })();
+    
+    ```
 
 Next, I've used the basic javascript `prompt()` in the authentication controller to prompt the user for _email_ and _password_ when user clicks 'Login'
 
