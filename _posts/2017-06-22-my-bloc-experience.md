@@ -1,15 +1,15 @@
 ---
 layout: post
-title: My _**Bloc**_ experience
+title: My _Bloc_ experience
 date: 2017-06-22 09:13:10 -0700
 categories: general
 ---
 
 ## Why Bloc?
-About a year ago,I realized I needed to enhance my skills due to 
-1. I'm always itching to learn something _**new**_  
-2. I had this incessant need to get my hands dirty with code.
-3. Sharpen my programming skills for better career prospects.
+About a year ago,I realized I needed to enhance my skills due to the following -
+1. I was itching to learn something _**new**_. 
+2. An incessant need to _**write**_ code.
+3. _**Sharpen**_ my programming skills for better career prospects.
 
 Until then,I had never heard about the concept of a _**Bootcamp**_ and it was pure coincidence when I chanced upon a bootcamp ad on my facebook page.The idea of learning new technologies,with mentorship and the community support, and the career help to go with it all sounded very interesting indeed.After a couple of months of researching bootcamps in the SF Bay Area(there are tons!),I honed the list to 3 - _**AppAcademy**_,_**Dev BootCamp**_ and _**Bloc**_. While the best thing about AA and DBC was the incredible career help(they invite companies to interview students),they were both very expensive.That and the lack of a part time option made me hesitant.Bloc on the other hand was cheaper,had an online and part time option,flexible hours,and good career services.After I attended one of Bloc's intro webinars, I was hooked and signed up within 2 days!
 
