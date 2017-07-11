@@ -9,19 +9,20 @@ categories: general
 I was first introduced to integration technologies - ([TIBCO](https://en.wikipedia.org/wiki/TIBCO_Software)] to be specific, when I started my first job as a software engineer out of college in '03.I was part of a unit called "Enterprise Solutions" in my company which supposedly dealt with the latest and cutting edge technologies in the market.Keep in mind those were the days where terms like   [ERP](https://en.wikipedia.org/wiki/Enterprise_resource_planning) , [ESB](https://en.wikipedia.org/wiki/Enterprise_service_bus) , [EAI](https://en.wikipedia.org/wiki/Enterprise_application_integration) were still new.All I knew was C,and some Java which we were trained on as part of onboarding. So TIBCO was a refreshing change, but little did I know that I would end up making a career out of it.
 
 ## TIBCO
-TIBCO was founded by [Vivek Ranadive](https://en.wikipedia.org/wiki/Vivek_Ranadiv%C3%A9) in 1997. When I started dabbling in TIBCO in my nascent days,I distinctly remember one of my colleagues saying that TIBCO had "digitized" Wall Street.And that 90% of the trading floor runs TIBCO's software.I was fascinated.In the 80s,Vivek had noticed that the financial systems in those days had to deal with a ton of systems,databases/monitors and wires.A trader would collect a lot information from disparate systems and databases and eventually make a trade.Vivek sensed an opportunity and wanted to make the information available to the traders immediately.--
+TIBCO was founded by [Vivek Ranadive](https://en.wikipedia.org/wiki/Vivek_Ranadiv%C3%A9) in 1997. When I started dabbling in TIBCO in my nascent days,I distinctly remember one of my colleagues saying that TIBCO had "digitized" Wall Street.And that 90% of the trading floor runs TIBCO's software.I was fascinated and as with every great company,TIBCO has a cool story too -
 
-> "If you look inside a computer, there's a back plane, or bus, with cards that plug in to run the machine's functions. My idea was to create a software bus and plug applications into that." 
+In the 80s,Vivek had noticed that the financial systems in those days had to deal with a ton of systems,databases/monitors and wires.A trader would collect a lot information from disparate systems and databases and eventually make a trade.Vivek sensed an opportunity and wanted to make the information available to the traders immediately.--
 
-- Vivek Ranadive
+> "If you look inside a computer, there's a back plane, or bus, with cards that plug in to run the machine's functions. My idea was to create a software bus and plug applications into that." - ***Vivek Ranadive***
+
 
 Thats where the concept of a "bus" was born.The information bus would streamline the information from various systems and make it available "real-time".TIBCO's [Rendezvous](https://en.wikipedia.org/wiki/TIBCO_Rendezvous) was the messaging platform for the bus resulting in a true publish-subscribe mechanism for the "digitization" of Wall Street.
 
 While TIBCO was founded on Rendezvous's success,it made its name in the early part of 21st century primarily on 3 products - 
 
-- TIBCO [Business Works](https://www.tibco.com/products/tibco-businessworks)(BW) - the main service orchestration or "development" component 
-- TIBCO [Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service)(EMS) - TIBCO's implementation of [JMS](https://en.wikipedia.org/wiki/Java_Message_Service)
-- TIBCO [Business Events](https://www.tibco.com/products/tibco-businessevents)(BE) - a complex event processing and rules engine
+- [TIBCO Business Works](https://www.tibco.com/products/tibco-businessworks)(BW) - the main service orchestration or "development" component 
+- [TIBCO Enterprise Message Service](https://www.tibco.com/products/tibco-enterprise-message-service)(EMS) - TIBCO's implementation of [JMS](https://en.wikipedia.org/wiki/Java_Message_Service)
+- [TIBCO Business Events](https://www.tibco.com/products/tibco-businessevents)(BE) - a complex event processing and rules engine
 
 TIBCO has bought tens of companies in the past 15 years ranging from _Analytics, Security, Visualization ,Reporting, Cloud integration etc._ resulting in a vast expansion of the company's product suite and capabilities.But the core of its products have remained the same. I've been part of several TIBCO implementations over 10 years and BW and EMS are always at the heart of it.BE became popular in the early part of last decade when it revolutioned fraud detection and recognizing airline delays by responding to the critical events in real time.TIBCO called this **"2 second advantage"** and Vivek infact co-authored a [book](https://www.amazon.com/Two-Second-Advantage-Succeed-Anticipating-Future-Just/dp/0307887650) on the topic.
 
