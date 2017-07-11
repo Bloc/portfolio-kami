@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My _Bloc_ experience
+title: My Bloc experience
 date: 2017-06-22 09:13:10 -0700
 categories: general
 ---
