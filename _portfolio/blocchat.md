@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blocchat
-thumbnail-path: "img/blocchat.png"
+thumbnail-path: "img/blocchat/blocchat-main.png"
 short-description: Build a self-destructing to-do list application.
 
 ---

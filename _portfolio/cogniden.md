@@ -3,6 +3,7 @@ layout: post
 title: Cogniden
 thumbnail-path: "img/cogniden/cogniden-main.png"
 short-description: Build a replica of wikipedia to create,share and collaborate wikis.
+
 ---
 
 {:.center}
