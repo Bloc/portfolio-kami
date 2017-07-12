@@ -77,43 +77,43 @@ The screenshots below depicts the various user stories for Cogniden and the gran
 * **User Sign up ,Sign up confirmation and Sign in**.
 A new user signs up with email and password, confirms his email and is then redirected to the sign in page.
 
-![sign up](img/signup.png "Sign Up")
+![sign up](/img/signup.png "Sign Up")
 
-![sign up conf](img/signupconfirmation.png "Sign Up Confirmation")
+![sign up conf](/img/signupconfirmation.png "Sign Up Confirmation")
 
-![sign in](img/signin.png "Sign Up Confirmation")
+![sign in](/img/signin.png "Sign Up Confirmation")
 
 #### User upgrade
 ------------------
 * A user is assigned a standard role by default.To create private _wikis_,he can upgrade to _premium_.This is illustrated with stripe payment using the below screenshots.
 
-![upgrade user](img/upgradeuser.png "Upgrade User")
+![upgrade user](/img/upgradeuser.png "Upgrade User")
 
-![pay with card](img/paywithcard.png "Pay With Card")
+![pay with card](/img/paywithcard.png "Pay With Card")
 
-![CC details](img/stripepayment.png "CC details")
+![CC details](/img/stripepayment.png "CC details")
 
-![premium user](img/premiumuser.png "Premium User")
+![premium user](/img/premiumuser.png "Premium User")
 
 #### Markdown
 ------------------
 * Create a _wiki_ using Markdown syntax
 
-![create wiki](img/markdownsyntax.png "create wiki")
+![create wiki](/img/markdownsyntax.png "create wiki")
 
-![show wiki](img/markdownsyntax_confirmation.png "show wiki")
+![show wiki](/img/markdownsyntax_confirmation.png "show wiki")
 
 #### Collaboration
 ------------------
 * Add a collaborator to a private wiki,then login as collaborator and edit the wiki
 
-![add collaborator](img/addcollaborator.png "add collaborator")
+![add collaborator](/img/addcollaborator.png "add collaborator")
 
-![show collaborator](img/collaboratoradded.png "show collaborator")
+![show collaborator](/img/collaboratoradded.png "show collaborator")
 
-![edit as collaborator](img/collaboratoredited.png "edit as collaborator")
+![edit as collaborator](/img/collaboratoredited.png "edit as collaborator")
 
-![show collaborator edits](img/showeditsforcollaborator.png "show collaborator edits")
+![show collaborator edits](/img/showeditsforcollaborator.png "show collaborator edits")
 
 
 ## _Conclusion_

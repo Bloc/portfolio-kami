@@ -162,25 +162,25 @@ Next, I've used the basic javascript `prompt()` in the authentication controller
 --------------------
 Before testing the authentication,users have to be manually created in the firebase database.
 
-![sign in](img/email.png "Sign In")
+![sign in](/img/email.png "Sign In")
 
 #### List Chatrooms
 --------------------
 Shows a list of chatrooms available for the user.
 
-![list chatrooms](img/listchatrooms.png "list chatrooms")
+![list chatrooms](/img/listchatrooms.png "list chatrooms")
 
 #### Send Messages
 --------------------
 Select a chatroom and send a message to the chatroom
 
-![send messages](img/sendmessages.png "send messages")
+![send messages](/img/sendmessages.png "send messages")
 
 #### Show Messages
 --------------------
 Login with a different user and show messages
 
-![show messages](img/showmessages.png "show messages")
+![show messages](/img/showmessages.png "show messages")
 
 ## _Conclusion_
 
