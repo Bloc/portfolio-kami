@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Blocchat
-thumbnail-path: "img/blocchat/blocchat-main.png"
+thumbnail-path: "img/blocchat-main.png"
 short-description: Build a self-destructing to-do list application.
 
 ---
 
 {:.center}
-![](/img/blocchat/blocchat-main.png)
+![blocchat](/img-main.png)
 
 ## _Explanation_
 
@@ -162,25 +162,25 @@ Next, I've used the basic javascript `prompt()` in the authentication controller
 --------------------
 Before testing the authentication,users have to be manually created in the firebase database.
 
-![sign in](img/blocchat/email.png "Sign In")
+![sign in](img/email.png "Sign In")
 
 #### List Chatrooms
 --------------------
 Shows a list of chatrooms available for the user.
 
-![list chatrooms](img/blocchat/listchatrooms.png "list chatrooms")
+![list chatrooms](img/listchatrooms.png "list chatrooms")
 
 #### Send Messages
 --------------------
 Select a chatroom and send a message to the chatroom
 
-![send messages](img/blocchat/sendmessages.png "send messages")
+![send messages](img/sendmessages.png "send messages")
 
 #### Show Messages
 --------------------
 Login with a different user and show messages
 
-![show messages](img/blocchat/showmessages.png "show messages")
+![show messages](img/showmessages.png "show messages")
 
 ## _Conclusion_
 

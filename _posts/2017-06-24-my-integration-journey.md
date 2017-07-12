@@ -43,7 +43,7 @@ While its only been a couple of years since I started working with Mulesoft tech
 
 The highly acclaimed Gartner firm has recognized Mulesoft as a "leader" in full life cycle API management in the 2016 Garter magic quadrant - which it defines as the planning, design, implementation, publication, operation, consumption, maintenance and retirement of APIs(see the quadrant below)
 
-![gartner-api-management](/img/cogniden/integration/gartner-api-management "Gartner magic quadrant API management")
+![gartner-api-management](/img/gartner-api-management.png "Gartner magic quadrant API management")
 
 ## To TIBCO or to Mulesoft
 
