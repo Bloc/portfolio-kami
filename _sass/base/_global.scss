@@ -117,3 +117,13 @@ img[align=left] {
 img[align=right] {
   margin-left: 3%;
 }
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: 1em;
+        font-size: .85em;
+    }
+}
