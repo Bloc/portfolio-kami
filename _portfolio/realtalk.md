@@ -15,7 +15,7 @@ Real Talk was born out of a desire to create a chat application where people cou
 
 ## Problem
 
-The application had to be built using a provided repo that already included common application files, configuration files, and a NodeJS server file. My job requirement was that I needed to meet at least fulfill a set of user stories. These included having a list of available chat rooms, being able to create chat rooms, being able to see a list of messages in each chat room, being able to set a username and display it in chat rooms, and lastly to be able to send messages associated with a username in a chat room. The goal was to be able to fulfill these user stories while building a single page application.
+The application had to be built using a provided repo that already included common application files, configuration files, and a NodeJS server file. My job requirement was that I needed fulfill a set of user stories. These included having a list of available chat rooms, being able to create chat rooms, being able to see a list of messages in each chat room, being able to set a username and display it in chat rooms, and lastly to be able to send messages associated with a username in a chat room. The goal was to be able to fulfill these user stories while building a single page application(SPA).
 
 ## Solution
 
