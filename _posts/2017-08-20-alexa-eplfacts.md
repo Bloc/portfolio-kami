@@ -30,5 +30,5 @@ Actual Invocation Name: epl facts
 Expected Invocation Name: e.<space>p.<space>l.<space>facts => e. p. l. facts
 
 ```
-An important point to note before you submit your invocation name and example phrases.A good practice would be to review the [documentation] (https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill?ref_=pe_679090_102923190_pe_679090_102923190%23Invocation%20Name%20Requirements "invocation name") as well.
+An important point to note before you submit your invocation name and example phrases.An important point to note before you submit your invocation name and example phrases.A good practice would be to review the [documentation](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/choosing-the-invocation-name-for-an-alexa-skill?ref_=pe_679090_102923190_pe_679090_102923190%23Invocation%20Name%20Requirements "invocation name") as well.
 Alexa skills.
