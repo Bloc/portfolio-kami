@@ -1,0 +1,13 @@
+---
+layout: post
+title: My Journey to Coding
+---
+Throughout my life I have worked many jobs. Started out as dishwasher for a local family owned restaurant like most.  From there odd jobs through the teen years Candyman, summer camp counselor, sandwich artist, gas station clerk, and carpenter. Living in a seasonal community housing and jobs change with the season.  A good friend at the time taught me an important lesson to always be looking for your next job and always be looking for your next place to live. Ideally the next would be slightly better than the last.
+
+Eventually, I land a job working at a shellfish processing plant. This was one of my craziest jobs I have ever worked. We would start our day around 10 am and if all went well we be done before midnight.  With anything in life it never goes as plan. Most days we be leaving the shellfish plant around early morning the next day. We would do this 6 days a week. After, many 12, 17, and a couple 24 plus hour days  I decide this job was more of a lifestyle. That lifestyle was not what I wanted for me. So as many have done before I packed up and moved west.
+
+West I went, till I ended up in the desert. I once again went on a job quest slowly finding my next and slowly each one was better. Ending up again hands deep in shellfish but this time was different.  My fishy past had finally caught up to me and I was running a seafood department for a high end grocery store.  The job came with great pay and benefits.  After a few years the of day to day routine and the waves of work related stresses made the benefits and pay seem dull. In looking at fellow employees who have spent their entire lives in the grocery business with no where else to go, I decide I did not want to end up like that.
+
+I have always had a passion for computers.  Mainly computer games and building them. I can’t remember not having one as a child. Grabbing a floppy disk with a game and using DOS to navigate to the application. Then in dawn of the internet using dial up to slowly browse through sites. My interests in how it all worked grew. I finally hit a point in my life where I can finally pursuit this love for everything computers seriously.
+
+So, I quit my job and enrolled in Bloc’s full time software developers course. Seven weeks in and the learning has been a fire hose of elements, loops, and everything else. Not only am I learning to create, I am also getting to problem solve. The whole experience has been satisfying and at some points very hard. I don’t know in the end where I will end up, but at least I will have some new tools to pursue the next job.                        
