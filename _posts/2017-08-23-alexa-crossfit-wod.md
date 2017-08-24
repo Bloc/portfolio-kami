@@ -11,7 +11,9 @@ The premise for my third Alexa skill is based on something I'm super passionate 
 _CrossFit_ has brought an amazing transformation in my mind, body and soul. At the end of class, the feeling of having given it all in the "CrossFit battlefield", is unparalleled. If I had to list 3 reasons as to why I adore CrossFit -
 
 - **Intensity** : The high intensity interval training is absolutely magic. Or most times, a freaking nightmare. But it gets you the results you've craved for.
+
 - **Community**: I would like to think Crossfitters actually belong to a _cult_. Well, they do not but I would like to _think so_. Doing something intense and physically exhausting binds _the cult_ together.
+
 - **Work out of the day**: WOD(as in pod) as we like to say. A different WOD everyday keeps it interesting and engaging. You could be doing weightlifting one day, indoor rowing another day, and handstand push ups or strict pull ups the third day.
 
 
@@ -29,6 +31,11 @@ My skill is going to be retrieving the work out of the day(WOD) from my local Cr
   2. Respond with 'No WOD available today' if no workout has been scheduled for the date.
 
   ![alexa wod](/img/alexa-wod.jpg "Alexa Voice Model")
+ 
+
+  
+
+
  
 
   
