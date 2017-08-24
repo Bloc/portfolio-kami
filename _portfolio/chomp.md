@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blocitoff
-thumbnail-path: "img/blocitoff.png"
-short-description: Build a self-destructing to-do list application.
+title: Choco Chomp
+thumbnail-path: "img/chomp.png"
+short-description: An app based on the famous game theory game "Chomp".
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/chomp.png)
 
 ## Explanation
 

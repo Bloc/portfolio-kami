@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Blocipedia
-thumbnail-path: "img/blocipedia.png"
-short-description: Build a production quality SaaS app that allows users to create their own wikis.
+title: Powerball Simulator
+thumbnail-path: "img/powerball.png"
+short-description: A simple powerball simulator representing many games played over a lifetime.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocipedia.png)
+![]({{ site.baseurl }}/img/powerball.png)
 
 ## Explanation
 

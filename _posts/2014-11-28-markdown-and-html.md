@@ -25,6 +25,12 @@ for (var i = 1; i <= 10; i++) {
 }
 {% endhighlight %}
 
+{% highlight r %}
+for i in 1:10 {
+    print(i);
+}
+{% endhighlight %}
+
 {% highlight ruby %}
 def show
   @widget = Widget(params[:id])
