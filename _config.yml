@@ -14,7 +14,7 @@ theme_settings:
      <p>Scratching with HTML, CSS, AngularJS, & Rails</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> 
 
   # Icons
   rss: false

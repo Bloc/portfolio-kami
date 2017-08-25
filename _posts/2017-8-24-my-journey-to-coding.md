@@ -2,7 +2,7 @@
 layout: post
 title: My Journey to Coding
 ---
-Throughout my life I have worked many jobs. Started out as dishwasher for a local family owned restaurant like most.  From there odd jobs through the teen years Candyman, summer camp counselor, sandwich artist, gas station clerk, and carpenter. Living in a seasonal community housing and jobs change with the season.  A good friend at the time taught me an important lesson to always be looking for your next job and always be looking for your next place to live. Ideally the next would be slightly better than the last.
+Throughout my life I have worked many jobs. Started out as dishwasher for a local family owned restaurant like most.  From there odd jobs through the teen years candy man, summer camp counselor, sandwich artist, gas station clerk, and carpenter. Living in a seasonal community housing and jobs change with the season.  A good friend at the time taught me an important lesson to always be looking for your next job and always be looking for your next place to live. Ideally the next would be slightly better than the last.
 
 Eventually, I land a job working at a shellfish processing plant. This was one of my craziest jobs I have ever worked. We would start our day around 10 am and if all went well we be done before midnight.  With anything in life it never goes as plan. Most days we be leaving the shellfish plant around early morning the next day. We would do this 6 days a week. After, many 12, 17, and a couple 24 plus hour days  I decide this job was more of a lifestyle. That lifestyle was not what I wanted for me. So as many have done before I packed up and moved west.
 
