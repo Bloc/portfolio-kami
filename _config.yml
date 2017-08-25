@@ -14,7 +14,7 @@ theme_settings:
      <p>Scratching with HTML, CSS, AngularJS, & Rails</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> 
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>
 
   # Icons
   rss: false
@@ -39,7 +39,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-105365030-1" # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 
