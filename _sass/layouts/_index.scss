@@ -12,9 +12,9 @@
     display:block;
     width:100%;
     a {
-      font-size:0.8em;
+      font-size:1em;
       text-transform: uppercase;
-      color:#d8d8d8;
+      color: gray;
     }
   }
   ul {
@@ -121,7 +121,7 @@
       margin-top: 1em;
     }
   }
-  
+
 }
 // Pagination
 .pagination .button {

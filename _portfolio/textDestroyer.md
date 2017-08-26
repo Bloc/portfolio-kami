@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BlocFlix
-thumbnail-path: "img/blocflix.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+title: Text Destroyer
+thumbnail-path: "img/text-destroyer.png"
+short-description: A sticker app to destroy your friends text.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/text-destroyer.png)
 
 ## Explanation
 
