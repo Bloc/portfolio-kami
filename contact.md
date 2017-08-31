@@ -10,7 +10,7 @@ why he's a standout developer and how he can be an asset to your team.
 
 <form action="https://getsimpleform.com/messages?form_api_token=da46782e0df9e39c5c618a6ff4434021" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='https://drewsee26.github.io/thank-you' />
+  <input type='hidden' name='redirect_to' value='https://www.drewhollenback.com/thank-you' />
   <input type='text' name='name' placeholder='Your Full Name' />
   <input type='email' name='email' placeholder='Your E-mail Address' />
   <textarea name='message' placeholder='Write your message ...'></textarea>
