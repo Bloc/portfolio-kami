@@ -72,3 +72,6 @@ sass:
   style: :compressed
 
 gems: [jekyll-paginate]
+
+# Scripts
+google_analytics: "UA-108175137-1"
