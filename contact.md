@@ -9,8 +9,9 @@ If anyone out there would like to contact me, please fill out the form below and
 
 <form action="https://getsimpleform.com/messages?form_api_token=ea49a42532d5d0e54b7b03c8679ea129" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://th0mpsonty.github.io/thank-you' />
-  <!-- all your input fields here.... -->
-  <input type='text' name='test' />
-  <input type='submit' value='Test form' />
+  <input type='hidden' name='redirect_to' value='https://th0mps0nty.github.io/thank-you/' />
+  <input type='text' name='name' placeholder='Your Full Name' />
+  <input type='email' name='email' placeholder='Your E-mail Address' />
+  <textarea name='message' placeholder='Write your message ...'></textarea>
+  <input type='submit' value='Send Message' />
 </form>
