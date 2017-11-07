@@ -11,7 +11,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      <h1>Hard Working and Dedicated Web Developer</h1>
-     <p>I'm a kickass developer specializing in Javascript, Angular, and Rails.</p>
+     <p>I'm an awesome developer specializing in Javascript, Angular, and Rails.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
