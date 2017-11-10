@@ -31,7 +31,7 @@ theme_settings:
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange: https://stackexchange.com/users/10555888/tyler-thompson
   steam:
   tumblr:
   twitter:
@@ -39,7 +39,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-109517920-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
