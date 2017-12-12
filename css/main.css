@@ -1,0 +1,21 @@
+html {
+    height:100%; 
+    /* sets html to height of viewport 
+      (bg color will still cover viewport) */
+}
+
+body {
+    /* don't set explicit height */
+    min-height:100%;
+    /* expands body to height of html,
+       but allows it to expand further
+       if content is taller than viewport */
+}
+
+#page {
+  
+}
+
+nav {
+  
+}
