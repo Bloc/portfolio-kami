@@ -34,7 +34,7 @@ I created a Ruby on Rails application. I choose to...
 
 ## Results
 
-All user requirements were met. I tested it using test cases I created as well as manually testing it.
+All user requirements were met. I tested it using test cases I created as well as manually testing it. It was successfuly launched to Heroku. https://blooming-gorge-51473.herokuapp.com/
 
 ## Conclusion
 

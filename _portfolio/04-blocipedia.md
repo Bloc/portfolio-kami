@@ -36,7 +36,7 @@ I created a Ruby on Rails application. I choose to...
 
 ## Results
 
-All user requirements were met.
+All user requirements were met and it was successfully launched on Heroku. https://intense-escarpment-81403.herokuapp.com/
 
 ## Conclusion
 
