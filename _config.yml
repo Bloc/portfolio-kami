@@ -11,7 +11,7 @@ theme_settings:
   # Header and footer text
   header_text: >
      <h1>Web Developer</h1>
-     <p>I'm a detail-oriented developer specializing in HMTL, CSS, Javascript and Angular.</p>
+     <p>I'm a detail-oriented developer specializing in HTML, CSS, JavaScript and Angular.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
@@ -27,7 +27,7 @@ theme_settings:
   github: estenman
   google_plus:
   instagram:
-  linkedin:  https://www.linkedin.com/in/ericka-stenman-a95b373/
+  linkedin:  https://www.linkedin.com/in/ericka-stenman/
   pinterest:
   reddit:
   soundcloud:
