@@ -30,11 +30,11 @@ I created a Ruby on Rails application. I choose to...
 * Setup validation rules for and used BCrypt for password security.
 * Use a session object to persist a user’s info after they sign in.
 * Create three roles guest, member and admin. Each capable of specific action and will see different views depending on role. I represented rules via an enum and used scoping to restrict who can view what.
-* Setup Sengrid as an add-on to Heroku to enable sending of emails.
+* Set up Sendgrid as an add-on to Heroku to enable sending of emails.
 
 ## Results
 
-All user requirements were met. I tested it using test cases I created as well as manually testing it. It was successfuly launched to Heroku. https://blooming-gorge-51473.herokuapp.com/
+All user requirements were met. I tested it using test cases I created as well as manually testing it. It was successfully launched to Heroku. https://blooming-gorge-51473.herokuapp.com/
 
 ## Conclusion
 

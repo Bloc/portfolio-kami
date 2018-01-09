@@ -42,6 +42,6 @@ All user requirements were met. I tested it using test cases I created as well a
 
 * This is a good starter project utilizing Ruby to understand some of the MVC structure.
 * There are improvements I would make from a UX perspective.
-  * When you choose view all you still only see individual entries (per the requested spec) but I would have it display all or rename the selection to set expectations.
-  * For the edit method, I would build it so that it populates the current info for each instead of blank being considered “no change”.
-  * The entry number doesn’t start with one since it is an array. I would either indicate that or alter it in the backend to make it more intuitive.
+    * When you choose view all you still only see individual entries (per the requested spec) but I would have it display all or rename the selection to set expectations.
+    * For the edit method, I would build it so that it populates the current info for each instead of blank being considered “no change”.
+    * The entry number doesn’t start with one since it is an array. I would either indicate that or alter it in the backend to make it more intuitive.

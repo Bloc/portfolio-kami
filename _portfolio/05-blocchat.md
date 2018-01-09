@@ -26,7 +26,7 @@ In addition to the creation of the application and database, the following were 
 
 I developed an AngularJS application that utilizes Firebase to store the chatroom and message data.
 * **See a list of available chat rooms**- I created a service to access the rooms listed in the database. The rooms were displayed using the ng-repeat directive and ng-click directives were added to update the chat display area based on what room the user clicked-on.
-  * **Bonus**- What the user should see prior to selecting a room was not defined. To ensure the user gets to the correct room I provided instruction to select a room if one was not already selected.
+    * **Bonus**- What the user should see prior to selecting a room was not defined. To ensure the user gets to the correct room I provided instruction to select a room if one was not already selected.
 * **Create chat rooms**- I added additional functionality to my service to add new rooms to the database. Then using UI Bootstrap's $uibModal service I developed a modal with a form where a user could enter a new room. When submitted, it utilized the service to immediately update the database and by extension the available room displayed.
 
 {:.center}
@@ -39,7 +39,7 @@ I developed an AngularJS application that utilizes Firebase to store the chatroo
 ![]({{ site.baseurl }}/img/createuser.png)
 
 * **Send messages associated with their username in a chatroom**- I added additional functionality to my existing service to be able to send the required information (username, room, time posted and message) to the database. I built a function in my controller to populate the object with the required information when a user submits a message.
-  * **Bonus**- While not requested I added the ability for the time stamp to automatically populate based on the current time and for the message entry area to clear once a message was submitted and placeholder text reappear. I also hid the message entry field until the user selects a room.
+    * **Bonus**- While not requested I added the ability for the time stamp to automatically populate based on the current time and for the message entry area to clear once a message was submitted and placeholder text reappear. I also hid the message entry field until the user selects a room.
 
 While not requested there is a basic level of mobile responsiveness but additional is being worked on, particularly for the forms.
 

@@ -19,15 +19,15 @@ Build a three page site with the following functionality.
 
 **Home page**
 * Animated selling-points upon scrolling.
-   
+
 **Collection page**
 * Display the album cover, name and number of songs (fix) in the users collection.
 
 **Album page**
 * View the details of a single album including a list of songs and their durations.
 * Play and pause a song from a song row.
-   * Mousing over the song row changes the song number to a clickable play button.
-    * When the play button is clicked, it changes to a pause button and starts playing the song. Even when the mouseleaves the row this will persist.
+    * Mousing over the song row changes the song number to a clickable play button.
+    * When the play button is clicked, it changes to a pause button and starts playing the song. Even when the mouse leaves the row this will persist.
     * When the pause button is clicked, it changes to a play button and pauses the song.
     * When a new song is selected the song number of the previously playing/paused song changes back to a song number.
     * When the user hovers over each of the songs that aren't playing, the play button should still appear.
@@ -36,35 +36,35 @@ Build a three page site with the following functionality.
     * Skip to the next song or go back to the previous
     * See the songs name, duration and playback progress
     * Use the progress bar to skip ahead in the song
-    * Use the volume bar to control the volume. 
+    * Use the volume bar to control the volume.
 
 
 ## Solution
 
 **Home page**
-  * Animated selling-points upon scrolling- Used jQuery to animate and event listener/handler for the scroll.
+* Animated selling-points upon scrolling- Used jQuery to animate and event listener/handler for the scroll.
 
 **Collection page**
-  * Display the album cover, name and number of songs (fix) in the user’s collection- Started by building out display for one instance then moved to using a dynamic JavaScript template and looped twelve times to show how it would appear.
+* Display the album cover, name and number of songs in the user’s collection- Started by building out display for one instance then moved to using a dynamic JavaScript template and looped twelve times to show how it would appear.
 
 **Album page**
-  * View the details of a single album including a list of songs and their durations- Pulled album cover and info in and built a table for song display. The song rows generate using a dynamic Javascript template.
-  * Play and pause a song from a song row- Added event tracking for mouse location, saved the song number of playing song, added javascript functions to update html based on user actions and playing status of songs.
-  * Use a music player overlay
+* View the details of a single album including a list of songs and their durations- Pulled album cover and info in and built a table for song display. The song rows generate using a dynamic Javascript template.
+* Play and pause a song from a song row- Added event tracking for mouse location, saved the song number of playing song, added javascript functions to update html based on user actions and playing status of songs.
+* Use a music player overlay
     * Built html and used jQuery for templates
     * Store the current album and song data as well as index number so know next/previous, to allow to update player bar.
     * Used the Buzz music library for playing audio files, managing playback and volume.
 
 
 ## Results
-All user requirements were met. I tested my solutions by.
+All user requirements were met. The live version can be seen here https://ericka-bloc-jams.netlify.com/index.html. I tested my solutions by.
 * Using chrome inspector to test responsiveness
 * Reviewing album covers displayed on the collection page
 * Mousing over each row on the album page to test for play button display, then playing one and doing this again.
 * Pausing a playing song
 * Choosing a new song after a song was playing and paused.
 * Playing/pausing a song from the music player.
-* Skipping forward and backward from a current song. Inclusiding the first and last songs.
+* Skipping forward and backward from a current song. Including the first and last songs.
 * Playing a song and seeing if it tracks the playback and using the bar to skip forward and backward in the song, listening to ensure reflected.
 * Using the volume bar to adjust the volume up and down, listening to see that it is reflected.
 
