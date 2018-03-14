@@ -10,8 +10,30 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Multi-Faceted Software Engineer</h1>
-     <p>I'm a developer specializing in Ruby on Rails, JavaScript, AngularJS, and jQuery seeking to level up.</p>
+    <div class="hero-full-stack animated fadeIn">
+      <h1>Full Stack Developer</h1>
+    </div>
+    <div class="hero-skills animated fadeIn">
+      <div class="html animated fadeIn">
+      <img src="img/html3.png">
+      </div>
+      <div class="css animated fadeIn">
+      <img src="img/css2.png">
+      </div>
+      <div class="javascript animated fadeIn">
+      <img src="img/javascript.png">
+      </div>
+      <div class="angular animated fadeIn">
+      <img src="img/angular.png">
+      </div>
+      <div class="ruby animated fadeIn">
+      <img src="img/ruby.png">
+      </div>
+      <div class="rails animated fadeIn">
+      <img src="img/rails.png">
+      </div>
+    </div>
+
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
@@ -53,7 +75,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Lato:300,400,700,300italic,700italic|Comfortaa"
 
 # PAGINATION
 paginate: 100
