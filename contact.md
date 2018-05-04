@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Me!
+title: Contact Me
 permalink: /contact/
 feature-img: "img/color.png"
 ---

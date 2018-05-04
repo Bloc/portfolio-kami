@@ -4,7 +4,7 @@ comments: true
 title: Passing API keys When Using Figaro
 ---
 
-My first job/client as a freelancer has been naturally to help out my family. In this case it involves building a website for my parents' Chinese restaurant which they've owned and operated for 30 years! What better way to show my appreciation for their support than to build them a website which they have been lacking for quite some time now.
+My first job/client as a freelancer has been naturally to help out my family. In this case it involves building a website for my parents' Chinese restaurant which they've owned and operated for 30 years! What better way to show my appreciation for their support than to build them a much needed website.
 
 The subject for this post is when I trying to incorporate a map from Google Maps to indicate to a visitor where the restaurant is located. Google provides a very handy dandy tutorial on how to do this [here](https://developers.google.com/maps/documentation/javascript/adding-a-google-map). I followed the tutorial which was pretty straightforward and got to the part where I had to get an API key. Well for security purposes, an API key should never be stored in a public repository like GitHub. For this purpose, I use the [Figaro gem](https://github.com/laserlemon/figaro) which basically allows you to store your API keys and other sensitive information in your code without having it stored publicly for everyone to see.
 
