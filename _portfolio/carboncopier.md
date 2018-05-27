@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Carbon Copier
-thumbnail-path: "img/blocjams.png"
+thumbnail-path: "img/cc_ticket_view.jpg"
 short-description: A Zendesk app that CCs end-users automatically.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocjams.png)
+![]({{ site.baseurl }}/img/cc_ticket_view.jpg)
 
 ## Overview
 
@@ -15,11 +15,13 @@ short-description: A Zendesk app that CCs end-users automatically.
 
 ## Installation
 
-When installing, make sure your Zendesk subdomain, email and an API key are filled in correctly. As part of the installation process
+When installing, make sure your Zendesk subdomain, email and an API key are filled in correctly. As part of the installation process, the app will create everything you need. One target, a trigger, and 2 custom fields (one for users, one for organizations).
 
 ## Using Carbon Copier
 
-First pass at building the site relied on vanilla Javascript. It was a great exercise, and an excellent learning opportunity to dive into event listeners. The site was refactored using jQuery, with some added functionality thrown in beyond the original specifications (e.g. hiding the play bar until the first song is playing). Music playing is built on the Buzz library.
+Using Carbon Copier is super easy. Add end-user emails or user IDs (comma separated) to the **Emails to CC** fields on any User or any Organization.
+
+When a new ticket is created on that Users behalf, or as part of an Organization, any noted end-users will be added to the ticket as a CC.
 
 ## Known Limitations
 
@@ -29,4 +31,4 @@ If you uninstall the app, the custom fields installed by the app will be removed
 
 ## Support
 
-Have any issue? [Email me](aviwarner@gmail.com).
+Have any issue? [Email me](mailto:aviwarner@gmail.com).
