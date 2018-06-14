@@ -23,7 +23,7 @@ Using Carbon Copier is super easy. Add end-user emails or user IDs (comma separa
 
 When a new ticket is created on that Users behalf, or as part of an Organization, any noted end-users will be added to the ticket as a CC.
 
-This app creates a number of _non-editable elements_ in your Zendesk instance (a User field, an Organization field, a Target, and a Trigger).
+This app creates a number of **non-editable elements** in your Zendesk instance (a User field, an Organization field, a Target, and a Trigger).
 
 ## Known Limitations
 
