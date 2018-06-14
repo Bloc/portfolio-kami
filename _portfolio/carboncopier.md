@@ -7,8 +7,8 @@ short-description: A Zendesk app that CCs end-users automatically.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/cc_ticket_view.jpg)
-
+![]({{https://www.zendesk.com/apps/support/carbon-copier/}}/img/cc_ticket_view.jpg)
+_
 ## Overview
 
 **[Carbon Copier]()** is a Zendesk app that helps CC end-users when tickets are created for a specific organization or requester.
@@ -22,6 +22,8 @@ When installing, make sure your Zendesk subdomain, email and an API key are fill
 Using Carbon Copier is super easy. Add end-user emails or user IDs (comma separated) to the **Emails to CC** fields on any User or any Organization.
 
 When a new ticket is created on that Users behalf, or as part of an Organization, any noted end-users will be added to the ticket as a CC.
+
+This app creates a number of _non-editable elements_ in your Zendesk instance (a User field, an Organization field, a Target, and a Trigger).
 
 ## Known Limitations
 
