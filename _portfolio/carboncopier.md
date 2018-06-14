@@ -7,11 +7,11 @@ short-description: A Zendesk app that CCs end-users automatically.
 ---
 
 {:.center}
-![]({{https://www.zendesk.com/apps/support/carbon-copier/}}/img/cc_ticket_view.jpg)
+![]({{}}/img/cc_ticket_view.jpg)
 _
 ## Overview
 
-**[Carbon Copier]()** is a Zendesk app that helps CC end-users when tickets are created for a specific organization or requester.
+**[Carbon Copier](https://www.zendesk.com/apps/support/carbon-copier/)** is a Zendesk app that helps CC end-users when tickets are created for a specific organization or requester.
 
 ## Installation
 
