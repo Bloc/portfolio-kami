@@ -5,9 +5,9 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-Hi, I'm Jake. I'm a husband and father who also happens to be studying web development as a student at Bloc.io. I first found out about web development and coding bootcamps in 2015. I tried out coding through various free courses offered by Codecademy and was immediately hooked! I wanted to learn more but didn't know where to really start. Finally in 2016 I decided to take the plunge and enroll in Bloc's apprenticeship program because I knew if I never pursued this, I would regret it for the rest of my life.
+Hi, I'm Jake. I'm a husband and father and also a web developer. After finding out about web development and coding bootcamps, I tried out coding through various free courses offered by Codecademy and was immediately hooked! I wanted to learn more but didn't know where to really start. Finally after almost a year I decided to take the plunge and enroll in Bloc's apprenticeship program because I knew if I never pursued this, I would regret it for the rest of my life. I learned so much through my mentors because they always pushed me to understand what I was typing on the screen.
 
-I created this blog to document my coding journey and to make myself reflect and put my thoughts into words. Here you'll see the projects I've worked on as I share my experiences. If you read this, I hope you enjoy it! Feel free to reach out to me if you have questions or are interested in web development too!
+I created this blog to document my coding journey and all the interesting things I've learned. For me the learning process is helped by reflecting and putting my thoughts into words. Here you'll find some of the things I've worked on for clients as well as some of my personal projects. If you read this, I hope you enjoy it! Feel free to reach out to me if you have questions or are interested in web development too!
 
 > “The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.”
 - Seymour Cray
