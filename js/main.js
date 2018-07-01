@@ -21,9 +21,9 @@ Array.prototype.forEach.call(elements, function(element) {
   }
 });
 
-let blocmetrics = {};
+let wawametrics = {};
 
-blocmetrics.report = (eventName) => {
+wawametrics.report = (eventName) => {
   let event = { event: { name: eventName } };
   let request = new XMLHttpRequest();
   request.open("POST", "http://localhost:3000/api/events", true);
