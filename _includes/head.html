@@ -31,6 +31,9 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
 
+	<script src="./wawametrics.js"></script>
+	<script>if (page.title) { wawametrics.report(page.title + ' page loaded') };</script>
+
 	<!-- Google Analytics -->
 	{% if site.theme_settings.google_analytics %}
 	<script>

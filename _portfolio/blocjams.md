@@ -11,7 +11,7 @@ short-description: Bloc Jams is a music player that only plays one album that I 
 
 ## Explanation
 
-**[Bloc Jams](https://jams.aviwarner.com)** is my first decent web project, and is a full functioning music player. Key features are play, pause, skip and volume control.
+**[Bloc Jams](http://jams.aviwarner.com)** is my first decent web project, and is a full functioning music player. Key features are play, pause, skip and volume control.
 
 ## Problem
 
