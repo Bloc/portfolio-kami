@@ -31,8 +31,22 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
 
-	<script src="../js/wawametrics.js"></script>
-	<script>if (page.title) { wawametrics.report(page.title + ' page loaded') };</script>
+	<script>
+		var wawametrics = {};
+
+		wawametrics.report = function(eventName) {
+		  var event = { event: { name: eventName } };
+		  var request = new XMLHttpRequest();
+		  request.open("POST", "http://localhost:3000/api/events", true);
+		  request.setRequestHeader('Content-Type', 'application/json');
+		  console.log(event);
+		  request.send(JSON.stringify(event));
+		}
+		
+		if (page.title) {
+			wawametrics.report(page.title + ' page loaded')
+		};
+	</script>
 
 	<!-- Google Analytics -->
 	{% if site.theme_settings.google_analytics %}
