@@ -20,3 +20,5 @@ Array.prototype.forEach.call(elements, function(element) {
      element.parentNode.insertBefore(katexElement, element);
   }
 });
+
+console.log('page loaded');
