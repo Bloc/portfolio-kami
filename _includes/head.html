@@ -42,9 +42,10 @@
 		  console.log(event);
 		  request.send(JSON.stringify(event));
 		}
-		
+
 		if (page.title) {
 			wawametrics.report(page.title + ' page loaded')
+			console.log(page.title);
 		};
 	</script>
 
