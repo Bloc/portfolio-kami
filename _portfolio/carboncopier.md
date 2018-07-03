@@ -15,7 +15,7 @@ _
 
 ## Installation
 
-When installing, make sure your Zendesk subdomain, email and an API key are filled in correctly. As part of the installation process, the app will create everything you need. One target, a trigger, and 2 custom fields (one for users, one for organizations).
+When installing, make sure your Zendesk subdomain (_not including *.zendesk.com_), email and an API key are filled in correctly. As part of the installation process, the app will create everything you need. One target, a trigger, and 2 custom fields (one for users, one for organizations).
 
 ## Using Carbon Copier
 
@@ -25,7 +25,9 @@ When a new ticket is created on that Users behalf, or as part of an Organization
 
 This app creates a number of **non-editable elements** in your Zendesk instance (a User field, an Organization field, a Target, and a Trigger).
 
-## Known Limitations
+## Known Issues
+
+If your _API key or subdomain change or were entered incorrectly on installation_, you will need to uninstall and reinstall the app. You will need to re-purchase the app, please [email me, with your subdomain, to get a refund on any re-purchases](mailto:aviwarner@gmail.com). Currently, the Zendesk App Marketplace doesn't provide a coupon-code option for single-time payments.
 
 The User and Organization custom fields can accept comma separated email addresses or User IDs. Email addresses are easy to use, but if you change that end-user's email in their Zendesk profile, it won't change the value of their email address where it shows up in the User or Organization custom fields.
 
