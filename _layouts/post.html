@@ -1,13 +1,17 @@
 ---
 layout: post-header
 ---
+<article class="meta">
+  {% if page.comments %} • <a href="https://jdai54.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+</article>
+<br></br>
+
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <section class="post-content">{{ content }}</section>
 </article>
 
 <!-- Disqus -->
-{% if site.theme_settings.disqus_shortname %}
+
 <div class="comments">
   {% include disqus.html %}
 </div>
-{% endif %}

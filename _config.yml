@@ -1,45 +1,67 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
-url: "http://www.your-domain.com" # the base hostname & protocol for your site
+url: "https://jdai54.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Tyrion Lannister # Your name will go here
+  title: Jake Dai # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+    <div class="hero-full-stack animated fadeIn">
+      <h1>Full Stack Developer</h1>
+    </div>
+    <div class="hero-skills animated fadeIn">
+      <div class="html animated fadeIn">
+      <img src="img/html3.png">
+      </div>
+      <div class="css animated fadeIn">
+      <img src="img/css2.png">
+      </div>
+      <div class="javascript animated fadeIn">
+      <img src="img/javascript.png">
+      </div>
+      <div class="angular animated fadeIn">
+      <img src="img/angular.png">
+      </div>
+      <div class="ruby animated fadeIn">
+      <img src="img/ruby.png">
+      </div>
+      <div class="rails animated fadeIn">
+      <img src="img/rails.png">
+      </div>
+    </div>
+
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: jdai54@gmail.com
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: jdai54 # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/jakedai # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter:
+  twitter: https://twitter.com/jdai54
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-98885491-1"
   disqus_shortname:
   katex: true # Enable if using math markup
 
@@ -53,7 +75,7 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+  google_fonts: "Lato:300,400,700,300italic,700italic|Comfortaa"
 
 # PAGINATION
 paginate: 100
@@ -72,4 +94,4 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

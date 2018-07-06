@@ -19,6 +19,7 @@ body {
   font-family: $font-family-main;
   font-size: $font-size;
   word-wrap: break-word;
+  line-height: 1.42857143;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
@@ -107,6 +108,77 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.hero-skills {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-skills img {
+  height: 60px;
+  vertical-align: middle;
+  margin: 1.5rem;
+}
+
+.hero-full-stack {
+  animation-duration: 3s;
+  animation-delay: .5s;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.html {
+  animation-duration: 1s;
+  animation-delay: 2.0s;
+}
+
+.css {
+  animation-duration: 1s;
+  animation-delay: 2.4s;
+}
+
+.javascript {
+  animation-duration: 1s;
+  animation-delay: 2.8s;
+}
+
+.angular {
+  animation-duration: 1s;
+  animation-delay: 3.2s;
+}
+
+.ruby {
+  animation-duration: 1s;
+  animation-delay: 3.6s;
+}
+
+.rails {
+  animation-duration: 1s;
+  animation-delay: 4.0s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 // Responsive media
 iframe, img, embed, object, video {
   max-width: 100%;
@@ -116,4 +188,14 @@ img[align=left] {
 }
 img[align=right] {
   margin-left: 3%;
+}
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: 1em;
+        font-size: .85em;
+    }
 }
