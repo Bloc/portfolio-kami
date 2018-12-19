@@ -5,41 +5,41 @@ url: "http://preppedforlyfe.github.io" # the base hostname & protocol for your s
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Danny Vilailath # Your name will go here
-  description: "A personal portfolio and blog website" # used by search engines
+  title: Prepped For Lyfe # Your name will go here
+  description: "fitness, nutrition, gut health, and mindset" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Witty & Hilarious Rails Developer</h1>
-     <p>I'm a kickass developer specializing in Rails, AngularJS, and MongoDB.</p>
+     <h1>Fitness - Nutrition - Gut Health & Mindset</h1>
+     <p>I'm a health junky that specializes in weight loss and meal prep.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
-  email_address: preppedforlyfe@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: "preppedforlyfe@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "dannyvilailath"
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: "preppedforlyfe" # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  "https://www.linkedin.com/in/danny-vilailath-075058154/" # Full URL
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter:
+  twitter: "dvilailath"
   wordpress:
-  youtube:
+  youtube: "UCIRIND_hqd3CeCBcZV-5rnA"
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-129870729-1" # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 
