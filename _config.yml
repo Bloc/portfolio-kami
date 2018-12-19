@@ -6,11 +6,11 @@ url: "http://preppedforlyfe.github.io" # the base hostname & protocol for your s
 theme_settings:
   # Meta
   title: Prepped For Lyfe # Your name will go here
-  description: "fitness, nutrition, gut health, and mindset" # used by search engines
+  description: "gut health, fitness, nutrition, and mindset" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Fitness - Nutrition - Gut Health & Mindset</h1>
+     <h1>Gut Health, Fitness - Nutrition & Mindset</h1>
      <p>I'm a health junky that specializes in weight loss and meal prep.</p>
   header_text_feature_image:
   footer_text: >
