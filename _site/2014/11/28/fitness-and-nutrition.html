@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Fitness and Nutrition | Prepped For Lyfe</title>
+	<meta name="description" content="Jeykll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about te...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2014/11/28/fitness-and-nutrition.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Prepped For Lyfe" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic|Abril+Fatface" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-129870729-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+  <nav class="site-nav">
+    <ul>
+      
+      
+      
+      
+      <li>
+        <a class="page-link" href="/about/">
+          About
+        </a>
+      </li>
+      
+      
+      
+      <li>
+        <a class="page-link" href="/contact/">
+          Contact
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </nav>
+
+  
+  <div class="call-out" 
+  style="background-image: url('/')">
+    <h1 class="site-title">
+      <a href="/">Prepped For Lyfe</a>
+    </h1>
+    <div class="divider"></div>
+    <h1 class="title">Fitness and Nutrition</h1>
+  </div>
+  
+</header>
+
+    <div class="content">
+      <article >
+  <section class="post-content"><p>Jeykll supports the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.</p>
+
+<p>Tables have also been extended from Markdown:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Here’s an example of an image, which is included using Markdown:</p>
+
+<p><img src="/img/blocflix.png" alt="Geometric pattern with fading gradient" /></p>
+
+<p>Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to ten</span>
+<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:id</span><span class="p">])</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json: </span><span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to twenty</span>
+<span class="kd">var</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="nx">j</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">j</span><span class="o">++</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">j</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Type Theme uses KaTeX to display maths. Equations such as <script type="math/tex">S_n = a \times \frac{1-r^n}{1-r}</script> can be displayed inline.</p>
+
+<p>Alternatively, they can be shown on a new line:</p>
+
+<script type="math/tex; mode=display">f(x) = \int \frac{2x^2+4x+6}{x-2}</script>
+</section>
+</article>
+
+<!-- Disqus -->
+
+
+    </div>
+    <script src="/js/main.js"></script>
+
+
+<footer class="site-footer">
+  <p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+</p>
+</footer>
+
+
+  </body>
+</html>
