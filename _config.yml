@@ -24,7 +24,7 @@ theme_settings:
   dribbble:
   facebook: "dannyvilailath"
   flickr:
-  github: "preppedforlyfe" # github profile name, e.g. "madebymunsters"
+  github:  # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
   linkedin:  "https://www.linkedin.com/in/danny-vilailath-075058154/" # Full URL
