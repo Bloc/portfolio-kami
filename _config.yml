@@ -10,7 +10,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Software Engineer</h1>
+     <h1>It me, I'm that.</h1>
      <p>Full Stack Engineer @ Collective Health. Works on other projects sometimes.</p>
   header_text_feature_image:
   footer_text:
