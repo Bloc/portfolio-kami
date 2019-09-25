@@ -10,8 +10,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Web Dev Student</h1>
-     <p>Corned beef on rye, just mustard, ice tea, and a few more of these dill pickles when you have the chance.</p>
+     <h1>Software Engineer</h1>
+     <p>Full Stack Engineer @ Collective Health. Works on other projects sometimes.</p>
   header_text_feature_image:
   footer_text:
 
