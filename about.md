@@ -5,12 +5,19 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Hello, my name is Aaron and my goal is to become an expert Ruby on Rails developer. I love the language and I believe there is still so much untapped potential for it moving forward.
 
-Jowl sirloin doner shank flank. Leberkas ham ball tip, jowl pastrami short loin pork cow. Rump ground round chuck leberkas shank picanha bacon meatloaf filet mignon. Ball tip swine brisket jowl pig sausage corned beef leberkas pastrami porchetta kevin beef. Ground round tail cupim ribeye, landjaeger meatloaf pig prosciutto. Shank sirloin porchetta frankfurter kevin corned beef ribeye rump doner. Shankle pork loin beef prosciutto short loin venison, ribeye swine kevin pastrami landjaeger ham hock alcatra sirloin ground round.
+I am also learning AngularJS. While I think Rails can serve most purposes, it doesn't mean I will ignore emerging practices. Angular mixed with rails is a great combination.
 
-Pork chop pork belly bresaola, turducken porchetta sausage cupim pork loin bacon pancetta. Meatloaf tail frankfurter pork belly chicken. Turducken pork prosciutto, pork chop hamburger spare ribs jerky salami leberkas meatball. Tenderloin porchetta strip steak jerky, spare ribs beef ribs pork chop tail short loin sausage. Doner biltong andouille ribeye corned beef. Prosciutto boudin corned beef pork loin tail, ham picanha biltong chicken alcatra. Hamburger frankfurter bacon tail jowl filet mignon rump brisket turducken.
+- I was born an artist. Drawing things came easy.
+- I grew up a carpenter. My Dad had his own construction company.
+- I became a soldier in the U.S. Air Force being an F-16 mechanic.
+- I studied to be a graphic designer and web designer at BGSU. Minored in Computer Science.
+- After college I stuck with construction until I was hired to build a website by the real estate company who's buildings I was remodeling. The marketing guy gave me the title "Art Director." I helped rebrand the company and design all new marketing materials.
+- I got married.
+- I have two young boys.
+- I'm learning Ruby on Rails
 
-Biltong landjaeger swine pork sausage chicken cow cupim ham hock corned beef. Salami alcatra turkey doner rump, ribeye turducken frankfurter pork loin. Alcatra fatback strip steak, frankfurter beef ribs tail pork loin. Jerky shankle filet mignon beef ribs ham, swine sausage sirloin brisket picanha alcatra bresaola.
+Computer Science was very fun and had I not already wasted all of my Air Force college money on a Visual Communication Degree I would have picked computer science as my major.
 
-Short ribs ham hock jerky, sausage beef ribs shoulder beef landjaeger rump sirloin leberkas flank turkey alcatra. Andouille pancetta cupim fatback sirloin landjaeger corned beef turducken tri-tip turkey capicola spare ribs. Chuck hamburger alcatra pig tongue, filet mignon rump bresaola. Porchetta corned beef alcatra beef ribs. Ham hock boudin picanha salami tri-tip ham.
+Thanks to Dave Ramsey, I learned about Ruby on Rails. I studied it and just wanted more and more.  So that is where I'm at today. I'm trying to become a better me. Trying to provide for my family. I'm trying to be a programmer.
