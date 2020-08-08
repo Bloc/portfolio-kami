@@ -27,12 +27,39 @@ This app creates a number of **non-editable elements** in your Zendesk instance 
 
 ## Known Issues
 
-If your _API key or subdomain change or were entered incorrectly on installation_, you will need to uninstall and reinstall the app. You will need to re-purchase the app, please [email me, with your subdomain, to get a refund on any re-purchases](mailto:aviwarner@gmail.com). Currently, the Zendesk App Marketplace doesn't provide a coupon-code option for single-time payments.
+### App doesn't add CCs
 
-The User and Organization custom fields can accept comma separated email addresses or User IDs. Email addresses are easy to use, but if you change that end-user's email in their Zendesk profile, it won't change the value of their email address where it shows up in the User or Organization custom fields.
+Go to 'Channels' > 'API' > 'Target Failures' and take a look at the failures there. The most common issue is an authentication error.
 
-If you uninstall the app, the custom fields installed by the app will be removed, and the values you've entered on Organizations or Users will be lost.
+That suggests your _API key or subdomain change or were entered incorrectly on installation_. Changing them in the app setup after installation won't fix this, but here are steps to get it working again!
 
-## Support
+We're going to setup a new target & trigger:
 
-Have any issue? [Email me](mailto:aviwarner@gmail.com).
+1) If you haven't already, [generate a Zendesk API token](https://support.zendesk.com/hc/en-us/articles/226022787-Generating-a-new-API-token-)
+2) Copy the token, and the email address you were signed in with when you generated the token.
+3) Go to Settings > Extensions and create a new 'HTTP Target'
+4) Use the settings below
+```
+URL: https://YOURSUBDOMAIN.zendesk.com/api/v2/tickets/{{ticket.id}}.json
+Method: PUT
+Content Type: JSON
+Username: youremail@yourdomain.com/token
+Password: Pasted API Token
+```
+5) Test the target to make sure it's working 
+6) Go to your triggers, clone the trigger created by the app.
+7) Open the new cloned trigger using below body for the target message: 
+```
+{
+  "ticket": {
+    "additional_collaborators": "{{ticket.organization.custom_fields.org_cc}},{{ticket.requester.custom_fields.user_cc}}"
+  }
+}
+```
+8) Deactivate the original trigger
+
+This should work now! If it does not, go back to Target Failures and see if there are any new failures that have popped up, you might need to correct the Target Username and/or Password.
+
+## Something else?
+
+Have an issue not listed above? [Email me](mailto:aviwarner@gmail.com).
