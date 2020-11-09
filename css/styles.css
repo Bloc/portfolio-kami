@@ -7,15 +7,55 @@ html {
 body {
     /* don't set explicit height */
     min-height:100%;
+    margin: 0;
     /* expands body to height of html,
        but allows it to expand further
        if content is taller than viewport */
 }
 
-#page {
-  
+main {
+  text-align: center;
 }
 
-nav {
-  
+img {
+  border-radius: 50%;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.sections {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro {
+  background-color: #00398F;
+  color: white;
+}
+
+.about {
+  background-color: #27476E;
+  color: #EAF8BF;
+}
+
+.projects {
+  background-color: #006992;
+}
+
+.contact {
+  background-color: #ECA400;
+}
+
+.about-text {
+  border: solid;
+} 
+
+.contact-links li {
+  list-style-type: none;
+  display: inline;
 }
