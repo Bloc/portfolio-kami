@@ -19,6 +19,7 @@ main {
 
 img {
   border-radius: 50%;
+
 }
 
 .nav-links li {
@@ -55,7 +56,17 @@ img {
   border: solid;
 } 
 
-.contact-links li {
-  list-style-type: none;
-  display: inline;
+.contact-links{
+  display: flex;
+}
+
+.link {
+  flex: 1;
+  margin: 10px;
+}
+
+@media all and (max-width: 550px) {
+  img {
+    width: 100%;
+  }
 }
