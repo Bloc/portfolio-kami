@@ -41,6 +41,7 @@ img {
   background-color: #27476E;
   color: #EAF8BF;
   font-family: 'Times New Roman', Times, serif;
+;
 }
 
 .projects {
@@ -55,6 +56,7 @@ img {
 .about-text {
   border: solid;
   padding: 25px;
+  margin: 50px 100px 0 100px;
 } 
 
 .contact-links{
