@@ -17,9 +17,40 @@ main {
   text-align: center;
 }
 
-/* Eventually might add a clss to the image depending if I add more */
+/* Eventually might add a class to the image depending if I add more */
 img {
   border-radius: 50%;
+}
+
+/* Any window size smaller than 550px makes the image resposne using width 100% */
+@media all and (max-width: 550px) {
+  img {
+    width: 100%;
+  }
+}
+
+header {
+  background-color: #00398F;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.nav-list li a {
+  color: white;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  margin: 0 20px 0 0;
 }
 
 .sections {
@@ -28,6 +59,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .intro {
@@ -41,7 +73,19 @@ img {
   background-color: #27476E;
   color: #EAF8BF;
   font-family: 'Times New Roman', Times, serif;
-;
+  font-size: 1rem;
+}
+
+/* To account for mobile, can likely refactor this */
+@media all and (max-width: 550px) {
+  .about {
+    font-size: 0.80rem;
+  }
+}
+@media all and (max-width: 370px) {
+  .about {
+    font-size: 0.70rem;
+  }
 }
 
 .projects {
@@ -53,7 +97,12 @@ img {
   background-color: #ECA400;
 }
 
+.links {
+  background-color: #FDE74C;
+}
+
 .about-text {
+  justify-content: space-around;
   border: solid;
   padding: 25px;
   margin: 50px 100px 0 100px;
@@ -69,7 +118,7 @@ img {
 }
 
 a:link {
-  color:white;
+  color:red;
 }
 
 a:visited {
@@ -84,9 +133,28 @@ a:active {
   color: yellow;
 }
 
-/* Any window size smaller than 550px makes the image resposne using width 100% */
-@media all and (max-width: 550px) {
-  img {
-    width: 100%;
-  }
+.form {
+  width: 50%;
+  border: #0000FF solid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* So that the inputs will not all be on one line*/
+  flex-wrap: wrap;
+}
+
+.subject {
+  margin-top: 15px;
+  width: 75%;
+}
+
+.small-inputs {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.large-inputs textarea {
+  width: 75%;
+  height: 4.75rem;
+  margin-bottom: 50px;
 }

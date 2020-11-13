@@ -17,12 +17,19 @@
     <!-- Goal is to use a hamburger nav vs traditional nav bar at the top of the page -->
     <header>
       <nav>
+        <ol id="nav" class="nav-list">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ol>
       </nav>
     </header>
 
     <main> 
       <!-- Used main to be semantic -->
-        <section class="intro sections">
+        <section id="intro" class="intro sections">
           <h1>Hi!</h1>
           <h2>Welcome to my site</h2>
           <figure>
@@ -31,7 +38,7 @@
           <h3>(Me being Jordan)</h3>
         </section>
 
-        <section class="about sections">
+        <section id="about" class="about sections">
           <h1>About</h1>
           <div class="about-text">
             <p>My name is Jordan Luse. I'm a proud San Francisco native with a never ending thirst for learning. I still currently live in San Francisco and surprisingly have not grown tired of what the city has to offer. As much as it's changed over the years there is still much culture to be had and shared with all in The City by the Bay.</p>
@@ -40,7 +47,7 @@
           </div>
         </section>
 
-        <section class="projects sections">
+        <section id="projects" class="projects sections">
           <h1>Projects</h1>
           <div class="project-title">Title (coming soon)</div>
           <hr>
@@ -49,10 +56,30 @@
           <div class="project-link">Link (coming soon)</div>
         </section>
 
-        <section class="contact sections">
-          <h1>Contact Me</h1>
+        <section id="contact" class="contact sections">
+          <h1>Contact</h1>
+          <form id="form" class="form" action="https://formspree.io/j.luse7@gmail.com"
+          method="post">
+            <div class=small-inputs>
+              <!-- <label for="user-name">Full Name:</label> -->
+              <input id="user-name" type="text" name="name" placeholder="Full name" required/>
+              <!-- <label for="user-email">Email:</label> -->
+              <input id="user-email" type="email" name="email" placeholder="Email" required/>
+              <!-- <label class="subject" for="subject">Subject:</label> -->
+              <input id="subject" class="subject" type="text" name="subject" placeholder="Subject" required/>
+            </div>
+            <div class="large-inputs">
+              <!-- <label class="message" for="message">Message:</label> -->
+              <textarea id="message" name="message" minlength="100" placeholder="Message" required></textarea>
+              <button type="submit">Submit</button>
+            </div>
+
+          </form>
+        </section>
+
+        <section id="connect" class="links sections">
+          <h1>Connect</h1>
             <div class="contact-links">
-              <div class="link"><a href="mailto:j.luse7@gmail.com" target="_blank">Email</a></div>
               <div class="link"><a href="https://www.linkedin.com/in/jordanluse/">Linkedin</a></div>
               <div class="link"><a href="https://github.com/JLuse">Github</a></div>
             </div>
@@ -62,7 +89,6 @@
 
       <!-- Will add some content here eventually -->
     <footer>
-      <ol></ol>
     </footer>
 
 </body>
