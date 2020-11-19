@@ -1,17 +1,12 @@
-html {
-    height:100%; 
-    /* sets html to height of viewport 
-      (bg color will still cover viewport) */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  min-width: 100%;
 }
 
-body {
-    /* don't set explicit height */
-    min-height:100%;
-    margin: 0;
-    /* expands body to height of html,
-       but allows it to expand further
-       if content is taller than viewport */
-}
 
 main {
   text-align: center;
@@ -33,24 +28,41 @@ header {
   background-color: #00398F;
 }
 
-header nav {
+header {
   display: flex;
   justify-content: center;
 }
 
+header nav {
+  margin-left: 14px;
+}
+
 .nav-list {
   display: flex;
+  font-size: 1rem;
   padding-left: 0;
   list-style: none;
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
+@media all and (max-width: 345px) {
+  .nav-list {
+    font-size: 0.80rem;
+  }
+  .nav-list li {
+    margin: 0 7px 0 0;
+  }
+}
+
+.nav-list li {
+  margin: 0 20px 0 0;
+}
+
 .nav-list li a {
   color: white;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
-  margin: 0 20px 0 0;
 }
 
 .sections {
@@ -76,15 +88,18 @@ header nav {
   font-size: 1rem;
 }
 
-/* To account for mobile, can likely refactor this */
-@media all and (max-width: 550px) {
-  .about {
-    font-size: 0.80rem;
-  }
-}
-@media all and (max-width: 370px) {
-  .about {
-    font-size: 0.70rem;
+.about-text {
+  border: solid;
+  max-width: 65rem;
+  text-align: left;
+  padding: 1.2rem;
+  margin: 1rem;
+} 
+
+/* To account for mobile */
+@media all and (max-width: 37.5em) {
+  .about-text {
+    margin: 2rem;
   }
 }
 
@@ -101,20 +116,8 @@ header nav {
   background-color: #FDE74C;
 }
 
-.about-text {
-  justify-content: space-around;
-  border: solid;
-  padding: 25px;
-  margin: 50px 100px 0 100px;
-} 
-
-.contact-links{
-  display: flex;
-}
-
 .link {
-  flex: 1;
-  margin: 10px;
+  margin: 1rem;
 }
 
 a:link {
@@ -134,7 +137,7 @@ a:active {
 }
 
 .form {
-  width: 50%;
+  /* width: 50%; */
   border: #0000FF solid;
   display: flex;
   justify-content: space-between;
@@ -149,22 +152,47 @@ a:active {
 }
 
 .small-inputs {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  /* display: flex; */
+  margin: 1rem;
 }
 
-.large-inputs textarea {
-  width: 75%;
+@media all and (max-width: 21.25rem) {
+  #user-name {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.large-inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.large-inputs textarea{
   height: 4.75rem;
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .project-group {
   display: flex;
-  margin-left: 65px;
+  margin: 1rem;
+  /* margin-left: 65px; */
+}
+
+@media all and (max-width: 25.5em) {
+  .project-group {
+    flex-direction: column;
+  }
 }
 
 .project-container {
-  margin-right: 50px;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
