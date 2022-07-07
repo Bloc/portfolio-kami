@@ -182,7 +182,9 @@ a:active {
 .project-group {
   display: flex;
   margin: 1rem;
-  /* margin-left: 65px; */
+  flex-wrap: nowrap;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 @media all and (max-width: 25.5em) {
