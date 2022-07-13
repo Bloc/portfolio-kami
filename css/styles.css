@@ -177,6 +177,7 @@ a:active {
 .project-title {
   font-size: 1rem;
   font-weight: bolder;
+  margin-bottom: 1rem;
 }
 
 .project-group {
