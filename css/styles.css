@@ -5,6 +5,7 @@ html, body {
   padding: 0px;
   overflow-x: hidden; 
   min-width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 
@@ -12,8 +13,7 @@ main {
   text-align: center;
 }
 
-/* Eventually might add a class to the image depending if I add more */
-img {
+.round-img {
   border-radius: 50%;
 }
 
@@ -61,7 +61,6 @@ header nav {
 
 .nav-list li a {
   color: white;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: none;
 }
 
@@ -77,14 +76,12 @@ header nav {
 .intro {
   background-color: #00398F;
   color: white;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: large;
 }
 
 .about {
   background-color: #27476E;
   color: #EAF8BF;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1rem;
 }
 
@@ -142,8 +139,8 @@ a:active {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* So that the inputs will not all be on one line*/
   flex-wrap: wrap;
+  border-radius: 10px;
 }
 
 .subject {
@@ -152,7 +149,6 @@ a:active {
 }
 
 .small-inputs {
-  /* display: flex; */
   margin: 1rem;
 }
 
@@ -184,8 +180,7 @@ a:active {
   display: flex;
   margin: 1rem;
   flex-direction: row;
-  /* flex-wrap: nowrap; */
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 @media all and (max-width: 25.5em) {
@@ -199,4 +194,18 @@ a:active {
   flex-direction: column;
   margin: 1rem;
   flex-shrink: 0;
+  direction: rtl;
+}
+
+.section-header {
+  margin-bottom: 5rem;
+}
+
+#email {
+  font-size: 25px;
+}
+
+.link {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

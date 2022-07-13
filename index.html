@@ -8,6 +8,9 @@
   <meta name="description" content="Jordan Luse's Portfolio">  <!-- Attribute that search engine / crawler picks up -->
   <meta name="author" content="Jordan Luse">  
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
@@ -33,7 +36,7 @@
           <h1>Hi!</h1>
           <h2>Welcome to my site</h2>
           <figure>
-            <img src="img/me.png" width="500" alt="Picture of Jordan">
+            <img class="round-img" src="img/me.png" width="500" alt="Picture of Jordan">
           </figure>
           <h3>(Me being Jordan)</h3>
         </section>
@@ -48,15 +51,15 @@
         </section>
 
         <section id="projects" class="projects sections">
-          <h1>Projects</h1>
+          <h1 class="section-header">Projects</h1>
           <div class="project-group">
 
             <div class="project-container">
               <div class="project-title">Exercises & Micro-Projects</div>
-                <a href="https://github.com/JLuse/excercises-and-microprojects"><img width="300" height="300" src="./img/excercises.jpg"></a>
+                <a href="https://github.com/JLuse/excercises-and-microprojects"><img class="round-img" width="300" height="300" src="./img/excercises.jpg"></a>
               <div class="project-description">
                 <p>A repository that includes all the various coding related exercises and small projects</p>
-                <p>Built and completed primarily for educational purposes.</p>
+                <p>Built and completed primarily for educational purposes</p>
               </div>
               <hr>
               <div class="project-link"><a href="https://github.com/JLuse/excercises-and-microprojects">Repo</a></div>
@@ -64,10 +67,10 @@
 
             <div class="project-container">
               <div class="project-title">Transit App (In progress)</div>
-              <a href="https://placeholder.com"><img src="https://via.placeholder.com/300"></a>
+              <a href="https://placeholder.com"><img class="round-img" src="https://via.placeholder.com/300"></a>
               <div class="project-description">
                 <p>A next bus/train predication app with social aspects from users.</p>
-                <p>Built with React and consumption of municipal API. Other tech may be added.</p>
+                <p>Built with React and consumption of municipal API. Other tech may be added</p>
               </div>
               <hr>
               <div class="project-link"><a href="https://www.nextbus.com/?a=sf-muni#!/sf-muni/JBUS/JBUS_I_C00/5577">App</a> - <a href="https://github.com/JLuse">Repo</a></div>
@@ -75,10 +78,10 @@
 
             <div class="project-container">
               <div class="project-title">Reddit Lite (In progress)</div>
-              <a href="https://placeholder.com"><img src="https://via.placeholder.com/300"></a>
+              <a href="https://placeholder.com"><img class="round-img" src="https://via.placeholder.com/300"></a>
               <div class="project-description">
                 <p>A Reddit chrome extension to surface your reddit feed without navigating away from your current page.</p>
-                <p>Built using React and consuming the Reddit API.</p>
+                <p>Built using React and consuming the Reddit API</p>
               </div>
               <hr>
               <div class="project-link"><a href="https://www.reddit.com/dev/api/">Reddit Lite</a> - <a href="https://github.com/JLuse">Repo</a></div>
@@ -88,7 +91,7 @@
         </section>
 
         <section id="contact" class="contact sections">
-          <h1>Contact</h1>
+          <h1 class="section-header">Contact</h1>
           <form id="form" class="form" action="https://formspree.io/f/mbjpkgel"
           method="post">
             <div class=small-inputs>
@@ -108,9 +111,9 @@
         <section id="connect" class="links sections">
           <h1>Connect</h1>
             <div class="contact-links">
-              <div class="link">Email - <a href="mailto:j.luse7@gmail.com">j.luse7@gmail.com</a></div>
-              <div class="link"><a href="https://www.linkedin.com/in/jordanluse/">Linkedin</a></div>
-              <div class="link"><a href="https://github.com/JLuse">Github</a></div>
+              <div id="email" class="link">Email - <a href="mailto:j.luse7@gmail.com">j.luse7@gmail.com</a></div>
+              <div class="link"><a href="https://www.linkedin.com/in/jordanluse/"><img width="400" src="./img/LI-Logo.png" alt="Linkedin Logo"></a></div>
+              <div class="link"><a href="https://github.com/JLuse"><img width="400" src="./img/GitHub_Logo.png" alt="Github Logo"></a></div>
             </div>
         </section>
 
