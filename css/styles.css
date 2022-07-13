@@ -194,7 +194,6 @@ a:active {
   flex-direction: column;
   margin: 1rem;
   flex-shrink: 0;
-  direction: rtl;
 }
 
 .section-header {
